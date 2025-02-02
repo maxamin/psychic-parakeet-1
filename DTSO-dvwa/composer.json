@@ -1,0 +1,5 @@
+{
+    "require": {
+        "violuke/vault-php-sdk": "^1.0"
+    }
+}

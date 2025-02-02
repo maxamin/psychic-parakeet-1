@@ -1,0 +1,32 @@
+{% extends "admin/admin_template.html" %}
+
+{% block admin_content %}
+<ul class="list-group">
+  <li class="list-group-item list-group-item-secondary">
+    <div class="row align-items-center">
+      <div class="col">Code</div>
+      <div class="col">Status</div>
+      <div class="col">Percentage</div>
+      <div class="col-2">Reset</div>
+    </div>
+  </li>
+  {% for v in vouchers %}
+  <li class="list-group-item">
+    <div class="row align-items-center">
+      <div class="col">{{ v.code }}</div>
+      <div class="col">
+        {% if not v.user_id %}
+        <span class="badge bg-success">available</span>
+        {% else %}
+        <span class="badge bg-danger">expired</span>
+        {% endif %}
+      </div>
+      <div class="col">{{ v.percentage }}</div>
+      <div class="col-2 d-grid">
+        <a class="btn btn-primary" href="{{ url_for('reset_voucher', id=v.id) }}" role="button">Reset</a>
+      </div>
+    <div>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

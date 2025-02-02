@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda32f7993798f24e8222488cc62eb66, type: 3}
+  m_Name: LFGK
+  m_EditorClassIdentifier: 
+  mechName: LFGK
+  myPilotSprite: {fileID: 21300000, guid: 04bfea9706f563a44a7d3be520f01d69, type: 3}
+  myMechSprite: {fileID: 21300000, guid: d1a9fb4327a64844fa22e29bbef21757, type: 3}
+  rightArm: {fileID: 6084466734734945301, guid: 83e5a8e3e156e5840a834684d58d4f3e, type: 3}
+  leftArm: {fileID: -6297989298774260909, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  neckless: {fileID: 2763756229549486504, guid: e3bdb25728a33bb4f87a0be02f6bde28, type: 3}
+  glass: {fileID: 2763597790799857785, guid: e3bdb25728a33bb4f87a0be02f6bde28, type: 3}
+  chasis: {fileID: 2577498862786102162, guid: 83e5a8e3e156e5840a834684d58d4f3e, type: 3}
+  board: {fileID: 3327864989267511263, guid: 83e5a8e3e156e5840a834684d58d4f3e, type: 3}
+  guns: {fileID: 4441521542801182105, guid: 83e5a8e3e156e5840a834684d58d4f3e, type: 3}
+  body: {fileID: 7081245716650497203, guid: e3bdb25728a33bb4f87a0be02f6bde28, type: 3}
+  rightLeg: {fileID: 2724434716644257941, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  leftLeg: {fileID: 6773923424493749412, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  rightKnee: {fileID: 6894529877495053568, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  leftKnee: {fileID: 1141431032791527776, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  rightFoot: {fileID: 8605509154491905014, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}
+  leftFoot: {fileID: -6206770337438746590, guid: 432d3d2dbfdae654f8db23f3586c6a02, type: 3}

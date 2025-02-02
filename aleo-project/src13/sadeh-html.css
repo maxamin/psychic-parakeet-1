@@ -1,0 +1,120 @@
+html, body, main, section, header, ul, p, h1, h2, h3 {
+  font-family: {{{fontList 'default'}}};
+  font-size: 16px;
+  margin: 0; padding: 0;
+  display: block;
+}
+
+a {
+  color: #0064BD;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7B0796;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 0.9;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+h3 {
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1;
+}
+
+hr {
+  border: none;
+}
+
+main {
+  padding: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+header {
+  page-break-inside: avoid;
+}
+
+section {
+  margin-top: 1em;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p, li {
+  text-align: justify;
+  clear: both;
+}
+
+.tenure {
+  float: right;
+  font-weight: bold;
+}
+
+thead {
+  display: none;
+}
+
+tbody td {
+  font-size: 1em;
+  vertical-align: top;
+}
+
+tbody td.keywords {
+  font-size: 0.9em;
+  font-style: "italic";
+}
+
+#contact {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#contact > div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+span.fa {
+  text-align: left;
+  margin-right: 3px;
+  float: left;
+  line-height: 1;
+}
+
+section > div {
+  margin-bottom: 1em;
+  clear: both;
+}
+
+span.keywords {
+  font-size: 0.8em;
+  color: gray;
+  text-align: right;
+}

@@ -1,0 +1,44 @@
+{% extends "moth/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+
+	<p>A set of vulnerable scripts which can be used for testing web application security
+	scanners, teaching web application security, etc.</p>
+	
+	<p>
+	    This is a rewrite of the <a href="https://github.com/andresriancho/w3af-moth">PHP-based moth web application</a>.
+	</p>
+	
+	<h2>Vulnerabilities</h2>
+	<p>
+	This software has numerous vulnerabilities, which are grouped according to the
+	<a href="http://w3af.org">w3af</a> plugin which identifies them:
+	</p>
+	
+	<ul>	
+		{% for fname in families %}
+			<li><a href="/{{ fname }}/">{{ fname|title }}</a></li>
+		{% endfor %}
+	</ul>
+
+  </div>
+  
+  <div class="col-md-4">
+    <p>
+        <div class="alert alert-danger">
+            <i class="fa fa-exclamation-triangle"></i>
+            This software should <b>never be used in a production environment</b>.
+        </div>
+    </p>
+    <div class="row-fluid">
+        <div class="span12 pagination-centered">
+            <img src="{% static "moth/images/w3af.png" %}">
+        </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

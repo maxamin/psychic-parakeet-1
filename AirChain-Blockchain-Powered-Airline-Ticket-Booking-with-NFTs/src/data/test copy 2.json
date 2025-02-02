@@ -1,0 +1,3983 @@
+{
+    "legs": [
+        {
+            "id": "LXR-ASW:MS274~3:MS293~4:MS286~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "19:40",
+            "duration": "28h",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1180,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T19:40:00.000+02:00",
+            "stopoverDurationMinutes": 1470,
+            "durationMinutes": 1680,
+            "overnight": true,
+            "stopoverDuration": "24h 30m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 850,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 620,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS293",
+                    "departureDateTime": "2023-03-04T06:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:55:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS286",
+                    "departureDateTime": "2023-03-04T18:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T19:40:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 602.33
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS294~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "08:25",
+            "duration": "16h 45m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 505,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T08:25:00.000+02:00",
+            "stopoverDurationMinutes": 795,
+            "durationMinutes": 1005,
+            "overnight": true,
+            "stopoverDuration": "13h 15m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 480,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS294",
+                    "departureDateTime": "2023-03-04T07:00:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T08:25:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 709
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS145~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "06:55",
+            "duration": "15h 15m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 415,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T06:55:00.000+02:00",
+            "stopoverDurationMinutes": 705,
+            "durationMinutes": 915,
+            "overnight": true,
+            "stopoverDuration": "11h 45m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 390,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS145",
+                    "departureDateTime": "2023-03-04T05:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T06:55:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 730
+        },
+        {
+            "id": "LXR-ASW:MS274~3:0",
+            "departureTime": "15:40",
+            "arrivalTime": "16:20",
+            "duration": "40m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 0,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 980,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-03T16:20:00.000+02:00",
+            "stopoverDurationMinutes": 0,
+            "durationMinutes": 40,
+            "overnight": false,
+            "stopoverDuration": "00h",
+            "durationDays": 0,
+            "longStopover": false,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "DIRECT",
+            "shortStopover": true,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 1000
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS80~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "23:30",
+            "duration": "31h 50m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1410,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T23:30:00.000+02:00",
+            "stopoverDurationMinutes": 1700,
+            "durationMinutes": 1910,
+            "overnight": true,
+            "stopoverDuration": "28h 20m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 1385,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS80",
+                    "departureDateTime": "2023-03-04T22:05:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T23:30:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": true,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 487.83
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:NP81~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "07:00",
+            "duration": "15h 20m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS",
+                "NP"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "",
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 420,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T07:00:00.000+02:00",
+            "stopoverDurationMinutes": 710,
+            "durationMinutes": 920,
+            "overnight": true,
+            "stopoverDuration": "11h 50m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 395,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "NP",
+                    "cabin": "economy",
+                    "designatorCode": "NP81",
+                    "departureDateTime": "2023-03-04T05:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:00:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 728.83
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS86~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "20:10",
+            "duration": "28h 30m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1210,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T20:10:00.000+02:00",
+            "stopoverDurationMinutes": 1500,
+            "durationMinutes": 1710,
+            "overnight": true,
+            "stopoverDuration": "25h",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 1185,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS86",
+                    "departureDateTime": "2023-03-04T18:45:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T20:10:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 544.5
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS293~4:MS86~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "20:10",
+            "duration": "28h 30m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1210,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T20:10:00.000+02:00",
+            "stopoverDurationMinutes": 1500,
+            "durationMinutes": 1710,
+            "overnight": true,
+            "stopoverDuration": "25h",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 850,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 650,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS293",
+                    "departureDateTime": "2023-03-04T06:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:55:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS86",
+                    "departureDateTime": "2023-03-04T18:45:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T20:10:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 600.33
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS286~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "19:40",
+            "duration": "28h",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1180,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T19:40:00.000+02:00",
+            "stopoverDurationMinutes": 1470,
+            "durationMinutes": 1680,
+            "overnight": true,
+            "stopoverDuration": "24h 30m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 1155,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS286",
+                    "departureDateTime": "2023-03-04T18:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T19:40:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 551.5
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS297~3:MS284~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "17:45",
+            "duration": "26h 05m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1065,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T17:45:00.000+02:00",
+            "stopoverDurationMinutes": 1355,
+            "durationMinutes": 1565,
+            "overnight": true,
+            "stopoverDuration": "22h 35m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 315,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 1040,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS297",
+                    "departureDateTime": "2023-03-03T21:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T23:00:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS284",
+                    "departureDateTime": "2023-03-04T16:20:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T17:45:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 578.33
+        },
+        {
+            "id": "LXR-ASW:MS261~3:MS145~4:0",
+            "departureTime": "23:15",
+            "arrivalTime": "06:55",
+            "duration": "07h 40m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 1395,
+            "arrivalTimeMinutes": 415,
+            "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T06:55:00.000+02:00",
+            "stopoverDurationMinutes": 305,
+            "durationMinutes": 460,
+            "overnight": true,
+            "stopoverDuration": "05h 05m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 70,
+                    "stopoverDurationMinutes": 305,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS261",
+                    "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T00:25:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS145",
+                    "departureDateTime": "2023-03-04T05:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T06:55:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 874.5
+        },
+        {
+            "id": "LXR-ASW:MS261~3:MS294~4:0",
+            "departureTime": "23:15",
+            "arrivalTime": "08:25",
+            "duration": "09h 10m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 1395,
+            "arrivalTimeMinutes": 505,
+            "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T08:25:00.000+02:00",
+            "stopoverDurationMinutes": 395,
+            "durationMinutes": 550,
+            "overnight": true,
+            "stopoverDuration": "06h 35m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 70,
+                    "stopoverDurationMinutes": 395,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS261",
+                    "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T00:25:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS294",
+                    "departureDateTime": "2023-03-04T07:00:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T08:25:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 853.5
+        },
+        {
+            "id": "LXR-ASW:MS261~3:NP81~4:0",
+            "departureTime": "23:15",
+            "arrivalTime": "07:00",
+            "duration": "07h 45m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "NP",
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "CAI"
+            ],
+            "allianceCodes": [
+                "",
+                "star_alliance"
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 1395,
+            "arrivalTimeMinutes": 420,
+            "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T07:00:00.000+02:00",
+            "stopoverDurationMinutes": 310,
+            "durationMinutes": 465,
+            "overnight": true,
+            "stopoverDuration": "05h 10m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 70,
+                    "stopoverDurationMinutes": 310,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS261",
+                    "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T00:25:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "NP",
+                    "cabin": "economy",
+                    "designatorCode": "NP81",
+                    "departureDateTime": "2023-03-04T05:35:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:00:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 873.33
+        },
+        {
+            "id": "LXR-ASW:MS261~3:SM8045~4:0",
+            "departureTime": "23:15",
+            "arrivalTime": "06:55",
+            "duration": "07h 40m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "SM",
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance",
+                "lcc"
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 1395,
+            "arrivalTimeMinutes": 415,
+            "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T06:55:00.000+02:00",
+            "stopoverDurationMinutes": 305,
+            "durationMinutes": 460,
+            "overnight": true,
+            "stopoverDuration": "05h 05m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 70,
+                    "stopoverDurationMinutes": 305,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS261",
+                    "departureDateTime": "2023-03-03T23:15:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T00:25:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "SM",
+                    "operatingAirlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "SM8045",
+                    "departureDateTime": "2023-03-04T05:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T06:55:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [
+                "MS"
+            ],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 874.5
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS293~4:MS80~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "23:30",
+            "duration": "31h 50m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1410,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T23:30:00.000+02:00",
+            "stopoverDurationMinutes": 1700,
+            "durationMinutes": 1910,
+            "overnight": true,
+            "stopoverDuration": "28h 20m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 850,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 850,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS293",
+                    "departureDateTime": "2023-03-04T06:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:55:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS80",
+                    "departureDateTime": "2023-03-04T22:05:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T23:30:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": true,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 577
+        },
+        {
+            "id": "LXR-ASW:MS274~3:MS293~4:MS284~4:0",
+            "departureTime": "15:40",
+            "arrivalTime": "17:45",
+            "duration": "26h 05m",
+            "departureAirportCode": "LXR",
+            "arrivalAirportCode": "ASW",
+            "airlineCodes": [
+                "MS"
+            ],
+            "stopoverAirportCodes": [
+                "ASW",
+                "CAI"
+            ],
+            "allianceCodes": [
+                "star_alliance"
+            ],
+            "stopoversCount": 2,
+            "departureTimeMinutes": 940,
+            "arrivalTimeMinutes": 1065,
+            "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+            "arrivalDateTime": "2023-03-04T17:45:00.000+02:00",
+            "stopoverDurationMinutes": 1355,
+            "durationMinutes": 1565,
+            "overnight": true,
+            "stopoverDuration": "22h 35m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 40,
+                    "stopoverDurationMinutes": 850,
+                    "departureAirportCode": "LXR",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS274",
+                    "departureDateTime": "2023-03-03T15:40:00.000+02:00",
+                    "arrivalDateTime": "2023-03-03T16:20:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 505,
+                    "departureAirportCode": "ASW",
+                    "arrivalAirportCode": "CAI",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS293",
+                    "departureDateTime": "2023-03-04T06:30:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T07:55:00.000+02:00"
+                },
+                {
+                    "durationMinutes": 85,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "CAI",
+                    "arrivalAirportCode": "ASW",
+                    "airlineCode": "MS",
+                    "cabin": "economy",
+                    "designatorCode": "MS284",
+                    "departureDateTime": "2023-03-04T16:20:00.000+02:00",
+                    "arrivalDateTime": "2023-03-04T17:45:00.000+02:00"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "MORE_THAN_ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 610
+        }
+    ],
+    "tags": [],
+    "search": {
+        "id": "76d2dfa988d8c387msr",
+        "cabin": "economy",
+        "adultsCount": 1,
+        "childrenCount": 0,
+        "infantsCount": 0,
+        "siteCode": "US",
+        "currencyCode": "USD",
+        "locale": "en",
+        "deviceType": "desktop",
+        "appType": "WEB_APP",
+        "createdAt": "2023-02-28T11:28:42.851Z",
+        "key": "[LXR:ASW:2023-03-03]~1~0~0~US~economy~desktop~WEB_APP",
+        "userCountryCode": "HK",
+        "legs": [
+            {
+                "id": "LXR:ASW:2023-03-03",
+                "outboundDate": "2023-03-03",
+                "departureAirportCode": "LXR",
+                "arrivalAirportCode": "ASW",
+                "departureCity": {
+                    "code": "LXR",
+                    "name": "Luxor",
+                    "enName": "Luxor",
+                    "countryCode": "EG",
+                    "countryName": "Egypt",
+                    "countryEnName": "Egypt",
+                    "worldRegionCode": "f",
+                    "worldRegionName": "Africa",
+                    "worldRegionEnName": "Africa"
+                },
+                "arrivalCity": {
+                    "code": "ASW",
+                    "name": "Aswan",
+                    "enName": "Aswan",
+                    "countryCode": "EG",
+                    "countryName": "Egypt",
+                    "countryEnName": "Egypt",
+                    "worldRegionCode": "f",
+                    "worldRegionName": "Africa",
+                    "worldRegionEnName": "Africa"
+                },
+                "departureAirport": {
+                    "name": "Luxor Airport",
+                    "code": "LXR",
+                    "cityCode": "LXR"
+                },
+                "arrivalAirport": {
+                    "name": "Aswan Airport",
+                    "code": "ASW",
+                    "cityCode": "ASW"
+                }
+            }
+        ]
+    },
+    "airlines": [
+        {
+            "name": "Air Cairo",
+            "code": "SM"
+        },
+        {
+            "name": "EgyptAir",
+            "code": "MS"
+        },
+        {
+            "name": "Nile Air",
+            "code": "NP"
+        }
+    ],
+    "airports": [
+        {
+            "name": "Aswan Airport",
+            "code": "ASW",
+            "cityCode": "ASW"
+        },
+        {
+            "name": "Cairo Airport",
+            "code": "CAI",
+            "cityCode": "CAI"
+        },
+        {
+            "name": "Luxor Airport",
+            "code": "LXR",
+            "cityCode": "LXR"
+        }
+    ],
+    "cities": [
+        {
+            "code": "ASW",
+            "name": "Aswan",
+            "countryCode": "EG"
+        },
+        {
+            "code": "CAI",
+            "name": "Cairo",
+            "countryCode": "EG"
+        },
+        {
+            "code": "LXR",
+            "name": "Luxor",
+            "countryCode": "EG"
+        }
+    ],
+    "providers": [
+        {
+            "code": "flightnetwork.com.us",
+            "name": "Flightnetwork",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "gotogate.com",
+            "name": "Gotogate",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "kiwi.com",
+            "name": "Kiwi",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "us.lucky2go.com",
+            "name": "Lucky2Go",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "mytrip.com.us",
+            "name": "Mytrip",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "onetravel.com",
+            "name": "Onetravel",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "sky-tours.com",
+            "name": "Sky-Tours",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "english.ctrip.com",
+            "name": "Trip.com",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "wingie.com",
+            "name": "Wingie",
+            "type": "ota",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        }
+    ],
+    "countries": [
+        {
+            "code": "EG",
+            "name": "Egypt"
+        },
+        {
+            "code": "EG",
+            "name": "Egypt"
+        },
+        {
+            "code": "EG",
+            "name": "Egypt"
+        }
+    ],
+    "trips": [
+        {
+            "id": "76d2dfa988d8c387msr:MS261~3-SM8045~4",
+            "code": "MS261~3-SM8045~4",
+            "legIds": [
+                "LXR-ASW:MS261~3:SM8045~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS145~4",
+            "code": "MS274~3-MS297~3-MS145~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS145~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-NP81~4",
+            "code": "MS274~3-MS297~3-NP81~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:NP81~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS86~4",
+            "code": "MS274~3-MS293~4-MS86~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS293~4:MS86~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS261~3-NP81~4",
+            "code": "MS261~3-NP81~4",
+            "legIds": [
+                "LXR-ASW:MS261~3:NP81~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS261~3-MS145~4",
+            "code": "MS261~3-MS145~4",
+            "legIds": [
+                "LXR-ASW:MS261~3:MS145~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS261~3-MS294~4",
+            "code": "MS261~3-MS294~4",
+            "legIds": [
+                "LXR-ASW:MS261~3:MS294~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS80~4",
+            "code": "MS274~3-MS297~3-MS80~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS80~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS86~4",
+            "code": "MS274~3-MS297~3-MS86~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS86~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS286~4",
+            "code": "MS274~3-MS297~3-MS286~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS286~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS284~4",
+            "code": "MS274~3-MS297~3-MS284~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS284~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS284~4",
+            "code": "MS274~3-MS293~4-MS284~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS293~4:MS284~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS294~4",
+            "code": "MS274~3-MS297~3-MS294~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS297~3:MS294~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS286~4",
+            "code": "MS274~3-MS293~4-MS286~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS293~4:MS286~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS80~4",
+            "code": "MS274~3-MS293~4-MS80~4",
+            "legIds": [
+                "LXR-ASW:MS274~3:MS293~4:MS80~4:0"
+            ]
+        },
+        {
+            "id": "76d2dfa988d8c387msr:MS274~3",
+            "code": "MS274~3",
+            "legIds": [
+                "LXR-ASW:MS274~3:0"
+            ]
+        }
+    ],
+    "fares": [
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:us.lucky2go.com:5cf3fa61c2d1660e",
+            "price": {
+                "totalAmount": 29,
+                "totalAmountUsd": 28.72,
+                "amount": 29,
+                "amountUsd": 28.72,
+                "originalAmount": 28.72,
+                "originalAmountUsd": 28.72,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "us.lucky2go.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:us.lucky2go.com:5cf3fa61c2d1660e&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=lucky2go.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.0513854,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 5.78,
+                    "amountUsd": 5.776842
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:wingie.com:2fe1cea3e986097b",
+            "price": {
+                "totalAmount": 78,
+                "totalAmountUsd": 78.4,
+                "amount": 78,
+                "amountUsd": 78.4,
+                "originalAmount": 78.4,
+                "originalAmountUsd": 78.4,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 35.33,
+                "taxAmountUsd": 35.33,
+                "totalTaxAmount": 35.33,
+                "totalTaxAmountUsd": 35.33,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "wingie.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:wingie.com:2fe1cea3e986097b&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=enuygun.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 1.86563,
+            "remainingSeatsCount": 9,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:english.ctrip.com:a645f2af21565cf8",
+            "price": {
+                "totalAmount": 79,
+                "totalAmountUsd": 79,
+                "amount": 79,
+                "amountUsd": 79,
+                "originalAmount": 79,
+                "originalAmountUsd": 79,
+                "amountPerAdult": 79,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "english.ctrip.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:english.ctrip.com:a645f2af21565cf8&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=ctrip.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.459941,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:kiwi.com:a1569db82be81813",
+            "price": {
+                "totalAmount": 82,
+                "totalAmountUsd": 82,
+                "amount": 82,
+                "amountUsd": 82,
+                "originalAmount": 82,
+                "originalAmountUsd": 82,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "kiwi.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:kiwi.com:a1569db82be81813&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=kiwi.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.686087,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:onetravel.com:cd26dc31073a09ee",
+            "price": {
+                "totalAmount": 82,
+                "totalAmountUsd": 82.15001,
+                "amount": 82,
+                "amountUsd": 82.15001,
+                "originalAmount": 82.15001,
+                "originalAmountUsd": 82.15001,
+                "amountPerAdult": 82.15001,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "onetravel.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:onetravel.com:cd26dc31073a09ee&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=onetravel.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.322067,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 1.65,
+                    "amountUsd": 1.653
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:d847fdf586faca1d",
+            "price": {
+                "totalAmount": 83,
+                "totalAmountUsd": 82.65,
+                "amount": 83,
+                "amountUsd": 82.65,
+                "originalAmount": 82.65,
+                "originalAmountUsd": 82.65,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:d847fdf586faca1d&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:gotogate.com:7297689789847abb",
+            "price": {
+                "totalAmount": 151,
+                "totalAmountUsd": 150.63,
+                "amount": 151,
+                "amountUsd": 150.63,
+                "originalAmount": 150.63,
+                "originalAmountUsd": 150.63,
+                "amountPerAdult": 150.63,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "gotogate.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:gotogate.com:7297689789847abb&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=gotogate.co.uk&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.667061,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-NP81~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:mytrip.com.us:efe3aa42a124b4f4",
+            "price": {
+                "totalAmount": 151,
+                "totalAmountUsd": 150.63,
+                "amount": 151,
+                "amountUsd": 150.63,
+                "originalAmount": 150.63,
+                "originalAmountUsd": 150.63,
+                "amountPerAdult": 150.63,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "mytrip.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:mytrip.com.us:efe3aa42a124b4f4&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=mytrip.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.573481,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-NP81~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:flightnetwork.com.us:80d49d5460d89767",
+            "price": {
+                "totalAmount": 151,
+                "totalAmountUsd": 150.62,
+                "amount": 151,
+                "amountUsd": 150.62,
+                "originalAmount": 150.62,
+                "originalAmountUsd": 150.62,
+                "amountPerAdult": 150.62,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "flightnetwork.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:flightnetwork.com.us:80d49d5460d89767&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=flightnetwork.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.476306,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-NP81~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:gotogate.com:e809dfe3084ca402",
+            "price": {
+                "totalAmount": 164,
+                "totalAmountUsd": 163.58,
+                "amount": 164,
+                "amountUsd": 163.58,
+                "originalAmount": 163.58,
+                "originalAmountUsd": 163.58,
+                "amountPerAdult": 163.58,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "gotogate.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:gotogate.com:e809dfe3084ca402&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=gotogate.co.uk&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.667061,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS145~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:mytrip.com.us:49a7302addaa9786",
+            "price": {
+                "totalAmount": 164,
+                "totalAmountUsd": 163.58,
+                "amount": 164,
+                "amountUsd": 163.58,
+                "originalAmount": 163.58,
+                "originalAmountUsd": 163.58,
+                "amountPerAdult": 163.58,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "mytrip.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:mytrip.com.us:49a7302addaa9786&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=mytrip.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.573481,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS145~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:flightnetwork.com.us:7ae2964a9f89718b",
+            "price": {
+                "totalAmount": 164,
+                "totalAmountUsd": 163.57,
+                "amount": 164,
+                "amountUsd": 163.57,
+                "originalAmount": 163.57,
+                "originalAmountUsd": 163.57,
+                "amountPerAdult": 163.57,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "flightnetwork.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:flightnetwork.com.us:7ae2964a9f89718b&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=flightnetwork.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.476306,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS145~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:gotogate.com:61aafcec4cd37e2",
+            "price": {
+                "totalAmount": 181,
+                "totalAmountUsd": 181.08,
+                "amount": 181,
+                "amountUsd": 181.08,
+                "originalAmount": 181.08,
+                "originalAmountUsd": 181.08,
+                "amountPerAdult": 181.08,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "gotogate.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:gotogate.com:61aafcec4cd37e2&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=gotogate.co.uk&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.667061,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS294~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:mytrip.com.us:23544dfc52d6098e",
+            "price": {
+                "totalAmount": 181,
+                "totalAmountUsd": 181.08,
+                "amount": 181,
+                "amountUsd": 181.08,
+                "originalAmount": 181.08,
+                "originalAmountUsd": 181.08,
+                "amountPerAdult": 181.08,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "mytrip.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:mytrip.com.us:23544dfc52d6098e&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=mytrip.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.573481,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS294~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:flightnetwork.com.us:f24b16616465ed03",
+            "price": {
+                "totalAmount": 181,
+                "totalAmountUsd": 181.07,
+                "amount": 181,
+                "amountUsd": 181.07,
+                "originalAmount": 181.07,
+                "originalAmountUsd": 181.07,
+                "amountPerAdult": 181.07,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "flightnetwork.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:flightnetwork.com.us:f24b16616465ed03&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=flightnetwork.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.476306,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-MS294~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:gotogate.com:447a012523639db4",
+            "price": {
+                "totalAmount": 185,
+                "totalAmountUsd": 184.65,
+                "amount": 185,
+                "amountUsd": 184.65,
+                "originalAmount": 184.65,
+                "originalAmountUsd": 184.65,
+                "amountPerAdult": 184.65,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "gotogate.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:gotogate.com:447a012523639db4&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=gotogate.co.uk&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.667061,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-SM8045~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:mytrip.com.us:a5bc180fac272c3a",
+            "price": {
+                "totalAmount": 185,
+                "totalAmountUsd": 184.65,
+                "amount": 185,
+                "amountUsd": 184.65,
+                "originalAmount": 184.65,
+                "originalAmountUsd": 184.65,
+                "amountPerAdult": 184.65,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "mytrip.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:mytrip.com.us:a5bc180fac272c3a&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=mytrip.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.573481,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-SM8045~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:flightnetwork.com.us:49f092e4b064bde2",
+            "price": {
+                "totalAmount": 185,
+                "totalAmountUsd": 184.64,
+                "amount": 185,
+                "amountUsd": 184.64,
+                "originalAmount": 184.64,
+                "originalAmountUsd": 184.64,
+                "amountPerAdult": 184.64,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "flightnetwork.com.us",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:flightnetwork.com.us:49f092e4b064bde2&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=flightnetwork.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.476306,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS261~3-SM8045~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 4.63,
+                    "amountUsd": 4.633546
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:85ed34bad7e48a0b",
+            "price": {
+                "totalAmount": 232,
+                "totalAmountUsd": 231.67729,
+                "amount": 232,
+                "amountUsd": 231.67729,
+                "originalAmount": 231.67729,
+                "originalAmountUsd": 231.67729,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:85ed34bad7e48a0b&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS86~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 4.63,
+                    "amountUsd": 4.633546
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:d7e6296d565a6b13",
+            "price": {
+                "totalAmount": 232,
+                "totalAmountUsd": 231.67729,
+                "amount": 232,
+                "amountUsd": 231.67729,
+                "originalAmount": 231.67729,
+                "originalAmountUsd": 231.67729,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:d7e6296d565a6b13&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS80~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 4.93,
+                    "amountUsd": 4.9325457
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:edce6bcf26ace2f7",
+            "price": {
+                "totalAmount": 247,
+                "totalAmountUsd": 246.62729,
+                "amount": 247,
+                "amountUsd": 246.62729,
+                "originalAmount": 246.62729,
+                "originalAmountUsd": 246.62729,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:edce6bcf26ace2f7&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-NP81~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 4.95,
+                    "amountUsd": 4.9501457
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:5df594e4a7586fe1",
+            "price": {
+                "totalAmount": 248,
+                "totalAmountUsd": 247.5073,
+                "amount": 248,
+                "amountUsd": 247.5073,
+                "originalAmount": 247.5073,
+                "originalAmountUsd": 247.5073,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:5df594e4a7586fe1&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS284~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 4.95,
+                    "amountUsd": 4.9501457
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:c973a85847f3036c",
+            "price": {
+                "totalAmount": 248,
+                "totalAmountUsd": 247.5073,
+                "amount": 248,
+                "amountUsd": 247.5073,
+                "originalAmount": 247.5073,
+                "originalAmountUsd": 247.5073,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:c973a85847f3036c&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS293~4-MS286~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.17,
+                    "amountUsd": 5.173946
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:27523625f5c6a9eb",
+            "price": {
+                "totalAmount": 259,
+                "totalAmountUsd": 258.6973,
+                "amount": 259,
+                "amountUsd": 258.6973,
+                "originalAmount": 258.6973,
+                "originalAmountUsd": 258.6973,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:27523625f5c6a9eb&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS86~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.17,
+                    "amountUsd": 5.173946
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:9e198d8f22251d8d",
+            "price": {
+                "totalAmount": 259,
+                "totalAmountUsd": 258.6973,
+                "amount": 259,
+                "amountUsd": 258.6973,
+                "originalAmount": 258.6973,
+                "originalAmountUsd": 258.6973,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:9e198d8f22251d8d&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS145~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.17,
+                    "amountUsd": 5.173946
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:85694b69e4262f7c",
+            "price": {
+                "totalAmount": 259,
+                "totalAmountUsd": 258.6973,
+                "amount": 259,
+                "amountUsd": 258.6973,
+                "originalAmount": 258.6973,
+                "originalAmountUsd": 258.6973,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:85694b69e4262f7c&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS80~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.49,
+                    "amountUsd": 5.490346
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:d0681a2397c8954f",
+            "price": {
+                "totalAmount": 275,
+                "totalAmountUsd": 274.5173,
+                "amount": 275,
+                "amountUsd": 274.5173,
+                "originalAmount": 274.5173,
+                "originalAmountUsd": 274.5173,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:d0681a2397c8954f&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS294~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.49,
+                    "amountUsd": 5.490346
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:c152ad313763ecb5",
+            "price": {
+                "totalAmount": 275,
+                "totalAmountUsd": 274.5173,
+                "amount": 275,
+                "amountUsd": 274.5173,
+                "originalAmount": 274.5173,
+                "originalAmountUsd": 274.5173,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:c152ad313763ecb5&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS284~4"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 13,
+                    "currencyCode": "USD",
+                    "amount": 5.49,
+                    "amountUsd": 5.490346
+                }
+            ],
+            "id": "76d2dfa988d8c387msr:sky-tours.com:8e47dd0ae117b741",
+            "price": {
+                "totalAmount": 275,
+                "totalAmountUsd": 274.5173,
+                "amount": 275,
+                "amountUsd": 274.5173,
+                "originalAmount": 274.5173,
+                "originalAmountUsd": 274.5173,
+                "amountPerAdult": 0,
+                "amountPerChild": 0,
+                "amountPerInfant": 0,
+                "taxAmount": 0,
+                "taxAmountUsd": 0,
+                "totalTaxAmount": 0,
+                "totalTaxAmountUsd": 0,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "sky-tours.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:sky-tours.com:8e47dd0ae117b741&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=sky-tours.com&region=ap-southeast-1&placement_type=metasearch",
+            "ecpc": 0.182207,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "76d2dfa988d8c387msr:MS274~3-MS297~3-MS286~4"
+        }
+    ],
+    "filters": {
+        "minPrice": {
+            "totalAmount": 29,
+            "totalAmountUsd": 28.72,
+            "amount": 29,
+            "amountUsd": 28.72,
+            "originalAmount": 28.72,
+            "originalAmountUsd": 28.72,
+            "amountPerAdult": 0,
+            "amountPerChild": 0,
+            "amountPerInfant": 0,
+            "taxAmount": 0,
+            "taxAmountUsd": 0,
+            "totalTaxAmount": 0,
+            "totalTaxAmountUsd": 0,
+            "currencyCode": "USD",
+            "paymentFeeAmountUsd": 0,
+            "bookingFee": 0,
+            "bookingFeeUsd": 0,
+            "totalBookingFee": 0,
+            "totalBookingFeeUsd": 0
+        },
+        "maxPrice": {
+            "totalAmount": 275,
+            "totalAmountUsd": 274.5173,
+            "amount": 275,
+            "amountUsd": 274.5173,
+            "originalAmount": 274.5173,
+            "originalAmountUsd": 274.5173,
+            "amountPerAdult": 0,
+            "amountPerChild": 0,
+            "amountPerInfant": 0,
+            "taxAmount": 0,
+            "taxAmountUsd": 0,
+            "totalTaxAmount": 0,
+            "totalTaxAmountUsd": 0,
+            "currencyCode": "USD",
+            "paymentFeeAmountUsd": 0,
+            "bookingFee": 0,
+            "bookingFeeUsd": 0,
+            "totalBookingFee": 0,
+            "totalBookingFeeUsd": 0
+        },
+        "stops": [
+            {
+                "code": "ONE_STOP",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.62,
+                    "amount": 151,
+                    "amountUsd": 150.62,
+                    "originalAmount": 150.62,
+                    "originalAmountUsd": 150.62,
+                    "amountPerAdult": 150.62,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "MORE_THAN_ONE_STOP",
+                "price": {
+                    "totalAmount": 232,
+                    "totalAmountUsd": 231.67729,
+                    "amount": 232,
+                    "amountUsd": 231.67729,
+                    "originalAmount": 231.67729,
+                    "originalAmountUsd": 231.67729,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "DIRECT",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "airlines": [
+            {
+                "code": "NP",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.62,
+                    "amount": 151,
+                    "amountUsd": 150.62,
+                    "originalAmount": 150.62,
+                    "originalAmountUsd": 150.62,
+                    "amountPerAdult": 150.62,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "MS",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "SM",
+                "price": {
+                    "totalAmount": 185,
+                    "totalAmountUsd": 184.64,
+                    "amount": 185,
+                    "amountUsd": 184.64,
+                    "originalAmount": 184.64,
+                    "originalAmountUsd": 184.64,
+                    "amountPerAdult": 184.64,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "providers": [
+            {
+                "code": "mytrip.com.us",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.63,
+                    "amount": 151,
+                    "amountUsd": 150.63,
+                    "originalAmount": 150.63,
+                    "originalAmountUsd": 150.63,
+                    "amountPerAdult": 150.63,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "onetravel.com",
+                "price": {
+                    "totalAmount": 82,
+                    "totalAmountUsd": 82.15001,
+                    "amount": 82,
+                    "amountUsd": 82.15001,
+                    "originalAmount": 82.15001,
+                    "originalAmountUsd": 82.15001,
+                    "amountPerAdult": 82.15001,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "wingie.com",
+                "price": {
+                    "totalAmount": 78,
+                    "totalAmountUsd": 78.4,
+                    "amount": 78,
+                    "amountUsd": 78.4,
+                    "originalAmount": 78.4,
+                    "originalAmountUsd": 78.4,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 35.33,
+                    "taxAmountUsd": 35.33,
+                    "totalTaxAmount": 35.33,
+                    "totalTaxAmountUsd": 35.33,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "gotogate.com",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.63,
+                    "amount": 151,
+                    "amountUsd": 150.63,
+                    "originalAmount": 150.63,
+                    "originalAmountUsd": 150.63,
+                    "amountPerAdult": 150.63,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "kiwi.com",
+                "price": {
+                    "totalAmount": 82,
+                    "totalAmountUsd": 82,
+                    "amount": 82,
+                    "amountUsd": 82,
+                    "originalAmount": 82,
+                    "originalAmountUsd": 82,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "flightnetwork.com.us",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.62,
+                    "amount": 151,
+                    "amountUsd": 150.62,
+                    "originalAmount": 150.62,
+                    "originalAmountUsd": 150.62,
+                    "amountPerAdult": 150.62,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "sky-tours.com",
+                "price": {
+                    "totalAmount": 83,
+                    "totalAmountUsd": 82.65,
+                    "amount": 83,
+                    "amountUsd": 82.65,
+                    "originalAmount": 82.65,
+                    "originalAmountUsd": 82.65,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "us.lucky2go.com",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "english.ctrip.com",
+                "price": {
+                    "totalAmount": 79,
+                    "totalAmountUsd": 79,
+                    "amount": 79,
+                    "amountUsd": 79,
+                    "originalAmount": 79,
+                    "originalAmountUsd": 79,
+                    "amountPerAdult": 79,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "stopoverAirports": [
+            {
+                "code": "ASW",
+                "price": {
+                    "totalAmount": 232,
+                    "totalAmountUsd": 231.67729,
+                    "amount": 232,
+                    "amountUsd": 231.67729,
+                    "originalAmount": 231.67729,
+                    "originalAmountUsd": 231.67729,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "CAI",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.62,
+                    "amount": 151,
+                    "amountUsd": 150.62,
+                    "originalAmount": 150.62,
+                    "originalAmountUsd": 150.62,
+                    "amountPerAdult": 150.62,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "stopoverDurations": {
+            "min": 0,
+            "max": 1700
+        },
+        "originAirports": [
+            {
+                "code": "LXR",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "destinationAirports": [
+            {
+                "code": "ASW",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "tripDurations": {
+            "min": 40,
+            "max": 1910
+        },
+        "legs": [
+            {
+                "departureAirportCode": "LXR",
+                "arrivalAirportCode": "ASW",
+                "departureCityCode": "LXR",
+                "arrivalCityCode": "ASW",
+                "index": 0,
+                "departureTimes": {
+                    "min": 940,
+                    "max": 1395
+                },
+                "arrivalTimes": {
+                    "min": 415,
+                    "max": 1410
+                },
+                "durations": {
+                    "min": 40,
+                    "max": 1910
+                },
+                "stops": [
+                    {
+                        "code": "ONE_STOP",
+                        "price": {
+                            "totalAmount": 151,
+                            "totalAmountUsd": 150.62,
+                            "amount": 151,
+                            "amountUsd": 150.62,
+                            "originalAmount": 150.62,
+                            "originalAmountUsd": 150.62,
+                            "amountPerAdult": 150.62,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "MORE_THAN_ONE_STOP",
+                        "price": {
+                            "totalAmount": 232,
+                            "totalAmountUsd": 231.67729,
+                            "amount": 232,
+                            "amountUsd": 231.67729,
+                            "originalAmount": 231.67729,
+                            "originalAmountUsd": 231.67729,
+                            "amountPerAdult": 0,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "DIRECT",
+                        "price": {
+                            "totalAmount": 29,
+                            "totalAmountUsd": 28.72,
+                            "amount": 29,
+                            "amountUsd": 28.72,
+                            "originalAmount": 28.72,
+                            "originalAmountUsd": 28.72,
+                            "amountPerAdult": 0,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ],
+                "stopoverDurations": {
+                    "min": 0,
+                    "max": 1700
+                },
+                "stopoverAirports": [
+                    {
+                        "code": "ASW",
+                        "price": {
+                            "totalAmount": 232,
+                            "totalAmountUsd": 231.67729,
+                            "amount": 232,
+                            "amountUsd": 231.67729,
+                            "originalAmount": 231.67729,
+                            "originalAmountUsd": 231.67729,
+                            "amountPerAdult": 0,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "CAI",
+                        "price": {
+                            "totalAmount": 151,
+                            "totalAmountUsd": 150.62,
+                            "amount": 151,
+                            "amountUsd": 150.62,
+                            "originalAmount": 150.62,
+                            "originalAmountUsd": 150.62,
+                            "amountPerAdult": 150.62,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ],
+                "airlines": [
+                    {
+                        "code": "NP",
+                        "price": {
+                            "totalAmount": 151,
+                            "totalAmountUsd": 150.62,
+                            "amount": 151,
+                            "amountUsd": 150.62,
+                            "originalAmount": 150.62,
+                            "originalAmountUsd": 150.62,
+                            "amountPerAdult": 150.62,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "MS",
+                        "price": {
+                            "totalAmount": 29,
+                            "totalAmountUsd": 28.72,
+                            "amount": 29,
+                            "amountUsd": 28.72,
+                            "originalAmount": 28.72,
+                            "originalAmountUsd": 28.72,
+                            "amountPerAdult": 0,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "SM",
+                        "price": {
+                            "totalAmount": 185,
+                            "totalAmountUsd": 184.64,
+                            "amount": 185,
+                            "amountUsd": 184.64,
+                            "originalAmount": 184.64,
+                            "originalAmountUsd": 184.64,
+                            "amountPerAdult": 184.64,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 0,
+                            "taxAmount": 0,
+                            "taxAmountUsd": 0,
+                            "totalTaxAmount": 0,
+                            "totalTaxAmountUsd": 0,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "alliances": [
+            {
+                "code": "",
+                "price": {
+                    "totalAmount": 151,
+                    "totalAmountUsd": 150.62,
+                    "amount": 151,
+                    "amountUsd": 150.62,
+                    "originalAmount": 150.62,
+                    "originalAmountUsd": 150.62,
+                    "amountPerAdult": 150.62,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "star_alliance",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "lcc",
+                "price": {
+                    "totalAmount": 185,
+                    "totalAmountUsd": 184.64,
+                    "amount": 185,
+                    "amountUsd": 184.64,
+                    "originalAmount": 184.64,
+                    "originalAmountUsd": 184.64,
+                    "amountPerAdult": 184.64,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "fareConditions": []
+    },
+    "routeSponsors": [
+        {
+            "priority": 0,
+            "fare": {
+                "paymentFees": [
+                    {
+                        "paymentMethodId": 3,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    },
+                    {
+                        "paymentMethodId": 10,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    },
+                    {
+                        "paymentMethodId": 15,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    }
+                ],
+                "id": "76d2dfa988d8c387msr:us.lucky2go.com:5cf3fa61c2d1660e",
+                "price": {
+                    "totalAmount": 29,
+                    "totalAmountUsd": 28.72,
+                    "amount": 29,
+                    "amountUsd": 28.72,
+                    "originalAmount": 28.72,
+                    "originalAmountUsd": 28.72,
+                    "amountPerAdult": 0,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 0,
+                    "taxAmount": 0,
+                    "taxAmountUsd": 0,
+                    "totalTaxAmount": 0,
+                    "totalTaxAmountUsd": 0,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                },
+                "providerCode": "us.lucky2go.com",
+                "handoffUrl": "https://handoff.wego.com/flights/continue?currency=USD&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=76d2dfa988d8c387msr:us.lucky2go.com:5cf3fa61c2d1660e&route=LXR-ASW&search_id=76d2dfa988d8c387msr&trip_id=LXR:ASW:2023-03-03&pwa=false&api_version=2&integration_code=lucky2go.com&placement_type=metasearch",
+                "ecpc": 0.0513854,
+                "remainingSeatsCount": 0,
+                "conditionIds": [],
+                "legConditionIds": [],
+                "refundable": false,
+                "exchangeable": false,
+                "tags": [],
+                "tripId": "76d2dfa988d8c387msr:MS274~3"
+            }
+        }
+    ],
+    "scores": {
+        "76d2dfa988d8c387msr:MS261~3-SM8045~4": 874.5,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS145~4": 730,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-NP81~4": 728.83,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS86~4": 600.33,
+        "76d2dfa988d8c387msr:MS261~3-NP81~4": 873.33,
+        "76d2dfa988d8c387msr:MS261~3-MS145~4": 874.5,
+        "76d2dfa988d8c387msr:MS261~3-MS294~4": 853.5,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS80~4": 487.83,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS86~4": 544.5,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS286~4": 551.5,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS284~4": 578.33,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS284~4": 610,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS294~4": 709,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS286~4": 602.33,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS80~4": 577,
+        "76d2dfa988d8c387msr:MS274~3": 1000
+    },
+    "paymentMethods": [
+        {
+            "id": 15,
+            "name": "Visa Credit"
+        },
+        {
+            "id": 10,
+            "name": "MasterCard Credit"
+        },
+        {
+            "id": 3,
+            "name": "American Express"
+        },
+        {
+            "id": 13,
+            "name": "PayPal"
+        }
+    ],
+    "fareConditions": [],
+    "faresCount": {
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS145~4": 1,
+        "76d2dfa988d8c387msr:MS261~3-SM8045~4": 3,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-NP81~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS86~4": 1,
+        "76d2dfa988d8c387msr:MS261~3-NP81~4": 3,
+        "76d2dfa988d8c387msr:MS261~3-MS145~4": 3,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS80~4": 1,
+        "76d2dfa988d8c387msr:MS261~3-MS294~4": 3,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS286~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS86~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS284~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS297~3-MS294~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS284~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS286~4": 1,
+        "76d2dfa988d8c387msr:MS274~3-MS293~4-MS80~4": 1,
+        "76d2dfa988d8c387msr:MS274~3": 6
+    },
+    "promosCount": {},
+    "count": 29,
+    "sponsors": []
+}

@@ -1,0 +1,284 @@
+body {
+  background-color: wheat;
+  color: #333333;
+}
+
+body.dark {
+  color: #ffffff;
+}
+
+.App {
+  background-color: #ffffff;
+}
+
+.App.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.App.dark header {
+  background-color: #222222;
+}
+
+.themeToggler span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+  width: 350px;
+  height: 600px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.frontPageLogo {
+  width: 80%;
+}
+
+.frontPageButton {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.frontPageRecoverButton {
+  width: 90%;
+  margin-top: 20px;
+  background-color: #1677ff; /* Button background color */
+  color: #ffffff; /* Button text color */
+}
+
+.App.dark .frontPageRecoverButton {
+  color: #ffffff; /* Button text color in dark mode */
+}
+
+
+.frontPageBottom {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.frontPageBottom:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: rgb(46, 46, 46);
+}
+
+.h4 {
+  color: rgb(46, 46, 46);
+  padding-bottom: 50px;
+}
+
+.App.dark .h4 {
+  color: #ffffff;
+}
+
+a:visited {
+  color: blue;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headerLogo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.dropdown .ant-select-selector,
+.dropdown .ant-select-selector:hover,
+.dropdown .ant-select-selector:focus {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.App.dark .dropdown .ant-select-selector,
+.App.dark .dropdown .ant-select-selector:hover,
+.App.dark .dropdown .ant-select-selector:focus {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dropdown .ant-select-selector .ant-select-selection-item,
+.dropdown .ant-select-selector .ant-select-arrow svg {
+  color: #333333;
+}
+
+.App.dark .dropdown .ant-select-selector .ant-select-selection-item,
+.App.dark .dropdown .ant-select-selector .ant-select-arrow svg {
+  color: #ffffff;
+}
+
+.content {
+  text-align: center;
+  width: 350px;
+  height: 520px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.mnemonic {
+  color: #faad14;
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+  width: 310px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.App.dark .mnemonic {
+  color: #999999;
+  background: #333333;
+  border-color: #666666;
+}
+
+.seedPhraseContainer {
+  width: 310px;
+  min-height: 160px;
+  padding: 5px;
+  margin-top: 30px;
+  color: #808080; /* Text color for light theme (gray) */
+  background-color: white;
+}
+
+.App.dark .seedPhraseContainer {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.seedPhraseContainer::placeholder {
+  color: #ffffff; /* Placeholder text color for both light and dark modes */
+}
+
+
+.walletName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.logoutButton {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  border-radius: 100px;
+}
+
+.logoutButton:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  cursor: pointer;
+}
+
+.walletView {
+  width: 350px;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  color: #333333;
+}
+
+.walletView::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.walletView::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.walletView::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.walletView .Tokens {
+  color: #333333;
+}
+
+.App.dark .walletView .Tokens {
+  color: #ffffff;
+}
+
+.App.dark .walletView {
+  color: #ffffff;
+}
+
+.sendRow {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+
+.darkerPlaceholder::placeholder {
+  color: #36393f; /* Darker color */
+}
+
+
+.nftImage {
+  margin-bottom: 10px;
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tokenText {
+  color: #000000; /* Default text color */
+}
+
+.dark .tokenText {
+  color: #ffffff; /* Text color for dark mode */
+}
+
+.token {
+  color: #000000; /* Default text color */
+}
+
+.dark .token {
+  color: #ffffff; /* Text color for dark mode */
+}

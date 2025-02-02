@@ -1,0 +1,37 @@
+{
+  "name": "crapple",
+  "version": "0.0.1",
+  "description": "Think Difficult",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samk",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "crypto-random-string": "^1.0.0",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "flash": "^1.1.0",
+    "get-urls": "^8.0.0",
+    "hash.js": "^1.1.3",
+    "node-ec2-metadata": "^0.0.5",
+    "mathjs": "^3.17.0",
+    "md5": "^2.2.1",
+    "morgan": "^1.9.0",
+    "replace": "^1.0.0",
+    "mysql2": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "puppeteer": "^1.8.0",
+    "sequelize": "^4.13.10",
+    "x-xss-protection": "^1.0.0"
+  }
+}

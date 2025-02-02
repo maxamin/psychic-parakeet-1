@@ -1,0 +1,21 @@
+{
+  "inputModelPath" : "./input.json",
+  "programDirectory" : "../Spring_Examples/demo/target/classes",
+  "applicationPackage" : "com.example.demo",
+  "controllerPackage" : "com.example.demo.controller",
+  "jceJarPath" : "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar",
+  "rtJarPath" : "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar",
+  "mainClass" : "com.example.demo.DemoApplication",
+  "configurationClass" : "com.example.demo.security.WebSecurityConfig",
+  "configurationMethod" : "configure",
+  "sootAlgorithm" : "CHA",
+  "controllerClasses": [
+    "com.example.demo.controller.TodoController",
+    "com.example.demo.controller.UserController",
+    "com.example.demo.controller.MetaController"
+  ]
+  "authorizationGroups": [
+    {"groupName":"ROLE_USER", "Permissions":[]},
+    {"groupName":"ROLE_ADMIN", "Permissions":[]}
+  ],
+}

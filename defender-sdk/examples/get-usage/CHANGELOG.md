@@ -1,0 +1,105 @@
+# @openzeppelin/defender-sdk-example-get-usage
+
+## 1.11.0
+
+### Minor Changes
+
+- 49c1994: refactor: Deprecate optimism-goerli network
+  chore: Enable zkEVM networks
+  chore: Upgrade npm packages
+
+### Patch Changes
+
+- Updated dependencies [49c1994]
+  - @openzeppelin/defender-sdk@1.11.0
+
+## 1.10.0
+
+### Minor Changes
+
+- 7e14499: fix: Add missing dependencies for cli tool to manage actions.
+  fix: Add confirmation property to tx override.
+  refactor: Remove deprecated config resources
+
+### Patch Changes
+
+- Updated dependencies [7e14499]
+  - @openzeppelin/defender-sdk@1.10.0
+
+## 1.9.0
+
+### Minor Changes
+
+- ed29a58: - chore: Autotask & actions condition names.
+  - feat: Add Web3 & list contract examples.
+  - feat: Add support to Zksync sepolia.
+  - feat: Upgrade dependencies.
+
+### Patch Changes
+
+- Updated dependencies [ed29a58]
+  - @openzeppelin/defender-sdk@1.9.0
+
+## 1.8.0
+
+### Minor Changes
+
+- 688e4de: chore: Remove all non-required attributes from artifact
+  feat: Add new private network endpoints
+  feat: Add abi configuration for listing contracts
+  chore: Add missing artifact attributes
+  chore: Rename simulation transaction type
+  chore: Add txOverrides parameter
+
+### Patch Changes
+
+- Updated dependencies [688e4de]
+  - @openzeppelin/defender-sdk@1.8.0
+
+## 1.7.0
+
+### Minor Changes
+
+- 97d593c: Feat: Add support to Base Sepolia & Optimism Sepolia networks.
+  Feat: Add support to ethers v6
+
+### Patch Changes
+
+- Updated dependencies [97d593c]
+  - @openzeppelin/defender-sdk@1.7.0
+
+## 1.6.0
+
+### Minor Changes
+
+- 9583851: Feat: Support Arbitrum sepolia
+
+### Patch Changes
+
+- Updated dependencies [9583851]
+  - @openzeppelin/defender-sdk@1.6.0
+
+## 1.5.0
+
+### Minor Changes
+
+- 29be958: feat: add environment variable endpoints to actions
+  feat: add meld network
+
+### Patch Changes
+
+- Updated dependencies [29be958]
+  - @openzeppelin/defender-sdk@1.5.0
+
+## 1.4.0
+
+### Minor Changes
+
+- c538fb7: - feat: Add support to scroll mainnet
+  - feat: Added missing actions utilities
+  - chore: Bump platform SDK dependencies
+
+### Patch Changes
+
+- Updated dependencies [c538fb7]
+  - @openzeppelin/defender-sdk@1.4.0

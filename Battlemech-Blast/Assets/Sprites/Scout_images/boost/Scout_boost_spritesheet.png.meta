@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: ea682685f19fba24e9911f7bf51f1ac5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6797013075231534037
+    second: Scout_boost_spritesheet_0
+  - first:
+      213: 2377607250251998427
+    second: Scout_boost_spritesheet_1
+  - first:
+      213: 6733011825618648245
+    second: Scout_boost_spritesheet_2
+  - first:
+      213: 307949577992061249
+    second: Scout_boost_spritesheet_3
+  - first:
+      213: -9186865869629010526
+    second: Scout_boost_spritesheet_4
+  - first:
+      213: 7360133087743142088
+    second: Scout_boost_spritesheet_5
+  - first:
+      213: 2173324337726393205
+    second: Scout_boost_spritesheet_6
+  - first:
+      213: -8407764326339169026
+    second: Scout_boost_spritesheet_7
+  - first:
+      213: -3566284108393433347
+    second: Scout_boost_spritesheet_8
+  - first:
+      213: -4434930895889603211
+    second: Scout_boost_spritesheet_9
+  - first:
+      213: 797090391896304779
+    second: Scout_boost_spritesheet_10
+  - first:
+      213: 7943267705311178978
+    second: Scout_boost_spritesheet_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 179
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6cda3167d35e50800000000000000
+      internalID: 6797013075231534037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 9
+        width: 186
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4e9ae6235fef020800000000000000
+      internalID: 2377607250251998427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 191
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcf0861596707d50800000000000000
+      internalID: 6733011825618648245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 192
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141c2f4728e064400800000000000000
+      internalID: 307949577992061249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 7
+        width: 194
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad4a996a22b18080800000000000000
+      internalID: -9186865869629010526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 11
+        width: 194
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c867823c02742660800000000000000
+      internalID: 7360133087743142088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 12
+        width: 192
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b84eb68f2392e10800000000000000
+      internalID: 2173324337726393205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 13
+        width: 194
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43a5534ee915b80800000000000000
+      internalID: -8407764326339169026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 15
+        width: 194
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b6179f73028ec0800000000000000
+      internalID: -3566284108393433347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 16
+        width: 192
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756813f8d5f372c0800000000000000
+      internalID: -4434930895889603211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 17
+        width: 194
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c2bdefc75df0b00800000000000000
+      internalID: 797090391896304779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_boost_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 19
+        width: 193
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b7ea84e72c3e60800000000000000
+      internalID: 7943267705311178978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Scout_boost_spritesheet_2: 6733011825618648245
+      Scout_boost_spritesheet_8: -3566284108393433347
+      Scout_boost_spritesheet_4: -9186865869629010526
+      Scout_boost_spritesheet_6: 2173324337726393205
+      Scout_boost_spritesheet_5: 7360133087743142088
+      Scout_boost_spritesheet_1: 2377607250251998427
+      Scout_boost_spritesheet_10: 797090391896304779
+      Scout_boost_spritesheet_7: -8407764326339169026
+      Scout_boost_spritesheet_11: 7943267705311178978
+      Scout_boost_spritesheet_3: 307949577992061249
+      Scout_boost_spritesheet_0: 6797013075231534037
+      Scout_boost_spritesheet_9: -4434930895889603211
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

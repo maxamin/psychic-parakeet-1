@@ -1,0 +1,35 @@
+{% extends "moth/base.html" %}
+
+{% block head %}
+    <i class="fa fa-list-ul"></i> {{ family }} plugin family test suite
+{% endblock %}
+
+{% block content %}
+<ul>
+	{% for plugin, values in links %}
+		<a href="{{ plugin }}/">
+			<h4><small><i class="fa fa-chevron-right"></i></small> {{ plugin }}</h4>
+		</a>
+		{% for title, url, tags in values %}
+		    <li>
+		    	<a href="{{ url }}">{{ title }}</a>
+	           {% for tag in tags %}
+	              <span class="label label-info">{{ tag }}</span>
+	           {% endfor %}
+		    </li>
+		{% endfor %}
+		<br>
+	{% endfor %}
+</ul>
+
+<br>
+<br>
+<hr>
+<div class="col-lg-1 centered">
+  <a href="../" class="btn btn-primary">
+  	<i class="fa fa-chevron-left"></i> 
+  	Back
+  </a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,34 @@
+registry:
+  username: admin
+  password: p4s$w0rd123
+  url: registry.example.com:5000/registry
+
+secrets:
+  encryptionKey: |-
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEAknIv+kMMjftYB+LplAafMa2n5d7eU5VfS6/duNMug244KzWv
+    xvGU5SEIvptmxX3nOFGbon12DBIpRBujFT+d6sr9RsQp5L79fEnoKPhbrIpk4iYI
+    Mu6XO+2dJUykTCca7zp4+MJFzC8l6m6MbvXC59tTSbjrTjky0HzOqxqHUA58Djxt
+    R8SL7YzwrpxZje/YV8cbfGyN+kkzzSHCX35at71lHC79v/MhF1yhWK8pjmO/xztV
+    GPwhtACjWkVMctThh1zWfVEVtmALNnoMD9zQFVoY0ioxa/s5+5r59svXpBjsFKXQ
+    oaIYbzGHzH7ZaeBNNTCUU1kch0u8Pvy3SVI64wIDAQABAoIBAEQUh49dikGbPkJ0
+    T8g8B9ftdidcI5lR0Lp76KSasH3zSHN2AuCGwISAhfMuhWl8bXh2H9c7YhyceMir
+    3HXtXDmh4nr6iMtJqsgUB7S8OMoOkHW93oPm/TGj9jE33w10BIaAdWqXziDtLkA8
+    4lZXNCPbh223ZNS5rJDV5LIQpCUn0pP/g9p22i8cS6JnpaKsPvxwvZ6PpIUgFxmH
+    HYG7TKOMq8UN2wJFjBgRpu3FDFyfkuQMu/77h9VJj6C6QAOOpf+qls9ELD8rGxS8
+    NhcKtweTgfwkRDXoLyuTiaE8lMRRd9kQz17y6hMNV3vwW9fEl9OqIgaLVJaOIeRS
+    pWXqxtkCgYEAx0zc45tQJNOK8tN58xajxGovyfDNwbhIZ8jIW23XlZKW0mO/9MJf
+    b2UuBEr367FctUA3WFXVfdeena/vnZdKkEzEGkXKgvbDS3VVB+x/MiiKu3Y/ek95
+    Q1tRW4RLDpYHIfaanff80EWoo/J9irTtWjAZrelIGvu4uxQ4035gYl0CgYEAvBvt
+    MF8nY1iRqy+ccDXTXIug1GdnNuV1/DVvXbX6cH2pDasrVdsYvsPja1LnBpgiu0ci
+    XtsaJaXfUkkgdqvkclUNH4TuEkMxabjmNWzfaQUuZqnhwVX1/CPj+MScYRdcWAPO
+    NWmOnrvcge87McApqV6X9QmV5j8QKBNK2oltvj8CgYBwiubxYHMRWKPOG71xmAdC
+    kvQJhQGrsvSwJqF9f7mNrQmeJNXw0RIzRV+G7Q6y+aTwdSLLryyvs2LOiNs2koh4
+    k+DpNR/2dIIzyj4KC3KIUHyG/285EkfX0WlP1JTN18qPU0Jckf0hXzSr3/MksKaX
+    lzHpEyK0mhDnE7RDOcoTwQKBgBCvVXGF7yNztq/9cB3P2GiMBf7xEQmgfr+ZKcCh
+    JI6Xxsfsl9JstZwuGdzqJI3ELsh3vce2HXKbbNyKmfOMuZ2eh6R1EPzTsu1StjCk
+    8IgLKpt2lAynCEOOF2l4XvqJrOotpDu+miTgOuXXh2OZTNi2CDp22DHtBAzZ8TjD
+    GdXXAoGBAJb/Na6rDJDwMbyqwH/wDbaqKESNHzJBrFxsMazig34s2f18V9gYNbYW
+    jbJFwQco5k6WnApTdOrzubfTfJRJzA9+x5SVCtJMxcY//gnhgtHsz2Y3K88IR8sA
+    kjCgxAjOIO6oimUfXbyTZG99aOyzkZRZMSfYsl+5qT+RsLQJ1zs4
+    -----END RSA PRIVATE KEY-----

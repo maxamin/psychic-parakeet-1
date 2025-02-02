@@ -1,0 +1,39 @@
+<div align="center">
+	<h1>Sign Up</h1>	
+	<% flash.each do |name, msg| %>
+		<% if name == :error %> 
+			<div class="alert alert-error" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :success %>
+			<div class="alert alert-success" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :info %>
+			<div class="alert alert-info" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+  					<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% end %>
+	<% end %>
+	
+	<div style="margin-top: 25px">
+	<%= form_for @user do |f| %>
+	  <p>
+	    <%= f.label :email %><br />
+	    <%= f.text_field :email %>
+	  </p>
+	  <p>
+	    <%= f.label :password %><br />
+	    <%= f.password_field :password %>
+	  </p>
+	  <p>
+	    <%= f.label :password_confirmation %><br />
+	    <%= f.password_field :password_confirmation %>
+	  </p>
+	  <p><%= f.submit "Submit", {:class => "btn btn-success"}%></p>
+	<% end %>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+{% extends "account_template.html" %}
+
+{% block account %}
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Overview</h5>
+      <p class="card-text mb-0"><small class="text-muted">Credit</small></p>
+      <p class="card-text ps-3"><strong>{{ g.user.credit }}</strong></p>
+      <p class="card-text mb-0"><small class="text-muted">Orders</small></p>
+      <p class="card-text ps-3"><strong>{{ o | length }}</strong></p>
+      <p class="card-text mb-0"><small class="text-muted">Registration Discount</small></p>
+      <p class="card-text ps-3">
+        {% if g.user.reg_bonus %}
+        <span class="badge rounded-pill bg-success">Available</span>
+        {% else %}
+        <span class="badge rounded-pill bg-danger">Expired</span>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Crypto</h5>
+      {% for x in dt %}
+      <p class="card-text mb-0"><small class="text-muted">{{ x['crypto']}}</small></p>
+      <p class="card-text ps-3"><strong>{{ x['amount'] }}</strong></p>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

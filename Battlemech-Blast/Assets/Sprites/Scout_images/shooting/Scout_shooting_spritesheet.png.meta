@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: ce6dc48a8ff675147bcd4e668af183c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5452195453571158096
+    second: Scout_shooting_spritesheet_0
+  - first:
+      213: -4316857876682664840
+    second: Scout_shooting_spritesheet_1
+  - first:
+      213: -5285242497851102899
+    second: Scout_shooting_spritesheet_2
+  - first:
+      213: -499172170251866329
+    second: Scout_shooting_spritesheet_3
+  - first:
+      213: -3037623768930141900
+    second: Scout_shooting_spritesheet_4
+  - first:
+      213: 6416218865849354407
+    second: Scout_shooting_spritesheet_5
+  - first:
+      213: -1025761622087228931
+    second: Scout_shooting_spritesheet_6
+  - first:
+      213: 2259002917642329956
+    second: Scout_shooting_spritesheet_7
+  - first:
+      213: 7267451577764128804
+    second: Scout_shooting_spritesheet_8
+  - first:
+      213: 6225937307483576109
+    second: Scout_shooting_spritesheet_9
+  - first:
+      213: 3696404025450014872
+    second: Scout_shooting_spritesheet_10
+  - first:
+      213: -4605149102226816169
+    second: Scout_shooting_spritesheet_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 15
+        width: 179
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf24e73f19e554b0800000000000000
+      internalID: -5452195453571158096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 16
+        width: 182
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8749b7202a07714c0800000000000000
+      internalID: -4316857876682664840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 182
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4969cb53fb07a6b0800000000000000
+      internalID: -5285242497851102899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 17
+        width: 182
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f606e4e859219f0800000000000000
+      internalID: -499172170251866329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 19
+        width: 183
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b2a3b64138d5d0800000000000000
+      internalID: -3037623768930141900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 19
+        width: 182
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a84c1c501dfa0950800000000000000
+      internalID: 6416218865849354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 19
+        width: 179
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1234b4d33c3c1f0800000000000000
+      internalID: -1025761622087228931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 19
+        width: 178
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f54a45f27995f10800000000000000
+      internalID: 2259002917642329956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 19
+        width: 172
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428abf294bc2bd460800000000000000
+      internalID: 7267451577764128804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 17
+        width: 172
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d271966aef8f66650800000000000000
+      internalID: 6225937307483576109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 17
+        width: 174
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a54370e34c4330800000000000000
+      internalID: 3696404025450014872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout_shooting_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 16
+        width: 176
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753cf086a493710c0800000000000000
+      internalID: -4605149102226816169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Scout_shooting_spritesheet_8: 7267451577764128804
+      Scout_shooting_spritesheet_11: -4605149102226816169
+      Scout_shooting_spritesheet_7: 2259002917642329956
+      Scout_shooting_spritesheet_5: 6416218865849354407
+      Scout_shooting_spritesheet_9: 6225937307483576109
+      Scout_shooting_spritesheet_3: -499172170251866329
+      Scout_shooting_spritesheet_2: -5285242497851102899
+      Scout_shooting_spritesheet_1: -4316857876682664840
+      Scout_shooting_spritesheet_6: -1025761622087228931
+      Scout_shooting_spritesheet_10: 3696404025450014872
+      Scout_shooting_spritesheet_4: -3037623768930141900
+      Scout_shooting_spritesheet_0: -5452195453571158096
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    container_name: hoolitube
+    ports:
+      - 80:80
+
+  db:
+    image: mariadb
+    container_name: mariadb
+    command: --max-allowed-packet=128MB
+    restart: always
+    volumes:
+      - hoolitube:/var/lib/mysql
+      - ./database/hoolitube.sql:/docker-entrypoint-initdb.d/armbook.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: agoodpassword
+      MYSQL_DATABASE: hoolitube
+
+volumes:
+  hoolitube:

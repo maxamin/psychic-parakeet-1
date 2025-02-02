@@ -1,0 +1,2056 @@
+fileFormatVersion: 2
+guid: ca5d0651af10c404f97ca456da1b8a13
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 815
+      width: 145
+      height: 54
+    spriteID: 0a6f85742928d8d4bb27a697466380cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 815}
+    spritePosition: {x: 277, y: 369}
+  - name: Board
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 965
+      width: 125
+      height: 38
+    spriteID: e9d4d7018daf7854a9da9645de73c559
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 965}
+    spritePosition: {x: 281, y: 370}
+  - name: 16 (1)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 522
+      width: 146
+      height: 174
+    spriteID: 172682bdabdfe634bac62d4eecdbdb57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 522}
+    spritePosition: {x: 249, y: 392}
+  - name: Blockstars
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 704
+      width: 213
+      height: 103
+    spriteID: 3458ce98bf563fa408a50b1aaf79f147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 704}
+    spritePosition: {x: 230, y: 179}
+  - name: chainsaw
+    originalName: 
+    pivot: {x: 0.2, y: 0.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 522
+      width: 199
+      height: 169
+    spriteID: 48843b3e1fbeef748af5604baacf5207
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 522}
+    spritePosition: {x: 31, y: 253}
+  - name: neon dream
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 453
+      height: 359
+    spriteID: 4c427a91c7c8be74aaff3ec9df738e21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 48, y: 156}
+  - name: turbine
+    originalName: 
+    pivot: {x: 0.2, y: 0.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 699
+      width: 169
+      height: 174
+    spriteID: 210f79eb6fe625344b77addb901af7b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 699}
+    spritePosition: {x: 405, y: 275}
+  - name: giant turbine
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 371
+      width: 249
+      height: 143
+    spriteID: 657919308b5d59248a728e193bd4226e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 371}
+    spritePosition: {x: 99, y: 453}
+  - name: Chasis
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 465
+      y: 4
+      width: 459
+      height: 127
+    spriteID: 38a68cdc76433c1499bd5240a2da2563
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 465, y: 4}
+    spritePosition: {x: 40, y: 131}
+  - name: foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 881
+      width: 180
+      height: 84
+    spriteID: ca6bc14542883054dacc2e8934abe13e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 881}
+    spritePosition: {x: 371, y: 17}
+  - name: joint
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 877
+      width: 96
+      height: 80
+    spriteID: 91318cc462d993f488dc2608f2e325bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 877}
+    spritePosition: {x: 378, y: 127}
+  - name: leg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 365
+      y: 522
+      width: 79
+      height: 89
+    spriteID: 74b00484a32d5a94491515dbc4096a52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 365, y: 522}
+    spritePosition: {x: 403, y: 66}
+  - name: foot_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 261
+      y: 371
+      width: 180
+      height: 84
+    spriteID: 8a34fb0a35c99424abadb01cddb82014
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 261, y: 371}
+    spritePosition: {x: 17, y: 1}
+  - name: joint_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 877
+      width: 97
+      height: 80
+    spriteID: 5951dba8b7534eb4cb79a33d0865d8c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 877}
+    spritePosition: {x: 15, y: 96}
+  - name: leg_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 465
+      y: 139
+      width: 78
+      height: 90
+    spriteID: 818180c54c08bd74bb5e4ee6a13fe973
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 465, y: 139}
+    spritePosition: {x: 45, y: 52}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: WAXP
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5335be1d630378146b6bf8beba74da1f
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: yellow
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: da23efe415c56014394a1299ab131f51
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 347156ea78310e24abc10b17e234d860
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Capa 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 99ab6949f678b454b8a988f5566be39b
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: waxp
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dfc73d8cd0f623a47885fcf19a75fd70
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: turbine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ca2d4ac6e0f9ab64080a74e3d1c38754
+    layerID: 44
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Citrus
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 8e203e3181466dc469b0215b24b8aee9
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: chainsaw
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 982353974fc5c9b499c2bb1508955ce0
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: wings
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 535edf8fdcb736d48b288718e714cf9d
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5b4aeccae3df6534dac05e8169cd79eb
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ff99e40a4e4132446819d31c0d437709
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 71d5f0a64c6bc2e42bb3902c8d709168
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 1169e371c6c6ad94cad0a5c139a3229c
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 52bd4debb5ba5f943b96197105b8f0ac
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 38d8ee18f77a5f34696fe12eae766289
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ad8c8761f7ef9004497dbdd92d0d402f
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MOONGIRLS
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ad2e1f2772bad774a9f61dbf9b9fbe2e
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: red
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 2e597404fbbe5dd4e8d03e7d6eab31b5
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: ad8b0861056deda479b3ac8ba2e2cf80
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 18
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 30934087bbca80e4f8eb00ac238170db
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: moon girls
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 7ca7b1b0ecde5e34bac017cc4d42faef
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Standard fist
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: e071884b1a74a794ea217926fcd228a9
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: scorched earth
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 7ecb27746ee2fad4c929baf27fa0b58e
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: lazer gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 8ddf789ee337606438b9a81620a5f35d
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: vents
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: a4b6380dbb4fc444b8728d0d7adad455
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: a6e73602ddf0c984a8d3f3f6313778c9
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: e6a073696ba5e8940bb047d61e4086ba
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 48e3cd61752ad6041a09f8e42cd10e4c
+    layerID: 57
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 16424e1c10569944da22a19b5c176719
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: d190ed1e260c9bd4ab80509e36e4e5b4
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 49a833b0effe5224eb6b8f3b361833e4
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 7835289585d86444daab4f624beb8b28
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: MOONBOYS
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3d65e268c762b154d8daa006f08e18dd
+    layerID: 68
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: pink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 9c8e63fefd76fe947b970cb0d386d74b
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 9131e10826a64dc4f8d7328a2e431763
+    layerID: 83
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 18 (1)
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: fa2f87242c41d5345b73f252ac0eb874
+    layerID: 82
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: moon boys
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: c7ae06d274c80b94f94ea74a80f67b61
+    layerID: 81
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rockets
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 47bf37b1d9730d64dba3d51e66d7a64a
+    layerID: 80
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: purple haze
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: c6d88eab78d61fc429772cf005691ab8
+    layerID: 79
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: mini gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 5e185fd08438b0f488e37584784bdfd9
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: twin turbine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 3f840a5c45297a6468950fe1ddbb15ca
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 99e6892d28ae0c748a1857fdc5fab462
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 193382d08bc3bc441a0423515e355fb1
+    layerID: 75
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: e1dbbfebced74a642b4c8bf01bc543ad
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: fe3e0015cee0b454c90fefe0ab9af480
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: da200d4b86d654c4ca8015e6427f5775
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 5302cf56e81f67f438a9328a993cc190
+    layerID: 71
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 6d4b74747bc31674bb0bcf6be67cb4b2
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: $LFGK
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c146fb38141b9ac40b4a99c4160ca13e
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: green
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: fdc86b3d11c0b7a408d9d391fe6a56a8
+    layerID: 101
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 31cd6ecbb249c254bafaea129e3cf002
+    layerID: 100
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 17
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: cf7c655bf26614347bc0d6b32ec6841c
+    layerID: 99
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: lfgk
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 076d61d68aab2df4ea9533516722666a
+    layerID: 98
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: nitro fist
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 575df51d9c91cc942bdc8352d57c47e1
+    layerID: 97
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: old glory
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 5556610690403954abb9929c8b91c242
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: nitro fist
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 3b0eb1bc5dd48324da611db05a84fd56
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: tenticles
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: af240b05c786bda46aef74158f0fbf7d
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0da60f0e196fa924693b2cfad684d2c0
+    layerID: 93
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: ef94d973c59a69f4ab64e3a4be4a925c
+    layerID: 92
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: d4469a62f699d574481c07e901f876c2
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: a84de0debcb60a040ae747931b388793
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 289c98ccf531cb1479a866a0306cfa90
+    layerID: 89
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: a1615a4247c4d664ba17d8ac5ff5a420
+    layerID: 88
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: b5ff7401954d8c24fb8223fc1a6e205d
+    layerID: 87
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: GRAFF PUNKS
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 15e59b4b50867844fbb42632ce191374
+    layerID: 102
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Blue
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: d918d0d3eb3962e46b882fab5bc809eb
+    layerID: 118
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: bea451a6523866c4680ac43459d829cc
+    layerID: 117
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 17 (1)
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 7556e02f489eaa54996fb6b70f2a4f23
+    layerID: 116
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: graff punks
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: bc45430d15fbc8d4eb4cdb86f3ea82cb
+    layerID: 115
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: mini gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4bb7d90f9f39f5347be078011a6100c1
+    layerID: 114
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Not Gundam
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 2e1f0bd1cee835544b277ae9f4a87047
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: rockets
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 3eb514303d6376e40bd1a7717c7541fa
+    layerID: 112
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rockets
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 24cf1eb23c6cafe4c988b1568a4b93f1
+    layerID: 111
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4ef5622d36829ce46bacb9adba7837d8
+    layerID: 110
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 23fe979829010b44db2ef587e059f3c2
+    layerID: 109
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 731c70c3dc9a20a4bafb0402846aa7b5
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: de6db25a19dd87b46859efe22f636f56
+    layerID: 107
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 3c37d7ad9da5996438d8be3fc3250321
+    layerID: 106
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 8e01fac34caa9d9498b67c7fe9e3bc3d
+    layerID: 105
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 7f799d86682e3d346838ab87a854ae0d
+    layerID: 104
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BTC
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: df9df3baa07b71b409bb9b387c8ec548
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: yellow
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 88acafea9de44c64a913e991128266e9
+    layerID: 135
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 52518b33f5efcf748aae6987b875ec24
+    layerID: 134
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 16
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 9fe258dbdf5a0b44b9fa9ab056693a77
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: btc
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 5a4154e5eb5792242bea2f1233e65bc3
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lazer Gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 4399ff3c4ae5a664fb43bd9154602c33
+    layerID: 131
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: neon leopard
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 1228ec95138fb424fa276d12d2d467bf
+    layerID: 130
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: standard fist
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 4ba07b98b0ae4a54c8f2d5b663a341a9
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: missile silo
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 4f62f39fee74093448f459da3db94574
+    layerID: 128
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: ce4b6678e42076e4b9719fb7785a3d54
+    layerID: 127
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: defdd340ccd8c784a9fc768f1d4b672c
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 676d9c9a96118b744a8614a0352285d8
+    layerID: 125
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 19d29f2b3f7ece74c9555ce1233951ec
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 25290d657fff83d489b92a9ff7eff8a6
+    layerID: 123
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 7af093493f8aa0a4abe720cdffc9da13
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 80
+    spriteID: 4d1805fb11b66754393783e12a10a0f2
+    layerID: 121
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BLOCKSTARS
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7be6a3caae891184f95f0fd899ac561f
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: red
+    spriteName: red
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 0a6f85742928d8d4bb27a697466380cc
+    layerID: 152
+    mosaicPosition: {x: 211, y: 815}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Board
+    spriteName: Board
+    isGroup: 0
+    parentIndex: 96
+    spriteID: e9d4d7018daf7854a9da9645de73c559
+    layerID: 151
+    mosaicPosition: {x: 316, y: 965}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 16 (1)
+    spriteName: 16 (1)
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 172682bdabdfe634bac62d4eecdbdb57
+    layerID: 150
+    mosaicPosition: {x: 211, y: 522}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Blockstars
+    spriteName: Blockstars
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 3458ce98bf563fa408a50b1aaf79f147
+    layerID: 149
+    mosaicPosition: {x: 211, y: 704}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: chainsaw
+    spriteName: chainsaw
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 48843b3e1fbeef748af5604baacf5207
+    layerID: 148
+    mosaicPosition: {x: 4, y: 522}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: neon dream
+    spriteName: neon dream
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 4c427a91c7c8be74aaff3ec9df738e21
+    layerID: 147
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: turbine
+    spriteName: turbine
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 210f79eb6fe625344b77addb901af7b9
+    layerID: 146
+    mosaicPosition: {x: 4, y: 699}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: giant turbine
+    spriteName: giant turbine
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 657919308b5d59248a728e193bd4226e
+    layerID: 145
+    mosaicPosition: {x: 4, y: 371}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Chasis
+    spriteName: Chasis
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 38a68cdc76433c1499bd5240a2da2563
+    layerID: 144
+    mosaicPosition: {x: 465, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: foot
+    spriteName: foot
+    isGroup: 0
+    parentIndex: 96
+    spriteID: ca6bc14542883054dacc2e8934abe13e
+    layerID: 143
+    mosaicPosition: {x: 4, y: 881}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: joint
+    spriteName: joint
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 91318cc462d993f488dc2608f2e325bf
+    layerID: 142
+    mosaicPosition: {x: 316, y: 877}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: leg
+    spriteName: leg
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 74b00484a32d5a94491515dbc4096a52
+    layerID: 141
+    mosaicPosition: {x: 365, y: 522}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: foot
+    spriteName: foot_1
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 8a34fb0a35c99424abadb01cddb82014
+    layerID: 140
+    mosaicPosition: {x: 261, y: 371}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: joint
+    spriteName: joint_1
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 5951dba8b7534eb4cb79a33d0865d8c1
+    layerID: 139
+    mosaicPosition: {x: 211, y: 877}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: leg
+    spriteName: leg_1
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 818180c54c08bd74bb5e4ee6a13fe973
+    layerID: 138
+    mosaicPosition: {x: 465, y: 139}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BLOCKCHAIN FURIES
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 8500114171eb1994b9b257156f43bb7f
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: pink
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 5294e1a83b86ffb41aed8bd6be1b8b09
+    layerID: 169
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 48aeba121b78b684ab8a9888688ba090
+    layerID: 168
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 15
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 159749d7c80a5b34bb779cef887c50bc
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: block chain furies
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: b6ef03b0c81742349ac19394fa4ed5ac
+    layerID: 166
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: turbine
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 1f8490aafca39974fae4ac1d25576582
+    layerID: 165
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: military green
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 9e20b944e2fc2684a91dbe93ccb4d00e
+    layerID: 164
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: chainsaw
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: ccecee114b6c38947ad4938c551de4e0
+    layerID: 163
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cctv
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 6718e5c97a65c344a9eaaf5cb8ce2a96
+    layerID: 162
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: b285cfe67ad87094ab3e64edcc663724
+    layerID: 161
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 0ee618b212f35ad44b6ea579738940fc
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: a138ef4f343acc8478120db86eb99a95
+    layerID: 159
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 61de8452150f448408d73b6f0960fd5d
+    layerID: 158
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 090bc43de547f9e4fbe9ef227242a8fc
+    layerID: 157
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 4e8e8d0ff95e144498708ccefabaad09
+    layerID: 156
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: 4ee5667149145424e8da1e0ff075bcad
+    layerID: 155
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BATTLE MECH
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ed11bbba4310a044288112b549843d19
+    layerID: 170
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: green
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 294d1966cbfa1ee44952dac666095173
+    layerID: 186
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 14cc484afcef4dd49a7bcfa939ee926e
+    layerID: 185
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 15 (1)
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: c44030f0e252a9e4e985324a293b5768
+    layerID: 184
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: battle mech chain
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 75608274157026b41b97032f290e2a47
+    layerID: 183
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Standard fist
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 2782a2ffd4d922544a24a3a82d12c131
+    layerID: 182
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ice cold
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 1e36eb751391a134d8dc27d7c6b2a0cc
+    layerID: 181
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: lazer gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 8a9d8370e32294e4aaef4859fb28272a
+    layerID: 180
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: wings
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 9ed4014494a44144eafc784661cc98a7
+    layerID: 179
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: e1cc9188848a34141a3ce5eae59205c8
+    layerID: 178
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: a281075f734d64743830a62e1f9491b7
+    layerID: 177
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 16827e823c0bfe5478e628791e5b501e
+    layerID: 176
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: b540c5c1bda345a4fb7b663467e03d68
+    layerID: 175
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: a93b1454660410948988ce04246965b7
+    layerID: 174
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 324eab9bf0a049a40804339fe5e091e6
+    layerID: 173
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: e8c8ca2c269c85546973c2642eb89070
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: AETHER
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cbb9f88bd06de6e4f9126464624066a8
+    layerID: 187
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Blue
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 11fc734f61001364da83432288cf1ee3
+    layerID: 203
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Board
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: c451ead6be2a9054788745613875f415
+    layerID: 202
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: 14
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 82f3928ab7efab44ab905d0ec784224f
+    layerID: 201
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: aether
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: a246593f21c58f842b7846b2626f2277
+    layerID: 200
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rockets
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: dabdd58a231805a4ebf2e7cdc1026e31
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: desert camo
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: ebed555001262a14dbcfffbc85d280bb
+    layerID: 198
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: mini gun
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 22357d21ebe60d1429a1747b46b16303
+    layerID: 197
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: vents
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 55514c608a4212345b47be9b3af69405
+    layerID: 196
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Chasis
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 8d76f5026e10cad41a0922888e35fd77
+    layerID: 195
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 0ebb4c5e874c08b4abf9b3be14d1b919
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 86423cdb23887e248b7426cf8ff052d4
+    layerID: 193
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 44a244ce153d95442a6c3df86a98f892
+    layerID: 192
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: foot
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: a2eaf53c02b0a06489d9d139addfea42
+    layerID: 191
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: joint
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 39257f0185de2c3458a36ba3ac43096d
+    layerID: 190
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: leg
+    spriteName: 
+    isGroup: 0
+    parentIndex: 144
+    spriteID: 17134c5ab8b8d4246a660934684d219a
+    layerID: 189
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: BLOCKSTARS Texture
+  prefabAssetName: BLOCKSTARS Prefab
+  spriteLibAssetName: BLOCKSTARS Sprite Lib
+  skeletonAssetName: 
+  secondarySpriteTextures: []

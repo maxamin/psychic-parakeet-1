@@ -1,0 +1,4 @@
+include vulnblog/schema.sql
+graft vulnblog/static
+graft vulnblog/templates
+global-exclude *.pyc

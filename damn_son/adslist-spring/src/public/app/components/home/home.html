@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <h3>Current Ads</h3>
+    <ad-list></ad-list>
+    <hr>
+  </div>
+  <div class="row">
+    <div class="col-md6">
+      <form (ngSubmit)="postAd(adText.value)">
+        <div class="form-group">
+          <textarea cols="80" rows="12" #adText placeholder="Post New Ad" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" value="Post" class="btn btn-xl">Post</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

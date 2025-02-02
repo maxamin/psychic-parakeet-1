@@ -1,0 +1,30 @@
+version: '2'
+networks:
+#  reverseproxy:
+#    external:
+#      name: CADDYNET
+  backend:
+    driver: bridge
+
+services:
+  dvwa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+#      reverseproxy:
+      backend:
+    ports:
+      - 8080:80
+    links:
+      - dvwamysql:dvwamysql
+
+  dvwamysql:
+    image: mariadb:10.1.20
+    restart: on-failure:5
+    environment:
+      -  MYSQL_ROOT_PASSWORD=p@ssw0rd
+    networks:
+      backend:
+    volumes:
+      - ./database:/var/lib/mysql

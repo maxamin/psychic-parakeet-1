@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+    <id>com.doitflash.games.ex.realtime</id>
+    <versionNumber>5.0.0</versionNumber>
+    <supportedProfiles>mobileDevice</supportedProfiles>
+    <filename>exGameServices</filename>
+    <name>Game Services ANE</name>
+    <android>
+        <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-sdk android:targetSdkVersion="28"/>
+
+    <!-- Optional. Add this if you are using the "Games.metadata.getCurrentAccountName" method -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+	
+	<application>
+		
+		<activity>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- application ID which identifies your game settings in the Google Game Services console -->
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 0000000000" />
+
+		<!-- Required by GoogleSignIn ANE -->
+		<activity android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:excludeFromRecents="true" android:exported="false"/>
+		<service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:exported="true" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+		<activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false"/>
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+		
+	</application>
+</manifest>]]></manifestAdditions>
+    </android>
+
+
+    <initialWindow>
+        <title>exGameServices</title>
+        <content>ex.swf</content>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <autoOrients>true</autoOrients>
+        <!--<aspectRatio>portrait</aspectRatio>-->
+        <renderMode>gpu</renderMode>
+        <!--<depthAndStencil>true</depthAndStencil>-->
+        <!-- required for 3D -->
+        <systemChrome>standard</systemChrome>
+    </initialWindow>
+    <icon>
+        <image36x36>icons/icon_36.png</image36x36>
+        <image48x48>icons/icon_48.png</image48x48>
+        <image72x72>icons/icon_72.png</image72x72>
+        <image96x96>icons/icon_96.png</image96x96>
+        <image144x144>icons/icon_144.png</image144x144>
+        <image192x192>icons/icon_192.png</image192x192>
+        <image512x512>icons/icon_512.png</image512x512>
+        <image1024x1024>icons/icon_1024.png</image1024x1024>
+    </icon>
+    <extensions>
+
+        <!-- Embed the GSignIn ANE which is a must for the Games ANE to work -->
+        <extensionID>com.myflashlab.air.extensions.google.signin</extensionID>
+
+        <!-- Dependencies required by the GSignIn ANE -->
+        <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.androidx.arch</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.androidx.core</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.androidx.lifecycle</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.auth</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.base</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.tasks</extensionID>
+
+        <!-- gameServices ANE -->
+        <extensionID>com.myflashlab.air.extensions.gameServices</extensionID>
+
+        <!-- Dependencies required by the gameServices ANE -->
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.games</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.drive</extensionID>
+        <extensionID>com.myflashlab.air.extensions.dependency.androidx.design</extensionID>
+
+    </extensions>
+</application>

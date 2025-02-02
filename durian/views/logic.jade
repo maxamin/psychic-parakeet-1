@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+
+  pre= headers
+
+  p Host: #{host}
+
+  if origin
+    p Origin: #{origin}
+
+  p Result: #{result}

@@ -1,0 +1,56 @@
+---
+
+- name: Install packages
+  apt:
+    name: python3-pymysql
+    state: latest
+
+- name: Cloning repo
+  git:
+    repo: 'https://github.com/ethicalhack3r/DVWA.git'
+    dest: /var/www/html/dvwa
+    force: yes
+
+- name: Create mysql database
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: dvwa
+    state: present
+
+- name: Create mysql user
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: dvwa
+    password: 'p@ssw0rd'
+    priv: '*.*:ALL'
+    state: present
+
+- name: Copy config
+  copy:
+    src: config.inc.php
+    dest: /var/www/html/dvwa/config/config.inc.php
+
+- name: Copy broken php.ini
+  copy:
+    src: php.ini
+    dest: /etc/php/7.4/apache2/php.ini
+
+- name: Change hackable uploads permissions
+  file:
+    path: /var/www/html/dvwa/hackable/uploads
+    mode: '1777'
+
+- name: Change file permissions for ids logs
+  file:
+    path: /var/www/html/dvwa/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
+    mode: '1777'
+
+- name: Change file permissions config
+  file:
+    path: /var/www/html/dvwa/config
+    mode: '1777'
+
+- name: Restart apache2
+  service:
+    name: apache2
+    state: restarted

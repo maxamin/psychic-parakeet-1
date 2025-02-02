@@ -1,0 +1,56 @@
+{
+  "name": "SCAI LIST",
+  "timestamp": "2023-01-21T23:57:10.982Z",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+  "keywords": [
+    "uniswap",
+    "default"
+  ],
+  "tokens": [
+
+    {
+      "chainId": 3434,
+      "address": "0xe30E2F0aFD56dacF8b8D4afBc594f63eE21B9441",
+      "name": "WSCAI",
+      "symbol": "WSCAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0xe30E2F0aFD56dacF8b8D4afBc594f63eE21B9441.png"
+    },
+
+
+
+    {
+      "name": "ETH",
+      "address": "0xf6E7129F427aE7E78E870574f16aD4eA36B19d8b",
+      "symbol": "ETH",
+      "decimals": 18,
+      "chainId": 3434,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0xf6E7129F427aE7E78E870574f16aD4eA36B19d8b.png"
+    },
+    {
+      "name": "BNB",
+      "address": "0xE5184D6B16aE42D16fBA7210277Ee6a7a23352Fd",
+      "symbol": "BNB",
+      "decimals": 18,
+      "chainId": 3434,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0xE5184D6B16aE42D16fBA7210277Ee6a7a23352Fd.png"
+    },
+
+    {
+      "name": "MATIC",
+      "address": "0x2E565cbF87a9f2de8252c24C60bEBEE994989F30",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "chainId": 3434,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0x2E565cbF87a9f2de8252c24C60bEBEE994989F30.png"
+    }
+    
+
+  ]
+}

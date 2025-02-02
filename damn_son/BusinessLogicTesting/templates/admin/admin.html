@@ -1,0 +1,49 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-3">
+    <ul class="nav flex-column">
+      <h5 class="nav-item text-muted mb-1">Users</h5>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <hr>
+      <h5 class="nav-item text-muted mb-1">Products</h5>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col">
+    <h2>Admin Panel</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          A list item <span class="badge bg-primary rounded-pill">2</span>
+        </div>
+        <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-primary">Left</button>
+          <button type="button" class="btn btn-outline-primary">Middle</button>
+          <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        A second list item
+        <span class="badge bg-primary rounded-pill">2</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        A third list item
+        <span class="badge bg-primary rounded-pill">1</span>
+      </li>
+    </ul>
+    <a href="#" class="btn btn-primary my-3" role="button">Add new</a>
+  </div>
+</div>
+{% endblock %}

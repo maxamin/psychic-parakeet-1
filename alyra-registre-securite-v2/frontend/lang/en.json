@@ -1,0 +1,270 @@
+{
+    "Index": {
+        "title": "Security Register"
+    },
+    "General": {
+        "previous": "Previous",
+        "next": "Next",
+        "profile": "Profile",
+        "inProgress": "In progress",
+        "company": "Company",
+        "verifier": "Verifier",
+        "guest": "Guest",
+        "selectAction": "Select an action"
+    },
+    "HomePager": {
+        "homePagerTitle": "Decentralized application - (DAPPS)",
+        "homePagerSubtitle1": "Manage your security register using all the power of blockchain.",
+        "homePagerSubtitle2" : "Via a ",
+        "homePagerSubtitle3": ", digitize and secure your documents with ease.",
+        "subscribe": "Subscribe",
+        "descTitle": "In concrete terms, how does that work?",
+        "descSubTitle": "An NFT to seal them all!",
+        "descText1": "During a security check by an expert and after validation on your part, a digital document is generated.",
+        "descText2": "This document containing metadata will be saved on a decentralized storage space also called ",
+        "descText3": "Another document will certify the verification and register it definitively in the blockchain. This document is called ",
+        "descText4": "The NFT registered in the blockchain contains the following information",
+        "descText5": "Your address or public key",
+        "descText6": "The address or public key of the verifier",
+        "descText7": "The URL to the metadata",
+        "moreInfo": "Learn more?",
+        "cpyTitle": "Your are a company",
+        "cpyEnum1": "Register your company",
+        "cpyEnum2": "Security registers by site",
+        "cpyEnum3": "Digital registers, no more paper registers",
+        "cpyEnum4": "Decentralized register using blockchain",
+        "cpyEnum5": "Secure and tamper-proof records.",
+        "cpyVGPTitle": "You are an approved VGP company",
+        "cpyVGPEnum1": "Register your company",
+        "cpyVGPEnum2": "Security registers by site",
+        "consultRegisterTitle": "You would like to consult the registers",
+        "consultRegisterEnum1": "Free consultation",
+        "consultRegisterEnum2": "Access to company security records",
+        "consultRegisterButton": "Consult registers"
+    },
+    "HeaderFooter": {
+        "title": "Security Register",
+        "register": "Security registers",
+        "showRegister": "Show security registers",
+        "member": "Member",
+        "companySubscription": "Company account subscription",
+        "verifierSubscription": "Company VGP account subscription",
+        "company": "Companies",
+        "verifier": "VGP Companies",
+        "support": "Support",
+        "faq": "FAQ",
+        "documentation": "Documentation",
+        "products": "Products",
+        "contact": "Contact",
+        "developer": "Developer",
+        "helper": "Helper",
+        "rights": "All rights reserved",
+        "home": "Home"
+    },
+    "ToasterMessages": {
+        "notConnected": {
+            "title": "Permission denied",
+            "description": "You are not connected!"
+        },
+        "unauthorized": {
+            "title": "Access restricted",
+            "description": "You are not authorized to access this section!"
+        },
+        "addSiteToCompany": {
+            "ok": {
+                "title": "Success",
+                "description": "Site has been successfully added!"
+            },
+            "error": {
+                "title": "Error",
+                "description": "Unable to add a site!"
+            }
+        },
+        "subscribeCompany": {
+            "ok": {
+                "title": "Success",
+                "description": "Company successfully created!"
+            },
+            "error": {
+                "title": "Error",
+                "description": "Unable to create company!"
+            }
+        },
+        "subscribeVerifier": {
+            "ok": {
+                "title": "Success",
+                "description": "Company successfully created!"
+            },
+            "error": {
+                "title": "Error",
+                "description": "Unable to create company!"
+            }
+        },
+        "createVerificationTask": {
+            "ok": {
+                "title": "Success",
+                "description": "Verification task successfully created!"
+            },
+            "error": {
+                "title": "Error",
+                "description": "Unable to create the verification task!"
+            }
+        },
+        "updateVerificationTaskStatus": {
+            "ok": {
+                "title": "Success",
+                "description": "Status successfully updated!"
+            },
+            "error": {
+                "title": "Error",
+                "description": "Unable to update task status!"
+            }
+        }
+    },
+    "layout": {
+        "button": {
+            "validate": "Validate",
+            "subscribe": "Subscribe",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "form": {
+            "addSiteToCompany": {
+                "title": "Add a site to your company",
+                "titleForButton": "Add site",
+                "siteName": "Site name",
+                "siteAddressName": "Site address"
+            },
+            "subscriptionCompany": {
+                "title": "Create company account",
+                "description": "By creating your company account you will be able to add more sites, manage accounts and security registers.",
+                "name": "Company name",
+                "address": "Company address",
+                "siret": "Siret",
+                "siteName": "Site/building name",
+                "siteAddress": "Site/building address"
+            },
+            "subscriptionVerifier": {
+                "title": "Create VGP company account",
+                "description": "By creating your company account you will be able to manage accounts and security registers for your clients.",
+                "name": "Company name",
+                "address": "Company address",
+                "siret": "Siret",
+                "approval": "Approval number"                
+            },
+            "createVerificationTask": {
+                "title": "New verification task",
+                "description": "By creating a new verification task you will save it into the blockchain, and allow the verifier to update the status once the verification has been done. ",
+                "selectSite": "Select a site",
+                "selectSector": "Select a sector",
+                "selectVerificationType": "Provide a verification type"
+            }
+        },
+        "eventLog": {
+            "linkTitle": "Event log",
+            "blockTitle": "Transaction log",
+            "smartContractAddress": "Smart contract address",
+            "blockHash": "Block hash",
+            "transactionHash": "Transaction hash",
+            "blockNumber": "Block number",
+            "publicKeyAddress": "Public key address",
+            "title": "Saved data"
+        },
+        "grid": {
+            "verificationTasks" : {
+                "grid": {
+                    "pageTitle": "Verification tasks",
+                    "searchBar": "Search ",
+                    "createVerificationButton" : "Create task",
+                    "sectors": {
+                        "Ventilation": "Ventilation - ventilation installation",
+                        "Pressure": "Pressure equipment",
+                        "Elevators": "Elevators, goods lifts",
+                        "Noise": "Noise",
+                        "Light": "Light",
+                        "Electricity": "Electricity",
+                        "Fire": "Fire",
+                        "Refrigeration": "Refrigeration installations",
+                        "Thermal": "Thermal installations",
+                        "Doors": "Doors and gates",
+                        "Ionizing": "Ionizing radiation",
+                        "Optical": "Optical radiation",
+                        "Chemical": "Chemical radiation",
+                        "Signaling": "Signaling",
+                        "Air": "Air conditioning systems and reversible heat pump"
+                    },
+                    "fields": {
+                        "grid": {
+                            "title": "Task",
+                            "values": {
+                                "0": "", 
+                                "1": "Task id",
+                                "2": "Status",
+                                "3": "Sector",
+                                "4": "Type",
+                                "5": "Company",
+                                "6": "Site",
+                                "7": "Site Address",
+                                "8": "Verifier",
+                                "9": "Date"
+                            }
+                        },
+                        "subGridFirst": {
+                            "title": "Verifier",
+                            "values": {
+                                "0": "Account",
+                                "1": "Address",
+                                "2": "Company name",
+                                "3": "FirstName",
+                                "4": "Name",
+                                "5": "Siret",
+                                "6": "Approval Number"
+                            }
+                        },
+                        "subGridSecond": {
+                            "title": "Company",
+                            "values": {
+                                "0": "Account",
+                                "1": "Company Account",
+                                "2": "FirstName",
+                                "3": "Name",
+                                "4": "Address",
+                                "5": "Siret"
+                            }
+                        },
+                        "subGridThird": {
+                            "title": "NFT & Metadata",
+                            "values": {
+                                "0": "Metadata URL",
+                                "1": "NFT Tx Hash"
+                            }
+                        }
+                    }
+                },
+                "filters" : {
+                    "title": "Filters",
+                    "pendingApproval": "Pending approval",
+                    "validated": "Validated",
+                    "approved": "Approved",
+                    "rejected": "Rejected",
+                    "conditionallyApproved": "Conditionally Approved"
+                },
+                "editStatus" : {
+                    "title": "Selection status",
+                    "validate": "Validate",
+                    "approve": "Approve",
+                    "reject": "Reject",
+                    "conditionallyApprove": "Conditionally Approve"
+                },
+                "finalStatus" : {
+                    "title": "Selection status",
+                    "approve": "Approved",
+                    "reject": "Rejected"
+                }
+            }
+        }
+    },
+    "CompanyRootPage": {
+        "title": "Company account"
+    }
+}

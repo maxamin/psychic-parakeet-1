@@ -1,0 +1,21 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+<div class="row row-cols-1 row-cols-md-3">
+  {% for c in crypto %}
+  <div class="feature col">
+    <div class="feature-icon bg-secondary bg-gradient">
+      {{ c.icon | safe }}
+    </div>
+    <h3 class="mb-0">{{ c.name}}</h2>
+    <h2 class="mb-2 mt-0">
+      <strong>{{ c.price }}</strong>
+      <small class="text-muted">Price/unit</small>
+    </h3>
+    <a href="{{ url_for('add_to_cart', id=c.id )}}" class="btn btn-lg btn-primary mb-5">
+      Buy
+    </a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

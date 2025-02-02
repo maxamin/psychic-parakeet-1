@@ -1,0 +1,22 @@
+<div class="container" align="center">
+	<h1> KoalaMeat!</h1>
+		<ul class="nav nav-tabs" style="display: inline-block; margin-top: 25px">
+		  <li> <%= link_to "Home", root_path %></li>
+		  <li>
+		    <%= link_to "Catalog", "#{catalog_path}", {:method => "get"}%>
+		  </li>
+		  <li>
+		      <%= link_to "Contact Us", "mailto:help@koala_meat.com"%>
+		  </li>
+		  <li class="active"><%= link_to "About Us", about_us_path, {:method => "get"}%></li>
+		</ul>
+
+  
+	<div class="hero-unit">
+	  <p>
+	    Established in 2011, we've been serving Koala Meat to our loyal customers. Although we've been involved in many legal battles
+	    we believe it is a matter of freedom to restrict connoisseurs of Koala Meat from enjoying their delicacy.
+	    We are a super fun company, super in love with Koala Meat. Have a super day!
+	  </p>
+	</div>
+</div>

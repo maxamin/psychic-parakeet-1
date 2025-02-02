@@ -1,0 +1,29 @@
+{% extends "moth/base.html" %}
+
+{% block head %}
+    <i class="fa fa-list-ul"></i> {{ title }} test suite
+{% endblock %}
+
+{% block content %}
+<ul>
+	{% for title, url, tags in links %}
+	    <li>
+	       <a href="{{ url }}">{{ title }}</a>
+           {% for tag in tags %}
+              <span class="label label-info">{{ tag }}</span>
+           {% endfor %}
+	    </li>
+	{% endfor %}
+</ul>
+
+<br>
+<br>
+<hr>
+<div class="col-lg-1 centered">
+  <a href="../" class="btn btn-primary">
+  	<i class="fa fa-chevron-left"></i> 
+  	Back
+  </a>
+</div>
+{% endblock %}
+

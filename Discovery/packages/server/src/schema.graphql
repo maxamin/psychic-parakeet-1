@@ -1,0 +1,256 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Course {
+  courseType: CourseTypeEnum!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  difficulty: CourseDifficultyEnum!
+  gitbook: String!
+  id: String!
+  projects: [Project!]!
+  quests: [Quest!]
+  title: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+"""
+The difficulty of a course, from beginner to wizard where wizard is the most difficult mode
+"""
+enum CourseDifficultyEnum {
+  ADVANCED
+  BEGINNER
+  EXPERT
+  INTERMEDIATE
+  WIZARD
+}
+
+input CourseProjectInput {
+  id: String!
+  name: String!
+}
+
+"""
+Branched = theorical lessons and Decrypted = technical hands on lessons
+"""
+enum CourseTypeEnum {
+  BRANCHED
+  DECRYPTED
+}
+
+input CreateCourseInput {
+  courseType: CourseTypeEnum!
+  description: String!
+  difficulty: CourseDifficultyEnum!
+  gitbook: String!
+  preRequisiteCourses: [String!]
+  projects: [CourseProjectInput!]!
+  title: String!
+}
+
+input CreateProjectInput {
+  color: String!
+  description: String!
+  github: String!
+  name: String!
+  tags: [ProjectTagInput!]!
+}
+
+input CreateQuestInput {
+  courseId: String!
+  description: String!
+  name: String!
+  preRequisites: [String!]
+  questions: [QuestQuestionInput!]!
+}
+
+input CreateTagInput {
+  color: String!
+  description: String!
+  name: String!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Mutation {
+  """Create a new Course in Discovery"""
+  createCourse(input: CreateCourseInput!): Course
+
+  """Create a new Project in Discovery"""
+  createProject(input: CreateProjectInput!): Project
+
+  """Create a new Quest in Discovery"""
+  createQuest(input: CreateQuestInput!): Quest
+
+  """Create a new Tag in Discovery"""
+  createTag(input: CreateTagInput!): Tag
+
+  """Submits quest answers"""
+  submitQuestAnswers(input: QuestAnswersSubmitionInput!): Boolean!
+}
+
+type Project {
+  color: String
+  contract_address: String
+  courses: [Course!]
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  discord: String
+  github: String!
+  id: String!
+  is_featured: Boolean
+  logo: String
+  name: String!
+  peerProjects: [String!]
+  repos: [String!]
+  tags: [Tag!]
+  twitter: String
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+  websites: [Website!]
+  whitepaper: String
+}
+
+input ProjectTagInput {
+  id: String!
+  name: String!
+}
+
+type Query {
+  """Checks if a user confirmation token is valid"""
+  confirmationTokenStatus(input: TokenInput!): Int
+
+  """Gets all the courses in Discovery"""
+  getAllCourses: [Course!]
+
+  """Gets all the projects in Discovery"""
+  getAllProjects: [Project!]
+
+  """Gets all the quests in Discovery"""
+  getAllQuests: [Quest!]
+
+  """Gets all the tags in Discovery"""
+  getAllTags: [Tag!]
+
+  """Gets a course by its Stream ID"""
+  getCourseById(courseId: String!): Course
+
+  """Gets a project by its Stream ID"""
+  getProjectById(projectId: String!): Project
+
+  """Gets a quest by its Stream ID"""
+  getQuestById(questId: String!): Quest
+
+  """Gets a user by ID and returns its informations"""
+  getUserById(input: UserDIDInput!): User
+
+  """Gets the currently logged in user"""
+  me: User
+}
+
+type Quest {
+  completedBy: [String!]
+  course: Course!
+  courseId: String!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  id: String!
+  name: String!
+  nfts: [QuestNFT!]
+  questions: [Question!]!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input QuestAnswersSubmitionInput {
+  did: String!
+  questId: String!
+  questionAnswers: [QuestQuestionAnswerInput!]!
+}
+
+type QuestNFT {
+  claimedBy: [String!]!
+  name: String!
+  rarity: RarityEnum!
+  url: String!
+}
+
+input QuestQuestionAnswerInput {
+  answer: String!
+  question: String!
+}
+
+input QuestQuestionInput {
+  answer: String!
+  choices: [String!]!
+  question: String!
+}
+
+type Question {
+  answer: String!
+  choices: [String!]!
+  question: String!
+}
+
+"""
+Rarity of the NFT, from lowest to highest rarity: common, uncommon, epic, legendary
+"""
+enum RarityEnum {
+  COMMON
+  EPIC
+  LEGENDARY
+  UNCOMMON
+}
+
+type Tag {
+  color: String!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  description: String!
+  id: String!
+  name: String!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input TokenInput {
+  token: String!
+}
+
+type User {
+  confirmed: Boolean!
+
+  """Identifies the date and time when the object was created."""
+  createdAt: DateTime!
+  did: String!
+  ethAddresses: [String!]!
+  restricted: Boolean!
+
+  """Identifies the date and time when the object was last updated."""
+  updatedAt: DateTime!
+}
+
+input UserDIDInput {
+  userDID: String!
+}
+
+type Website {
+  name: String!
+  url: String!
+}

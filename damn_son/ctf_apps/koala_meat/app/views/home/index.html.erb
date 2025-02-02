@@ -1,0 +1,44 @@
+<div class="container" align="center">
+<h1> KoalaMeat!</h1>
+<% flash.each do |name, msg| %>
+		<% if name == :error %> 
+			<div class="alert alert-error" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :success %>
+			<div class="alert alert-success" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :info %>
+			<div class="alert alert-info" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+					<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% end %>
+
+
+	<% end %>
+
+
+<ul class="nav nav-tabs" style="display: inline-block; margin-top: 25px">
+  <li class="active"> <%= link_to "Home", root_path %></li>
+  <li>
+    <%= link_to "Catalog", "#{catalog_path}", {:method => "get"}%>
+  </li>
+  <li>
+      <%= link_to "Contact Us", "mailto:help@koala_meat.com"%>
+  </li>
+  <li><%= link_to "About Us", about_us_path, {:method => "get"}%></li>
+</ul>
+  
+<div class="hero-unit" style="margin-top: 50px">
+  <p>
+    Welcome to Koala Meat! We here at Koala Meat are dedicated to the savory flavor of Koala.<br/>
+    All of our Koalas are hand-picked, organically grown, and never freeze dried! You can trust us
+    to keep your information safe and your browsing experience secure! I mean, look at us, we seem like
+    legitimately decent people right? I mean, just ask our Koalas!!!  
+  </p>
+</div>
+</div>

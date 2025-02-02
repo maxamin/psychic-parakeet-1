@@ -1,0 +1,39 @@
+{
+  "name": "angular2-seed",
+  "version": "1.0.0",
+  "description": "A simple starter Angular2 project",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080 --content-base src",
+    "watch": "webpack --watch --inline --colors --progress --display-error-details --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular2-seed.git"
+  },
+  "keywords": [
+    "Angular2",
+    "angular2-seed"
+  ],
+  "author": "Rob Wormald <robwormald@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/angular/angular2-seed/issues"
+  },
+  "homepage": "https://github.com/angular/angular2-seed#readme",
+  "devDependencies": {
+    "sockjs-client": "^1.0.3",
+    "stompjs": "^2.3.3",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "~> 3.1.11"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
+}

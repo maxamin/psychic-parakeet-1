@@ -1,0 +1,31 @@
+{
+  "title": "sadeh",
+  "description": "A compact résumé theme for HackMyResume.",
+  "author": "Milad Nekofar <milad@nekofar.com> (https://github.com/nekofar)",
+  "engine": "handlebars",
+  "fonts": {
+    "all": {
+      "default": ["Calibri", "Helvetica Neue", "Helvetica", "Segoe UI", "sans-serif"],
+      "title": [ "Calibri" ],
+      "heading3": [ "Calibri" ]
+    },
+    "doc": {
+      "default": {
+        "name": "Calibri",
+        "size": 20
+      },
+      "heading1": {
+        "name": "Calibri",
+        "size": 20
+      },
+      "heading3": {
+        "name": "Calibri",
+        "size": 20
+      },
+      "title": {
+        "name": "Calibri",
+        "size": 20
+      }
+    }
+  }
+}

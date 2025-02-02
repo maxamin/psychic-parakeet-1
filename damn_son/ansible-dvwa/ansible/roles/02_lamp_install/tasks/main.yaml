@@ -1,0 +1,6 @@
+---
+
+- name: Install packages
+  apt:
+    name: ['apache2', 'mariadb-server', 'php', 'php-mysqli', 'php-gd', 'libapache2-mod-php']
+    state: latest

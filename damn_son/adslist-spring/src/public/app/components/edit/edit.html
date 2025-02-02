@@ -1,0 +1,15 @@
+
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-md6">
+      <div class="form-group">
+         <textarea placeholder="Enter ad text" [(ngModel)]="selected.text"></textarea>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-xl" (click)="save()">Save</button>
+        <a [routerLink]="['/Home']">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>

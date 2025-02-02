@@ -1,0 +1,2942 @@
+# encoding: utf-8
+#
+# This is the English localization file for Primero.  It is based on the sample
+# English localization file found in the repository linked below[1].
+#
+# Anyone editing this file is strongly encouraged to use yamllint[2] to ensure
+# that this document remains valid YAML.
+#
+# [1] https://github.com/svenfuchs/rails-i18n/
+# [2] https://yamllint.readthedocs.io/en/stable/
+
+
+---
+en:
+  "true": "Yes"
+  "false": "No"
+  valid: "Valid"
+  invalid: "Invalid"
+  offline: "Offline"
+  connection_lost: "Connection Lost"
+  connected: "Connected"
+  name: "Name"
+  home:
+    fr: "Français"
+    en: "English"
+    ar: "العربية"
+    ar-LB: "العربية (اللبنانية)"
+    zh: "中文"
+    es: "Español"
+    ru: "Русский"
+    so: "Af-Soomaali"
+    bn: "বাংলা"
+    id: "Bahasa"
+    my: "ဗမာစာ"
+    th: "ไทย"
+    ku: "کوردی"
+    dashboard: "Dashboard"
+    welcome: "Welcome to Primero"
+    current_time_zone: "Current time zone"
+    language: "Language"
+    view_records: "View Records"
+    users: "Manage Users"
+    manage_system_users: "Manage Server Synchronisation Users"
+    records_need_attention: "Records need Attention"
+    label: "Home"
+  clear: "Clear"
+  messages:
+    delete_item: |
+      Warning: If you continue, any data associated with this field will be lost.
+      If you're uncertain, disable the field instead.
+      Click Cancel to go back. Click OK to Delete the field.
+    move_item: "You are about to move this field to another form section ({{selection_key}}). Is this OK?"
+    enter_valid_date: "Please enter the date in a valid format (dd-mmm-yyyy)"
+    enter_valid_field_value: "Please enter a valid field value."
+    enter_valid_number_in_tally: "%{field}: %{tally} must be a valid number"
+    enter_valid_number: "%{field} must be a valid number"
+    more_than_200_chars: "%{field} cannot be more than 200 characters long"
+    no_more_than_x_chars: "%{field} cannot be more than %{length} characters long"
+    valid_search_criteria: "Please enter at least one search criteria"
+    show_hide_forms: "Please select form(s) you want to show/hide."
+    show_forms: "Are you sure you want to make these form(s) visible?"
+    hide_forms: "Are you sure you want to hide these form(s)?"
+    primary_photo_changed: "Primary photo changed."
+    select_photo: "Please select a photo."
+    are_you_sure: "Are you sure you want to "
+    this_user: " this user?"
+    keep_working: "Yes, Keep Working"
+    logoff: "No, Log out"
+    record_navigation_confirmation_message: "Clicking OK will discard any unsaved changes and navigate to the requested page . Click cancel to return to the record."
+    confirmation_message: "Clicking OK will discard any unsaved changes and return to the list view . Click cancel to return to the record."
+    cancel_confirmation: "Are you sure you want to cancel?"
+    logout_warning: "You will be logged off in 5 minutes"
+    logout_confirmation: "Do you want to continue your session?"
+    warning: |
+      Warning: If you continue, any data associated with this field will be lost.
+      If you're uncertain, disable the field instead.
+      Click Cancel to go back. Click OK to Delete the field.
+    enter_each_in_one_line: "Enter each option on a new line"
+    record_count: "Showing %{start} to %{end} of %{total} records"
+    form_sections_help_text_for_edit: "Click the EDIT button to add %{form_section_name} details"
+    form_sections_case_update_alert: "A new %{form_section_name} was added to the case on %{alert_time}"
+    service_provision: "service provision"
+    enable_disable_record: "Clicking OK will change the state of this record to '%{action}'"
+    reopen_record: "Clicking OK will change the status of this case to Open"
+    flag_multiple_records_error_message: "There was an error trying to flag records:"
+    record_not_flagged_message: "%{short_id}: Not flagged"
+    invalid_date_filter_value: "Some filters were not applied due to a non-valid date value. Please check the date filter values"
+    scroll_up: "Scroll up to view more"
+    scroll_down: "Scroll down to view more"
+    forms_export: "This export provides a spreadsheet of the available Forms and form fields. This spreadsheet is used for creating the mapping of the Form configuration to be used in the implementation. Note that this spreadsheet cannot be used to import data into Primero."
+    string_sources_failed: "Some fields failed to load, refresh the page to load all fields."
+    system_settings_failed: "System Settings failed to load."
+    approval_alert: "Approval is pending for %{form_name}"
+    field_change_alert: "The %{form_name} form was updated by the service provider on %{date}"
+    transfer_request_alert: "A new Transfer Request was made on %{date} by %{user} at %{agency}"
+    loading: "Loading..."
+    no_changes: "You made no field changes"
+
+  data_base:
+    delete_all_documents: "Deleted all child documents"
+    operation_not_allowed: "Operation not allowed in %{rails_env} environment"
+
+  login:
+    details: "Login details"
+    username: "User Name"
+    notification:
+      enter_user_name: 'Enter your user name'
+      users_requested_password_reset: "These users requested password reset. Please contact them immediately."
+      users_does_not_exist: "%{user} at %{created}. This username does not currently exist in the system. "
+      at: "at %{created}."
+      cannot_remember_username: "If you don't remember your user name, just enter any name and information an administrator can use to identify and contact you."
+    password:
+      label: "Password"
+      reset: "Request Password Reset"
+      re_enter: "Re-enter password"
+      success_notice: "Thank you. A RapidFTR administrator will contact you shortly. If possible, contact the admin directly."
+      successfully_hidden: "Password request notification was successfully hidden."
+
+    label: "Login"
+    title: "Log In"
+    provider_title: "with %{provider}"
+  header:
+    contact: "Contact & Help"
+    logged_in_as: "Logged in as:"
+    welcome: "Welcome"
+    logout: "Logout"
+    my_account: "My Account"
+    system_settings: "System Settings"
+
+  navigation:
+    home: "Home"
+    cases: "Cases"
+    tracing_request: "Tracing Request"
+    incidents: "Incidents"
+    potential_match: "Matches"
+    duplicates: "Duplicates"
+    children: "Children"
+    forms: "Form"
+    lookups: "Lookups"
+    users: "Settings"
+    replications: "Sync"
+    reports: "Reports"
+    advanced_search: "Advanced Search"
+    go: "Go"
+    search: "Search"
+    locations: "Locations"
+    bulk_exports: "Exports"
+    tasks: "Tasks"
+    audit_logs: "Audit Logs"
+    support: "Support"
+    my_account: "My Account"
+    matching_configuration: "Matching"
+    logout: "Log out"
+    settings: "Settings"
+
+  settings:
+    title: "Settings"
+    navigation:
+      agencies: "Agencies"
+      roles: "Roles"
+      modules: "Modules"
+      system_settings: "System Settings"
+      matching: "Matching"
+      users: "Users"
+      user_groups: "User Groups"
+      forms: "Form"
+      lookups: "Lookups"
+      locations: "Locations"
+      audit_logs: "Audit Logs"
+      contact_information: "Contact Information"
+
+  buttons:
+    download: "Download"
+    delete: "Delete"
+    disable: "Disable"
+    enable: "Enable"
+    save: "Save"
+    close: "Close"
+    save_and_add_service_provision: "Save and Add Service Provision"
+    login: "Log in"
+    logout: "Log out"
+    continue: "Continue"
+    reunite: "Reunite"
+    edit: "Edit"
+    back: "Back"
+    submit: "Submit"
+    export: "Export"
+    import: "Import"
+    new: "New"
+    change_password: "Change Password"
+    enable_photo_wall: "Enable photo wall"
+    disable_photo_wall: "Disable photo wall"
+    create_incident: "Create Incident"
+    create_case: "Create Case"
+    guiding_questions: "Guiding Questions"
+    filter_label: "Filter:"
+    filter: "Apply Filter"
+    filter_clear: "Clear Filters"
+    find_tracing_match: "Find Tracing Match"
+    filter_restore: "Restore to System Settings"
+    flag_records: "Flag"
+    flags: "Flags"
+    flag_model: "Flag %{model}"
+    unflag_model: "Unflag %{model}"
+    unflag_model_history: "Flag History %{model}"
+    ok: 'OK'
+    cancel: "Cancel"
+    edit_subform: 'Edit Subform'
+    create_new_record: "Create New %{model}"
+    bundle_import: "Configuration Bundle"
+    bundle_export: "Configuration Bundle"
+    transfer: "Transfer"
+    reassign: "Assign"
+    referral: "Refer"
+    referral_again: "Refer Again"
+    mark_for_mobile: "Mark for mobile"
+    unmark_for_mobile: "Un-mark for mobile"
+    approve_bia: "Approve BIA"
+    approve_case_plan: "Approve Case Plan"
+    sort_by_tr: "Tracing Requests"
+    sort_by_case: "Cases"
+    approve_closure: "Approve Closure"
+    view_flags_history: "View History"
+    request_approval: "Request Approval"
+    approvals: "Approvals"
+    accept: "Accept"
+    reject: "Reject"
+    done: "Done"
+    remove_referrals: "Remove referrals"
+    view: "View"
+    request_transfer: "Request Transfer"
+    add_note: "Add Notes"
+    add: "Add"
+    update: "Update"
+    clear_selection: "Clear selection"
+
+  placeholders:
+    subforms: "Click the edit button to add %{form} details"
+    editing_subforms: "Click the ADD button to add details about the %{form}"
+
+
+  cases:
+    label: "Cases"
+    register_new_case: "New Case"
+    show_case: "Case ID %{short_id}"
+    export: "Export"
+    filter_by:
+      open: "Open"
+      closed: "Closed"
+      transferred: "Transferred"
+      duplicate: "Duplicate"
+      bia: "BIA"
+      case_plan: "Case Plan"
+      closure: "Closure"
+      approval_status: 'Approvals Status'
+      high: "High"
+      medium: "Medium"
+      low: "Low"
+      no_action: "No Action"
+      flag: "Flagged"
+      flag_label: "Flagged?"
+      mobile: "Mobile"
+      mobile_label: "Marked for mobile?"
+      social_worker: "Field/Case/Social Worker"
+      my_cases: "My Cases"
+      workflow: "Cases by Workflow"
+      no_activity: "No Activity"
+      3month_inactivity: "For 3+ months"
+      referred_cases: "Cases referred to me"
+      agency: "Agency"
+      status: "Status"
+      age_range: "Age Range"
+      sex: "Sex"
+      male: "Male"
+      female: "Female"
+      other: "Other"
+      age_0_5: "0 - 5"
+      age_6_11: "6 - 11"
+      age_12_17: "12 - 17"
+      age_18_more: "18+"
+      displacement_status: "Displacement Status"
+      protection_status: "Protection Status"
+      urgent_protection_concern: "Urgent Protection Concern"
+      protection_concerns: "Protection Concerns"
+      type_of_risk: "Type of Risk"
+      risk_level: "Risk Level"
+      current_location: "Current Location"
+      district: "District"
+      registration_date: "Registration Date"
+      case_open_date: "Case Open Date"
+      record_state: "Record State"
+      photo: "Photo"
+      photo_label: "Has Photo?"
+      by_date: 'By Date'
+      date: 'Date'
+      approvals:
+        pending: "Pending"
+        approved: "Approved"
+        rejected: "Rejected"
+      enabled_disabled: "Enabled / Disabled"
+    clear_filter: "Clear"
+    apply_filter: "Apply"
+    save_filter: "Save"
+    my_filters: "My Filters"
+    id: "ID#"
+    name: "Name"
+    full_name: "Full Name"
+    age: "Age"
+    age_estimated: "Estimated Age?"
+    sex: "Sex"
+    date_of_birth: "Date of Birth"
+    registration_date: "Registration Date"
+    status: "Status"
+    social_worker: "Social Worker"
+    survivor_code: "Survivor Code"
+    case_opening_date: "Case Open Date"
+    photos: "Photo"
+    owned_by: 'Record Owner'
+    owned_by_agency: 'Record Owner Agency'
+    reopen_dialog_title: "Reopen Case"
+    reopen_dialog: 'Clicking OK will change the status of this case to Open'
+    reopen_success: 'Successfully reopened case'
+    close_dialog_title: 'Close Case'
+    close_dialog: 'Clicking OK will change the status of this case to Closed'
+    close_success: 'Successfully closed case'
+    enable_dialog_title: "Enable Case"
+    enable_dialog: 'Clicking OK will change the status of this case to Enabled'
+    enable_success: 'Successfully enabled case'
+    disable_dialog_title: "Disable Case"
+    disable_dialog: 'Clicking OK will change the status of this case to Disabled'
+    disable_success: 'Successfully disabled case'
+    notes_dialog_title: 'Add Notes'
+    notes_form_subject: 'Subject'
+    notes_form_notes: 'Notes'
+    case_worker_code: "Case Worker Code"
+    agency: "Agency"
+    transfer_accepted: "By clicking 'Accept' you accept the responsibility for this case; once you click ‘Accept' you will become the record owner in the system."
+    transfer_rejected: "By clicking 'Reject' you are indicating that you are not ready to accept responsibility for this case at this time. Please enter a reason that you are rejecting this case; once you click ‘Reject’ you will no longer have access to this case record."
+    transfer_reject_reason_label: "Rejection Reason"
+    transfer_accepted_success: "Case transfer successfully accepted."
+    transfer_accepted_rejected: "Case %{record_id} transfer rejected."
+    request_approval_select: "Request approval for"
+    request_approve_bia: "Approve Assessment?"
+    request_approve_case_plan: "Approve Case Plan?"
+    request_approve_closure: "Approve Closure?"
+    request_approval_success_bia: "Approval requested for Assessment form."
+    request_approval_success_case_plan: "Approval requested for Case Plan form."
+    request_approval_success_closure: "Approval requested for Closure form."
+    request_approval_failure: "An error occurred, please contact support."
+    revoke_failure: "An error occurred while revoking the %{transition_type}, please contact support."
+    approved_success_closure: "Closure - Approved"
+    rejected_success_closure: "Closure - Not Approved"
+    approved_success_case_plan: "Case Plan - Approved"
+    rejected_success_case_plan: "Case Plan - Not Approved"
+    approved_success_bia: "Assessment - Approved"
+    rejected_success_bia: "Assessment - Not Approved"
+    approval_select: "The form for"
+    approval_radio: "I would like to"
+    approval_radio_accept: "Approve"
+    approval_radio_reject: "Not Approve"
+    approval_comments: "Comments"
+    assessment: "Assessment"
+    case_plan: "Case Plan"
+    closure: "Closure"
+    revoke_message: "By clicking ‘Revoke’, you will remove the %{transition_type} recipient’s access to the case."
+    revoke_success_message: "Case %{case_id} %{transition_type} to %{recipient_username} revoked."
+    referral_done: "Clicking 'Done' signifies that you have completed the referral work associated with this case. Once you click 'Done' you will no longer have access to this record."
+    referral_done_success: "Referral done."
+    selected_records: "%{select_records} case(s) selected"
+    selected_all_records: "Select all %{total_records} cases that match this query."
+
+    order_by:
+      most_recently: "Most recently"
+      label: "Order by"
+      name: "Name"
+    flag_summary: "Flag summary"
+
+    filer_by:
+      all: "All"
+      active: "Active"
+
+    hide_name: "Hide Name"
+    view_name: "View Name"
+    ok: "Ok"
+    hide_name_error: "An error ocurred when saving your changes. Please try again."
+
+    quick_view:
+      tracing_message: "Note: There is a match in the system with an Inquirer looking for this child. Contact the social worker of this record for further action if the child wishes."
+
+  children:
+    label: "Children"
+    register_new_child: "Register New Child"
+    export: "Export"
+    selectable_date_options:
+      registration_date: 'Date of Registration'
+      assessment_requested_on: 'Date of Assessment'
+      date_case_plan_initiated: 'Date of Case Plan'
+      closure_approved_date: 'Date of Case Closure '
+      created_at: 'Case Open Date'
+      date_of_creation: 'Date of Creation'
+    filter_by:
+      label: "Filter by"
+      all: "All"
+      active: "Active"
+      reunited: "Reunited"
+      flag: "Flagged"
+      created: "Created"
+    order_by:
+      most_recently: "Most recently"
+      label: "Order by"
+      name: "Name"
+    flag_summary: "Flag summary"
+
+    filer_by:
+      all: "All"
+      active: "Active"
+      reunited: "Reunited"
+      flagged: "Flagged"
+
+  child:
+    flagged_by: "Flagged By"
+    last_updated: "Last updated"
+    registered_by: "Registered by"
+    mark_as_duplicate: "Mark as Duplicate"
+    flag_record: "Flags"
+    flag_label: "Flag"
+    flag_reason: "Flag Reason"
+    flag_reason_date: "Date (optional)"
+    unflag_record: "Unflag Record"
+    unflag_reason: "Unflag Reason"
+    unflagged_label: "Reason"
+    unflag_date: "Date"
+    unflag_by: "Unflagged"
+    unflag_label: "Unflag"
+    unflag_error_message: "Please explain why you are unflagging this record."
+    id_of_record_this_duplicate_of: "Enter the ID of the record this is a duplicate of:"
+    duplicate_header: "Marking %{child_name} as Duplicate"
+    flag_error_message: "Please explain why you are flagging this record."
+    flag_records_error_message: "Enter a flag reason and if adding a date use a valid date format."
+    selected_records_error_message: "Please select one or more records to flag."
+    investigation_details: "Investigation Details:"
+    reunite_details: "Reunite Details:"
+    another_duplicate_before_link: "Another record has been marked as a duplicate of this one. Click"
+    another_duplicate_after_link: " to see the duplicate record."
+    export_error: "No Records Available!"
+    # TODO: Possibly use another method to label the list view columns
+    id: "ID#"
+    name: "Name"
+    age: "Age"
+    sex: "Sex"
+    registration_date: "Registration Date"
+    status: "Status"
+    match_record: "Match"
+    match_record_success: "Records Matched"
+    match_record_failed: "Match Not Found"
+
+    messages:
+      update_success: "Case %{record_id} was successfully updated."
+      investigation_error_message: "Please confirm the flagged record should be marked as investigated, and enter any details you have."
+      reunite_error_message: "Please confirm this child has been reunited with family or caregivers, and enter any details you have."
+      undo_reunite_error_message: "Please confirm child should be marked as Not Reunited, and enter any details you have."
+      see_full_size: "Click on the Image to see full size"
+      creation_success: "Case record %{record_id} successfully created."
+      not_found: "Child with the given id is not found"
+      confirm_duplicate: "Are you sure you want to continue? If so, click OK. If not, click Cancel."
+      create_details_error: "Make sure only one case is selected"
+
+    actions:
+      mark_as_investigated: "Mark as Investigated"
+      mark_as_reunited: "Mark as Reunited"
+      export_to_photo_wall: "Export to Photo Wall"
+      export_to_pdf: "Export to PDF"
+      export_to_csv: "Export to CSV"
+      change_log: "Change Log"
+      mark_as_not_investigated: "Mark as Not Investigated"
+      reunited: "Mark as Reunited"
+      reunited_details: "Reunite Details:"
+      reunite: "Reunite"
+      not_reunited: "Mark as Not Reunited"
+      undo_reunited_details: "Undo reunite Reason:"
+      undo_reunite: "Undo Reunite"
+      investigation_details: "Investigation Details"
+      undo_investigation_details: "Undo Investigation Details"
+      undo_investigated: "Undo Investigated"
+      cancel: "Cancel"
+      delete_photo: "Delete photo?"
+      delete_audio: "Delete audio?"
+      delete_document: "Delete document?"
+      choose_as_primary_photo: "Choose as primary photo"
+      rotate_anti_clockwise: "Rotate Anti-Clockwise"
+      restore_image: "Restore Original Image"
+      rotate_clockwise: "Rotate Clockwise"
+      view_full_size_photo: "View full size photo"
+
+    change_log: "Change Log"
+    flagged_as_suspected: "Flagged by"
+    posted_from_mobile: "Posted from the mobile client at:"
+    edit_photo: "Edit photo"
+    manage_photos: "Manage photos"
+
+    view: "View Case %{short_id}"
+    edit: "Edit Case"
+    mark_child_as_duplicate: "Mark %{short_id} as Duplicate"
+    history_of: "History of %{short_id}"
+
+  saved_search:
+    save_success: "Search saved successfully."
+    save_error: "Save failed."
+    deleted: "Search deleted successfully."
+    delete_error: "Delete failed."
+    saved_searches_tab: "Saved Searches"
+    filters_tab: "Filters"
+    not_found: "No saved searches found"
+    title_modal: "Delete saved searches"
+    title_description: "Are you sure you want to delete this saved search?"
+    no_filters: "There are not filters selected"
+
+  task:
+    id: "ID#"
+    name: "Name"
+    priority: "Priority Level"
+    type: "Type of Action"
+    due_date: "Due Date"
+    status: "Status"
+    priorities:
+      high_level: "High"
+      medium_level: "Medium"
+      low_level: "Low"
+      no_action_level: "No Action"
+    types:
+      assessment: "Assessment"
+      case_plan: "Case Plan"
+      follow_up: "Follow Up - %{subtype}"
+      service: "Service - %{subtype}"
+
+
+  case:
+    create_new_case: "Create New Case"
+    enter_id_number: "Enter the ID number to search for an existing record"
+    id_number_required: "Id number is required"
+    id_search_no_results: "There is no match in the system for “%{id}”, please create a new record."
+    id_search_results_html: "for <span>%{id}</span>"
+    label: "Case ID"
+    case_id_display: "Case ID"
+    created_at: "Created On"
+    workflow:
+      created_on: "created on"
+      on_label: "on"
+      in_progress: "in progress"
+      new: "New"
+      closed: "Closed"
+      reopened: "Reopened"
+      service_implemented: Service Implemented
+      services_implemented: Service Implemented
+      case_plan: "Case Plan"
+      assessment: "Assessment"
+    flagged_by: "Flagged By"
+    last_updated: "Last updated"
+    registered_by: "Registered by"
+    mark_as_duplicate: "Mark as Duplicate"
+    flag_record: "Flag Record"
+    flag_label: "Flag"
+    flag_reason: "Flag Reason"
+    flag_reason_date: "Date (optional)"
+    unflag_record: "Unflag Record"
+    unflag_reason: "Unflag Reason"
+    unflagged_label: "Reason"
+    unflag_date: "Date"
+    unflag_by: "Unflagged"
+    unflag_label: "Unflag"
+    unflag_error_message: "Please explain why you are unflagging this record."
+    id_of_record_this_duplicate_of: "Enter the ID of the record this is a duplicate of:"
+    duplicate_header: "Marking %{child_name} as Duplicate"
+    flag_error_message: "Please explain why you are flagging this record."
+    investigation_details: "Investigation Details:"
+    reunite_details: "Reunite Details:"
+    another_duplicate_before_link: "Another record has been marked as a duplicate of this one. Click"
+    another_duplicate_after_link: " to see the duplicate record."
+    # TODO: Possibly use another method to label the list view columns
+    select: "Select"
+    invalid_action_name: "Invalid action name"
+
+    messages:
+      update_success: "Case %{record_id} was successfully updated."
+      update_success_queue: "Case %{record_id} was successfully updated in background"
+      investigation_error_message: "Please confirm the flagged record should be marked as investigated, and enter any details you have."
+      reunite_error_message: "Please confirm this case has been reunited with family or caregivers, and enter any details you have."
+      undo_reunite_error_message: "Please confirm case should be marked as Not Reunited, and enter any details you have."
+      see_full_size: "Click on the Image to see full size"
+      creation_success: "Case record successfully created."
+      creation_success_queue: "Case record successfully created in background."
+      not_found: "Child with the given id is not found"
+      confirm_duplicate: "Are you sure you want to continue? If so, click OK. If not, click Cancel."
+      case_disabled: "Case is disabled"
+
+    actions:
+      mark_as_investigated: "Mark as Investigated"
+      mark_as_reunited: "Mark as Reunited"
+      change_log: "Change Log"
+      mark_as_not_investigated: "Mark as Not Investigated"
+      reunited: "Mark as Reunited"
+      reunited_details: "Reunite Details:"
+      reunite: "Reunite"
+      not_reunited: "Mark as Not Reunited"
+      undo_reunited_details: "Undo reunite Reason:"
+      undo_reunite: "Undo Reunite"
+      investigation_details: "Investigation Details"
+      undo_investigation_details: "Undo Investigation Details"
+      undo_investigated: "Undo Investigated"
+      cancel: "Cancel"
+      delete_photo: "Delete photo?"
+      delete_audio: "Delete audio?"
+      choose_as_primary_photo: "Choose as primary photo"
+      rotate_anti_clockwise: "Rotate Anti-Clockwise"
+      restore_image: "Restore Original Image"
+      rotate_clockwise: "Rotate Clockwise"
+      view_full_size_photo: "View full size photo"
+
+    change_log: "Change Log"
+    flagged_as_suspected: "Flagged by"
+    posted_from_mobile: "Posted from the mobile client at:"
+    edit_photo: "Edit photo"
+    manage_photos: "Manage photos"
+
+    view: "View Case %{short_id}"
+    edit: "Edit Case"
+    mark_child_as_duplicate: "Mark %{short_id} as Duplicate"
+    history_of: "History of %{short_id}"
+    incident_details_separator: "Incident Details"
+    services_section_separator: "Response Overview"
+
+  incidents:
+    label: "Incidents"
+    register_new_incident: "New Incident"
+    show_incident: "Incident ID %{short_id}"
+    id: "ID#"
+    survivor_code: "Survivor Code"
+    case_worker_code: "Case Worker Code"
+    date_of_interview: "Date of Interview"
+    date_of_incident: "Date of Incident"
+    violence_type: "Violence Type"
+    incident_location: "Incident Location"
+    violations: "Violations"
+    social_worker: "Social Worker"
+    request_approval_select: "Request approval for"
+    request_approve_bia: "Approve Assessment?"
+    request_approve_case_plan: "Approve Case Plan?"
+    request_approve_closure: "Approve Closure?"
+    request_approval_success_bia: "Approval requested for Assessment form."
+    request_approval_success_case_plan: "Approval requested for Case Plan form."
+    request_approval_success_closure: "Approval requested for Closure form."
+    request_approval_failure: "An error occurred, please contact support."
+    selectable_date_options:
+      date_of_first_report: "Interview Date"
+      incident_date_derived: "Incident Date"
+    filter_by:
+      flag: "Flagged"
+      flag_label: "Flagged?"
+      mobile: "Mobile"
+      mobile_label: "Marked for mobile?"
+      violation: "Violation"
+      violence_type: "Violence Type"
+      social_worker: "Case Worker"
+      status: "Status"
+      age_range: "Age Range"
+      children: "Children"
+      boys: "Boys"
+      girls: "Girls"
+      unknown: "Unknown"
+      verification_status: "Verification Status"
+      incident_location: "Incident Location"
+      incident_date: "Incident Date"
+      unaccompanied_separated_status: "Protection Status"
+      armed_force_group_name: "Armed Force or Group"
+      armed_force_group_type: "Armed Force or Group Type"
+      record_state: "Record State"
+      interview_date: "Interview Date"
+      by_date: "By Date"
+    transfer_accepted: "By clicking 'Accept' you accept the responsibility for this case; once you click ‘Accept' you will become the record owner in the system."
+    transfer_rejected: "By clicking 'Reject' you are indicating that you are not ready to accept responsibility for this case at this time. Please enter a reason that you are rejecting this case; once you click ‘Reject’ you will no longer have access to this case record."
+    transfer_reject_reason_label: "Rejection Reason"
+    transfer_accepted_success: "Case transfer successfully accepted."
+    transfer_accepted_rejected: "Case %{record_id} transfer rejected."
+    assessment: "Assessment"
+    case_plan: "Case Plan"
+    closure: "Closure"
+    export: "Export"
+    referral_done: "Clicking 'Done' signifies that you have completed the referral work associated with this case. Once you click 'Done' you will no longer have access to this record."
+    referral_done_success: "Referral done."
+    selected_records: "%{select_records} incident(s) selected"
+    selected_all_records: "Select all %{total_records} incidents that match this query."
+
+  incident:
+    label: "Incident ID"
+    flagged_by: "Flagged By"
+    last_updated: "Last updated"
+    registered_by: "Registered by"
+    mark_as_duplicate: "Mark as Duplicate"
+    flag_record: "Flags"
+    flag_label: "Flag"
+    flag_reason: "Flag Reason"
+    flag_reason_date: "Date (optional)"
+    unflag_record: "Unflag Record"
+    unflag_reason: "Unflag Reason"
+    unflagged_label: "Reason"
+    unflag_date: "Date"
+    unflag_by: "Unflagged"
+    unflag_label: "Unflag"
+    unflag_error_message: "Please explain why you are unflagging this record."
+    flagged_as_suspected: "Flagged by"
+    id_of_record_this_duplicate_of: "Enter the ID of the record this is a duplicate of:"
+    duplicate_header: "Marking %{child_name} as Duplicate"
+    flag_error_message: "Please explain why you are flagging this record."
+    flag_records_error_message: "Enter a flag reason and if adding a date use a valid date format."
+    selected_records_error_message: "Please select one or more records to flag."
+    investigation_details: "Investigation Details:"
+    reunite_details: "Reunite Details:"
+    another_duplicate_before_link: "Another record has been marked as a duplicate of this one. Click"
+    another_duplicate_after_link: " to see the duplicate record."
+    violation_status_verified: "Verified"
+    empty_violation: "To add violations, add the Violation Category on the Incident form to see the corresponding violation form."
+    add_violations: "Click add to enter violation details."
+    create_incident_cp: "Create a reportable incident record?"
+    link_to_incident: "Link to Incident"
+
+    messages:
+      update_success: "Incident %{record_id} was successfully updated."
+      update_success_queue: "Incident %{record_id} was successfully updated in background."
+      creation_success: "Incident record successfully created."
+      creation_success_queue: "Incident record successfully created in background"
+
+    view: "View Incident %{short_id}"
+    edit: "Edit Incident"
+    select: "Select"
+    id: "ID#"
+    survivor_code: "Survivor Code"
+    case_worker_code: "Case Worker Code"
+    date_of_interview: "Date of Interview"
+    date_of_incident: "Date of Incident"
+    violence_type: "Violence Type"
+    incident_location: "Incident Location"
+    violations: "Violations"
+    social_worker: "Social Worker"
+    change_log: "Change Log"
+
+    actions:
+      change_log: "Change Log"
+
+    history_of: "History of %{short_id}"
+
+    violation:
+      violation: "Violation"
+      pending: 'Pending Verification'
+      killing: "Killing"
+      maiming: "Maiming"
+      recruitment: "Recruitment"
+      sexual_violence: "Sexual Violence"
+      abduction: "Abduction"
+      attack_on_schools: "Attack on Schools"
+      attack_on_hospitals: "Attack on Hospitals"
+      denial_humanitarian_access: "Denial of Humanitarian Access"
+      other_violation: "Other Violation"
+
+  tracing_request:
+    label: "Inquirer ID"
+    register_new_tracing_request: "New Tracing Request"
+    change_log: "Change Log"
+    name_of_inquirer: "Name of Inquirer"
+    date_of_inquiry: "Date of Inquiry"
+    tracing_requests: "Tracing Requests"
+    last_updated: "Last updated"
+    registered_by: "Registered by"
+    edit_photo: "Edit photo"
+    flag_record: "Flags"
+    flag_label: "Flag"
+    flag_reason: "Flag Reason"
+    flag_reason_date: "Date (optional)"
+    flag_records_error_message: "Enter a flag reason and if adding a date use a valid date format."
+    selected_records_error_message: "Please select one or more records to flag."
+    unflag_record: "Unflag Record"
+    unflag_reason: "Unflag Reason"
+    unflagged_label: "Reason"
+    unflag_date: "Date"
+    unflag_by: "Unflagged"
+    unflag_label: "Unflag"
+    unflag_error_message: "Please explain why you are unflagging this record."
+    flag_error_message: "Please explain why you are flagging this record."
+    flagged_as_suspected: "Flagged by"
+    find_match: "Find Match"
+
+    actions:
+      change_log: "Change Log"
+      delete_photo: "Delete photo?"
+      delete_audio: "Delete audio?"
+
+    messages:
+      update_success: "Tracing Request %{record_id} was successfully updated."
+      creation_success: "Tracing Request record successfully created."
+      update_success_queue: "Tracing Request %{record_id} was successfully updated in background."
+      creation_success_queue: "Tracing Request record successfully created in background."
+
+    view: "View Tracing Request %{short_id}"
+    edit: "Edit Tracing Request"
+    select: "Select"
+    id: "ID#"
+    enquirer_name: "Inquirer Name"
+    enquirer_date: "Date of Inquiry"
+
+    history_of: "History of %{short_id}"
+
+  tracing_requests:
+    label: "Tracing Requests"
+    register_new_tracing_request: "New Tracing Request"
+    show_tracing_request: "Tracing Request ID %{short_id}"
+    export: "Exports"
+    id: "ID"
+    name_of_inquirer: "Name of Inquirer"
+    date_of_inquiry: "Date of Inquiry"
+    tracing_requests: "Tracing Requests"
+    selectable_date_options:
+      inquiry_date: "Date of Inquiry"
+    filter_by:
+      flag: "Flagged"
+      flag_label: "Flagged?"
+      social_worker: "Field/Case/Social Worker"
+      inquiry_date: "Date of Inquiry"
+      inquiry_status: "Inquiry Status"
+      status: "Status"
+      location_separation: "Separation Location"
+      separation_cause: "Separation Cause"
+      record_state: "Record State"
+      by_date: "By Date"
+    referral_done: "Clicking 'Done' signifies that you have completed the referral work associated with this case. Once you click 'Done' you will no longer have access to this record."
+    referral_done_success: "Referral done."
+    transfer_accepted: "By clicking 'Accept' you accept the responsibility for this case; once you click ‘Accept' you will become the record owner in the system."
+    transfer_rejected: "By clicking 'Reject' you are indicating that you are not ready to accept responsibility for this case at this time. Please enter a reason that you are rejecting this case; once you click ‘Reject’ you will no longer have access to this case record."
+    transfer_reject_reason_label: "Rejection Reason"
+    transfer_accepted_success: "Case transfer successfully accepted."
+    transfer_accepted_rejected: "Case %{record_id} transfer rejected."
+    assessment: "Assessment"
+    case_plan: "Case Plan"
+    closure: "Closure"
+    export: "Export"
+    request_approval_select: "Request approval for"
+    request_approve_bia: "Approve Assessment?"
+    request_approve_case_plan: "Approve Case Plan?"
+    request_approve_closure: "Approve Closure?"
+    request_approval_success_bia: "Approval requested for Assessment form."
+    request_approval_success_case_plan: "Approval requested for Case Plan form."
+    request_approval_success_closure: "Approval requested for Closure form."
+    request_approval_failure: "An error occurred, please contact support."
+    selected_records: "%{select_records} tracing request(s) selected"
+    selected_all_records: "Select all %{total_records} tracing requests that match this query."
+
+  potential_matches:
+    empty: "Please access matching through Tracing Requests"
+    no_match: "There is no match in the system for %{type} %{id}"
+    display: "Displaying potential matches for %{type} %{id}"
+    filter_by:
+      score_range: "Score Range"
+      age_range_case: "Age Range of Cases"
+      age_range_tracing_request: "Age Range of Tracing Requests"
+      sex_case: "Sex of Cases"
+      sex_tracing_request: "Sex of Tracing Requests"
+      male: "Male"
+      female: "Female"
+
+  potential_match:
+    header_key: "Match Criteria:"
+    inquirer_id: 'inquirer id#'
+    inquirer_name: 'name of inquirer'
+    inquiry_date: 'date of inquiry'
+    inquirer_tr_name: 'tracing request'
+    child_id: 'child id#'
+    child_age: 'Age'
+    child_gender: 'Gender'
+    child_date_of_birth: 'Date of Birth'
+    reg_date: 'Registration date'
+    social_worker: 'Social worker'
+    social_worker_agency: 'Agency'
+    score: 'score'
+    show_more: 'show more'
+    show_less: 'show less'
+    trace: 'Trace'
+    case: 'Case'
+    name: 'Name'
+    name_other: 'Other Name'
+    name_nickname: 'Nickname'
+
+    likelihood:
+      likely: 'Likely'
+      possible: 'Possible'
+
+  duplicates:
+    search_for_duplicates: 'Search For Duplicates'
+    clear_filter: 'Clear'
+    filter_by:
+      name: "Name"
+      name_nickname: "Nickname"
+      name_other: "Other Name"
+      sex: "Sex"
+      age: "Age"
+      age_range: "Age Range"
+      date_of_birth: "Date of Birth"
+      nationality: "Nationality"
+      location_last: "Last Location"
+      telephone_last: "Last Telephone"
+      ethnicity: "Ethnicity"
+      date_of_separation: "Date of Separation"
+      separation_cause: "Main Cause of Separation"
+      location_separation: "Separation Location"
+      relation_name: "Name of Relative"
+      relation: "Relation"
+      relation_nickname: "Nickname of Relative"
+      relation_language: "Language of Relative"
+      relation_religion: "Religion of Relative"
+      relation_ethnicity: "Ethnicity of Relative"
+      relation_nationality: "Nationality of Relative"
+      relation_address_current: "Relative's Current Address"
+      relation_location_current: "Relative's Current Location"
+      relation_telephone: "Relative's Telephone"
+
+  audit_log:
+    timestamp: "Time"
+    user_name: "Performed By"
+    action: "Action"
+    description: "Description"
+    record_owner: "Record Owner"
+
+  audit_logs:
+    action_options:
+      login: "Login"
+      logout: "Logout"
+      create: "Creating"
+      copy: "Copying"
+      destroy: "Deleting"
+      show: "Viewing"
+      edit: "Editing"
+      update: "Updating"
+      export: "Exporting data for"
+      referral: "Referring"
+      reassign: "Assigning"
+      transfer: "Transfering"
+      reopen_case: "Reopening"
+    filter_by:
+      action: 'Action Name'
+      date: 'Date'
+      timestamp: 'Timestamp'
+      user: 'User Name'
+
+  preposition:
+    on_label: "on"
+    because: "Because"
+    at_label: "at"
+
+  pagination:
+    zero: "No %{model} found"
+    page_entries_info: Displaying _START_ to _END_ of _TOTAL_ %{model}
+
+  users:
+    select_role: "Please select a role before verifying the user"
+    manage: "Manage Users"
+    label: "Users"
+    create: "Create User"
+    account_details: "Account Details"
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+    messages:
+      disable: 'Are you sure you want to disable this user?'
+    sort_by:
+      label: "Sort by"
+      full_name: "Full Name"
+      agency: "Agency"
+    filter_by:
+      status: "Status"
+      enabled: "Enabled"
+      disabled: "Disabled"
+      agency: "Agency"
+    register_new_user: "Create User"
+    headers:
+      full_name: "Full Name"
+      user_name: "Username"
+      position: "Position"
+      agency: "Agency"
+
+
+  roles:
+    label: "Roles"
+    select_label: "Role"
+    list: "List of Roles"
+    sort_by:
+      label: "Sort by"
+      ascending: "Ascending"
+      descending: "Descending"
+    name: "Role Name"
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+      update: "Update"
+      create: "Create"
+      delete: "Delete"
+      copy: "Copy"
+    view: "View Role"
+    messages:
+      confirmation: "Are you sure you want to delete this role? Deletion can not be undone. Click OK To Delete Role."
+
+  role:
+    label: "Role"
+    create: "Create Role"
+    edit: "Edit Role"
+    name: "Name"
+    description: "Description"
+    successfully_updated: "Role details are successfully updated."
+    error_in_updating: "Error in updating the Role details."
+    copy_success: "Role successfully copied."
+    copy_failure: "Error copying Role.  Ensure the name does not conflict with another Role."
+    transfer_label: "Can this role be used for Transfers?"
+    referral_label: "Can this role be used for Referrals?"
+    group_permission_label: "What records does this role affect?"
+    role_ids_label: "Others roles managed by this role"
+    agency_ids_label: "Agencies managed by this role"
+    manager: "Manager"
+    delete_header: "Delete Role"
+    messages:
+      created: "Role was successfully created."
+      updated: "Role was successfully updated."
+      deleted: "Role was successfully deleted."
+      confirmation: "Are you sure you want to delete this role? Deletion can not be undone. Click OK to delete the role."
+
+  agencies:
+    logo: 'Logo'
+    logo_enabled: 'Logo enabled?'
+    label: "Agency"
+    view: "View Agency"
+    successfully_created: "Agency successfully created."
+    successfully_updated: "Agency successfully updated."
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+      update: "Update"
+      create: "Create"
+      delete: "Delete"
+    filter_by:
+      status: "Status"
+      enabled: "Enabled"
+      disabled: "Disabled"
+    messages:
+      confirmation: "Are you sure you want to delete this agency? Deletion can not be undone. Click OK to delete the agency."
+    select_prompt: "Please select an agency"
+    error_in_updating: "Error in updating the Agency details."
+
+  agency:
+    edit: "Edit Agency"
+    name: "Agency Name"
+    code: "Agency Code"
+    services: "Agency Services"
+    logo_icon: "Icon Logo"
+    logo_large: "Large Logo"
+    logo_enabled: "Logo Enabled?"
+    description: "Description"
+    telephone: "Telephone"
+    disabled: "Disabled"
+    messages:
+      created: "Agency was successfully created."
+      updated: "Agency was successfully updated."
+
+  system_settings:
+    label: "System Settings"
+    edit: "Edit System Settings"
+    show: "System Settings"
+    updated: "System Settings successfully updated."
+    primero_version: "System Version"
+
+  primero_modules:
+    label: "Modules"
+    view: "View Module"
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+      update: "Update"
+      create: "Create"
+      delete: "Delete"
+    messages:
+      confirmation: "Are you sure you want to delete this module? Deletion can not be undone. Click OK to delete the module."
+      invalid: "Invalid module(s)"
+
+  primero_module:
+    create: "Create Module"
+    edit: "Edit Module"
+    show: "View"
+    name: "Name"
+    description: "Description"
+    successfully_updated: "Module details are successfully updated."
+    error_in_updating: "Error in updating the Module details."
+    record_type: "Record Types for this module"
+    forms: "Forms assigned to this module"
+    program: "Program"
+    associated_record_types: "Associated record types"
+    form_section_ids: "Assocaited form ids"
+
+
+  primero_programs:
+    label: "Program"
+    view: "View Program"
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+      update: "Update"
+      create: "Create"
+      delete: "Delete"
+    messages:
+      confirmation: "Are you sure you want to delete program module? Deletion can not be undone. Click OK to delete the program."
+
+  primero_program:
+    create: "Create Program"
+    edit: "Edit Program"
+    show: "View"
+    name: "Name"
+    description: "Description"
+    start_date: "Program start date"
+    end_date: "Program end date"
+    successfully_updated: "Program details are successfully updated."
+    error_in_updating: "Error in updating the Program details."
+
+  user_groups:
+    label: "User Groups"
+    view: "View User Group"
+    actions:
+      show_all: "Showing all"
+      show: "Show"
+      edit: "Edit"
+      update: "Update"
+      create: "Create"
+      delete: "Delete"
+    messages:
+      confirmation: "Are you sure you want to delete this user group? Deletion can not be undone. Click OK to delete the user group."
+
+  user_group:
+    create: "Create User Group"
+    edit: "Edit User Group"
+    name: "Name"
+    description: "Description"
+    successfully_updated: "User Group details are successfully updated."
+    error_in_updating: "Error in updating the User Group details."
+    messages:
+      created: "User Group was successfully created."
+      updated: "User Group was successfully updated."
+
+  user:
+    label: "user"
+    full_name: "Full Name"
+    code: "User Code"
+    history_of: "History of %{user_name}"
+    disabled: "Disabled"
+    agency: "Agency"
+    services: "Services"
+    agency_office: "Agency Office"
+    position: Position
+    phone: "Phone"
+    email: "Email"
+    locale: "Locale"
+    password: "Password"
+    password_confirmation: "Password Confirmation"
+    user_group_unique_ids: "User Groups"
+    module_ids: "Modules"
+    role_id: "Role"
+    is_manager: "Manager"
+    verified: "Verified"
+    user_name: "Username"
+    actions:
+      delete: "Delete"
+    messages:
+      confirmation: "Are you sure you want to delete this user? Deletion can not be undone. Click OK To Delete User."
+      created: "User was successfully created."
+      updated: "User was successfully updated."
+      not_found: "User with the given id is not found"
+      passwords_do_not_match: "does not match current password"
+      password_changed_successfully: "Password changed successfully"
+      time_zone_updated: "The change was successfully updated."
+      new_confirm_non_identity_html: "You are about to invite the user <b>%{username}</b> with the role <b>%{role}</b> to use Primero. A confirmation email will be sent to <b>%{email}</b>. Would you like to proceed?"
+      new_confirm_html: "You are about to invite the user <b>%{username}</b> from <b>%{identity}</b> with the role <b>%{role}</b> to use Primero. A confirmation email will be sent to <b>%{email}</b>. Would you like to proceed?"
+      failure: "An error occurred, please contact support."
+    update: "Update"
+    verify: "Verify"
+    create: "Create"
+    no_blank: "user name should not contain blanks"
+    manage_password: "Change Password"
+    old_password: "Old Password"
+    new_password: "New Password"
+    password_strength: "Password must be at least 8 characters and include both letters and numbers"
+    new_password_confirmation: "Confirm New Password"
+    new: "New User"
+    user_action_history: "User action history"
+    no_activity: "has no activity"
+    location: "Location"
+    organization: "Organization"
+    manager: "Manager"
+    send_mail: "Receive email notifications?"
+    change_password: "Change your password"
+    forgot_password: "Forgot your password?"
+    welcome_email:
+      subject: "Welcome to %{system}!"
+      greeting: "Welcome to %{system}!"
+      body_native: "You have been added as a %{role_name}. Please contact %{admin_full_name} (%{admin_email}) to receive your user name and password in order to log on to %{host}."
+      body_sso: "You have been added as a %{role_name}. You may now log on to %{host} with your %{agency_name} account %{user_name}. Please contact %{admin_full_name} (%{admin_email}) for further details."
+      body_with_password: "You have been added as a %{role_name}. Please contact %{admin_full_name} (%{admin_email}) to receive your user name. Use the password %{otp} to log on to %{host}, and reset when prompted."
+      url_label: "Primero"
+      enabled_label: "Send Welcome Email?"
+      text_label: "Welcome Email Text"
+    identity_provider: "Identity Provider"
+    provider_username_help: "Example: my.username@%{domain}"
+    invalid_provider_username: "Invalid username format. Example: my.username@%{domain}"
+
+  phone: "Phone"
+  email: "Email"
+  organization: "Organisation"
+  position: "Position"
+  mandatory_field: "marked fields are mandatory"
+  add: "add"
+  belonging_to: "belonging to"
+  imei: "IMEI"
+  blacklisted: "Blacklisted?"
+  visible_for_web: "Visible for web app"
+  visible_for_mobile: "Visible for mobile app"
+  selective_syncing_mobile: "Selective Syncing (mobile)"
+  hidden: "Hidden"
+  help_text: "Help text"
+  multi_select: "Multi Select"
+  option_strings_source: "Option Strings Source"
+  cancel: "Cancel"
+  discard: "Discard"
+  form: "Form"
+  details: "Details"
+  enabled: "Enabled"
+  status: "Status"
+  devices: "Devices"
+  replications: "Replications"
+  provide_translation: "Provide translation for"
+  select_language: "Select a language"
+  hide_on_view_page: "Hide On View Page"
+  show_on_short_form: "Show On Short Form"
+  last_login: "Last Login"
+  copy_of: "Copy of"
+
+
+  record: "record"
+  description: "Description"
+  # TODO - The name translation is commented out so we revert back to using the name translation defined in the form section field
+  #        Longer term, need to refactor how that translation is handled
+  # name: "Name"
+  unique_id: "Unique ID"
+
+  permissions:
+    label: "Permissions"
+    Actions: "Actions"
+    Resources: "Resources"
+    Management: "Management"
+    group:
+      actions: "Actions"
+      resources: "Resources"
+      resource: "Resources"
+      management: "Management"
+
+    permission:
+      read: "Read"
+      write: "Write"
+      enable_disable_record: "Disable"
+      flag: "Flag"
+      assign: "Assign"
+      case: "Case"
+      incident: "Incident"
+      tracing_request: "Tracing Request"
+      potential_match: "Potential Match"
+      role: "Roles"
+      user: "Users"
+      user_group: "User Groups"
+      agency: "Agency"
+      metadata: "Forms, Lookups"
+      system: "System"
+      report: "Report"
+      self: "Access only my records or user"
+      group: "Access all records or users in my group"
+      all: "Access all records or users"
+      admin_only: "No records - Admin functionality only"
+      All: "All"
+      specific_roles: "Access specified list of roles"
+      consent_override: "Consent override"
+      export_list_view_csv: "Export list view csv"
+      export_csv: "Export csv"
+      export_xls: "Export xls"
+      export_photowall: "Export photowall"
+      export_pdf: "Export pdf"
+      export_unhcr_csv: "Export unhcr csv"
+      export_mrm_violation_xls: "Export mrm violation xls"
+      export_case_pdf: "Export case pdf"
+      export_json: "Export json"
+      export_custom: "Export custom"
+      export_duplicate_id_csv: "Export duplicates"
+      import: "Import"
+      transfer: "Transfer"
+      reassign: "Reassign"
+      referral: "Referral"
+      sync_mobile: "Sync with mobile device"
+      request_approval: "Request for approval"
+      request_approval_bia: "Request BIA approval"
+      request_approval_case_plan: "Request Case Plan approval"
+      request_approval_closure: "Request Closure approval"
+      approve_bia: "Approve BIA form"
+      approve_case_plan: "Approve Case Plan"
+      approve_closure: "Approve Closure form"
+      copy: "Copy"
+      manage: "Manage"
+      administrator_read: "Administrator Read"
+      group_read: "Group Read"
+      agency_read: "Agency Read"
+      dashboard: "Dashboard"
+      view_approvals: "View Approvals"
+      view_assessment: "View Assessment"
+      dash_reporting_location: "View Reporting Locations"
+      dash_protection_concerns: "View Protection Concerns"
+      dash_matching_results: "View Matching Results"
+      dash_service_provisions: "View Service Provisions"
+      dash_referrals_by_socal_worker: "View Referrals By Social Worker"
+      dash_transfers_by_socal_worker: "View Transfers By Social Worker"
+      dash_cases_by_social_worker: "View Cases By Social Worker"
+      dash_manager_transfers: "View Manager Transfers"
+      dash_cases_by_workflow: "View Cases By Workflow"
+      dash_cases_by_task_overdue: "View Cases By Task Overdue"
+      dash_cases_to_assign: "View Cases To Assign"
+      dash_show_none_values: "View None Values"
+      dash_tasks: "View Tasks"
+      case_overview: "My Cases"
+      case_risk: "Cases by Assessment Level"
+      approvals_assessment: "Assessment"
+      approvals_assessment_pending: "Assessment Pending"
+      approvals_case_plan: "Case Plan"
+      approvals_case_plan_pending: "Case Plan Pending"
+      approvals_closure: "Closure"
+      approvals_closure_pending: "Closure Pending"
+      workflow: "Workflow - Individual cases"
+      workflow_team: "Workflow - Teams cases"
+      cases_by_task_overdue_assessment: "View Cases By Task Overdue Assessment"
+      cases_by_task_overdue_case_plan: "View Cases By Task Overdue Case Plan"
+      cases_by_task_overdue_services: "View Cases By Task Overdue Services"
+      cases_by_task_overdue_followups: "View Cases By Task Overdue Services"
+      dash_protection_concerns_by_location: "View Protection Concerns By Location"
+      dash_shared_with_me: "Shared With Me"
+      dash_shared_with_others: "Shared With Others"
+      dash_group_overview: "My Group's Cases"
+      dash_shared_with_my_team: "Shared With My Team"
+      dash_shared_from_my_team: "Shared From My Team"
+      search_owned_by_others: "Search for case records owned by other users"
+      incident_from_case: "Create an incident from a case"
+      incident_details_from_case: "Add Incident Details to another user's case"
+      services_section_from_case: "Add Service provision to another user's case"
+      create: "Create"
+      delete: "Delete"
+      referral_from_service: "Refer Case from Service form"
+      view_protection_concerns_filter: "View Protection Concerns Filter"
+      saved_search: "Saved Search"
+      save_search: "Save Searches"
+      remove_assigned_users: "Remove other assigned users (referrals)"
+      audit_log: "Audit Log"
+      display_view_page: "Display View Page"
+      service_provision_incident_details: "See Add Service Provision Button on Incident Details Modal"
+      request_transfer: "Request Transfer"
+      view_photo: "View Photo"
+      matching_configuration: "Matching Configuration"
+      add_note: "Add Notes"
+      assign_within_agency: "Assign within agency"
+      assign_within_user_group: "Assign within user group"
+      find_tracing_match: "Find tracing match from case"
+      duplicate: "Duplicate Search"
+      view_response: "View Responses"
+      receive_transfer: "Receive Transfer"
+      receive_referral: "Receive Referral"
+      reopen: "Reopen"
+      close: "Close"
+
+  forms:
+    label: "Forms"
+    add: "Add Form"
+    save: "Save Form"
+    save_details: "Save"
+    title: "Form Title"
+    description: "Form Description"
+    form_group: "Form Group"
+    record_type: "Record Type"
+    module: "Module"
+    settings: "Settings"
+    fields: "Fields"
+    translations: "Translations"
+    visibility: "Visibility"
+    web_app: "Web App"
+    mobile_app: "Mobile App"
+    show_page: "Show Page"
+    short_form: "Short Form"
+    show_on: "Show on"
+    help_text:
+      must_be_english: "Must be entered in English"
+      summariaze_purpose: "Summarize form purpose. Must be entered in English"
+      related_groups: "Place form into a related group for users"
+      english_first: "Form must be created in English before translation can be added"
+    messages:
+      use_existing: "We encourage you to use the existing forms as this makes data sharing and data merging between institutions easier."
+      updated: "Form section successfully updated"
+      created: "Form section successfully created"
+    initial_language: "Initial Language"
+    cannot_be_edited: "Fields on this form cannot be edited."
+    record_types:
+      case: "Case"
+      child: "Case"
+      incident: "Incident"
+      tracing_request: "Tracing Request"
+      potential_match: "Potential Match"
+      violation: "Violation"
+      reportable_service: "Service"
+      reportable_follow_up: "Follow Up"
+      reportable_protection_concern: "Protection Concern"
+      record_information: "Record Information"
+      transfers_assignments: "Transfers / Assignments"
+      referrals: "Referrals"
+      approvals: "Approvals"
+    required_field: "%{field} is a required field"
+
+  form_section:
+    name: "Name"
+    group: "Group"
+    module: "Module"
+    record_type: "Record Type"
+    form_name: "Form Name"
+    description: "Description"
+    create: "New Form"
+    visibility: "Visibility"
+    ordering: "Ordering"
+    label: "Form"
+    help_text: "Help Text"
+    details: "Details"
+    back: "Back To Forms Page"
+    actions:
+      label: "Actions"
+      add_custom_field: "Add Custom Field"
+      save_order: "Save Order"
+    messages:
+      order_saved: "Order is successfully saved."
+      cannot_create: "Form section could not be created"
+      correct_errors: "Please correct the following errors and resubmit:"
+      hide_confirmation: "Are you sure you want to hide fields?"
+      show_confirmation: "Are you sure you want to show fields?"
+      drag_drop_help_text: You can click on the fields to drag &amp; drop on the required order.
+      updated: "Form section successfully added"
+    hide: "Hidden?"
+    show: "Show"
+    manage: "Manage Form Section"
+    edit: "Edit Form Sections"
+    buttons:
+      add: "Add"
+    options: "Options"
+    confirm_delete: "Are you sure you want to delete this form?"
+    required_field: "%{field} is required"
+    required_field_js: "is a required field. Currently it's blank or invalid."
+    form_group_name: "Form Group Name"
+    form_group: "Form Group"
+    modal_sidebar_help: "Select type of field"
+    modal_sidebar_help_selected: "Type of field"
+    translation: "Translation"
+    translation_missing: "(Translation missing for %{lang})"
+    base_language_help_text: "This must be entered in %{lang}."
+    selective_syncing_mobile_help_text: "The subform won't sync from the server to the mobile, but a user can add a subform on the mobile that will then sync to the server."
+    form_group_translation_help_text: "To add translations for Form Groups, edit the Form Group lookup in the Lookup editor."
+    initial_lang_help_text: "Field must be created in %{lang} before translation can be added."
+    field_db_help_text: "If left blank, DB Name will be generated. Only Latin letters, numbers, and underscores are allowed."
+
+  advanced_search:
+    instruction: "Separate words by OR to search for more than one option eg. Tim OR Rahul"
+    date_instruction: "Enter a date (yyyy-mm-dd) in the first box to search records created or updated after that date.       Enter a date (yyyy-mm-dd) in the second box to see records created or updated before that date.       Enter dates in both boxes to see records created between the dates."
+    created_by_org: "Created By (Organisation) :"
+    date_created: "Date Created :"
+    updated_by: "Updated by (User) :"
+    after: "After :"
+    before: "Before :"
+    created_by: "Created by (User) :"
+    date_updated: "Date Updated :"
+    select_a_criteria: "Select A Criteria"
+    records_found:
+      one: "1 record found"
+      other: "%{count} records found"
+
+  search: "Search"
+  select_all: "Select all records"
+  no_results_found: "No results found"
+  date_format: "yy-mm-dd"
+  yes_label: "Yes"
+
+  contact:
+    message: "If you experience any problems with RapidFTR, or believe your password has been exposed, please contact the system administrator immediately."
+    field:
+      name: "Name"
+      position: "Position"
+      organization: "Organization"
+      email: "Email"
+      phone: "Phone"
+      location: "Location"
+      other_information: "Other information"
+      support_forum: "Support Forum"
+      primero_version: "Primero Version"
+      system_version: "System Version"
+    updated: "Contact information was successfully updated."
+    edit_info: "Edit Contact Information"
+    info_label: "Contact Information"
+    not_found: "Cannot find ContactInformation"
+
+  device:
+    blacklist: "Blacklist Device"
+    messages:
+      blacklist: "Do you want to add this device to blacklist?"
+      remove_blacklist: "Do you want to remove this device from blacklist?"
+      disable: 'Are you sure you want to disable this device?'
+    information: "Device Information"
+    mobile_number: "Mobile Number"
+    timestamp: "Timestamp"
+
+  admin:
+    contact_info: "Admin Contact Information"
+    highlight_fields: "Highlight Fields"
+    manage_system_users: "Manage Server Synchronisation Users"
+    create_system_user: Create a System User
+    system_logs: "System Logs"
+
+  fields:
+    label: "Fields"
+    field_name: "Field Name"
+    display_name: "Display Name"
+    db_name: "DB Name"
+    help_text: "Help Text"
+    actions: "Actions"
+    option_strings_text: "Options"
+    option_strings_text_key: "Option Key"
+    option_strings_text_display: "Option Text"
+    option_strings_source: "Lookups"
+    option_strings_add_option: "Add Option"
+    options_or_lookup_warning: "Please add Options or select a Lookup. Do not enter both."
+    form_name: "Form Name"
+    action: "Action"
+    remove: "Remove"
+    subform_remove_message: "Are you sure you want to remove this subform?"
+    text_field: "Text Field"
+    check_box: "Check Boxes"
+    select_box: "Select Drop Down"
+    radio_button: "Radio Button"
+    text_area: "Text Area"
+    textarea: "Text Area"
+    numeric_field: "Numeric Field"
+    date_field: "Date Field"
+    date_range_field: "Date Range"
+    subform: "Subform"
+    tick_box: "Tick Box"
+    tick_box_label: "Tick Box Label"
+    tally_field: "Tally Field"
+    select_date_validation: "Select date validation method"
+    not_future_date: "Is not a future date"
+    default_date_validation: "Default date validation"
+    date_not_valid: "This date is not valid."
+    future_date_not_valid: "This date cannot be in future."
+    number_not_valid: "Please enter numeric data"
+    separator: "Separator"
+    successfully_added: "Field successfully added"
+    updated: "Field updated"
+    deleted: "Field %{display_name} has been deleted."
+    add: "Add"
+    type: "Field type"
+    move_to: "Move to"
+    select_single: "(Select...)"
+    select_multiple: "Select all that apply"
+    multi_select: "Multiple Selection"
+    date_help: "dd-mmm-yyyy"
+    date_help_with_time: "dd-mmm-yyyy hh:mm"
+    date_range:
+      from: "From"
+      to: "To"
+      date: "Date"
+      date_range: "Date Range"
+    file_upload_box:
+      select_file_button_text: "Select File"
+      no_file_selected: "No file selected."
+      document_file_restrictions_message: "Files should be no larger than 2 MB (executable (.exe) files cannot be uploaded)."
+      photo_file_restrictions_message: "Photos should be no larger than 10mb. Audio files should be no larger than 10mb. The smaller the better."
+      add_document_label: "Add Document"
+      add_photo_label: "Add Photo"
+      recorded_audio_label: "Recorded Audio"
+      add_new_document_button_text: "Add another document"
+      add_new_photo_button_text: "Add another photo"
+      document_description: "Document Description"
+    bia_document: "BIA Document"
+    bid_document: "BID Document"
+    other_documents: "Other Document"
+    document:
+      comments: "Comments"
+      date: "Document Date"
+      name: "Document Name"
+      current: "Is this the current document?"
+    audio:
+      current: "Current Audio"
+
+  replication:
+    label: Replication
+    index: Manage Replications
+    create: Add a Remote Server
+    edit: Edit Configuration
+    remote_app_uri: Primero URL
+    actions: Actions
+    status: Status
+    description: Description
+    timestamp: Timestamp
+    delete: Delete
+    completed: Successful
+    triggered: In Progress
+    error: Failed
+    confirm_delete: Are you sure you want to delete this replication?
+    start: Start Synchronization
+    stop: Stop Synchronization
+    configure_a_server: Configure a Server
+    reindex_pending: Reindex Pending
+    is_continuous: Is Continuous
+
+  lookup:
+    actions: "Actions"
+    edit: "Edit Lookup"
+    create: "New Lookup"
+    label: "Lookup"
+    index: "Manage Lookups"
+    name: "Name"
+    values: "Options"
+    add_value: "Add Option"
+    remove: "Remove"
+    confirm_delete: Are you sure you want to delete this lookup?
+    initial_lang_help_text: "This must be entered in %{lang}."
+    messages:
+      cannot_create: "Lookup could not be created"
+      correct_errors: "Please correct the following errors and resubmit:"
+      updated: "Lookup successfully added"
+
+  location:
+    location_code_warning: Note that if you change an existing location code, you will need to edit re-enter the location fields for any records using this location.
+    create: "New Location"
+    edit: "Edit Location"
+    label: "Location"
+    index: "Manage Locations"
+    name: "Name"
+    code: "Code"
+    hierarchy: "Hierarchy"
+    confirm_delete: Are you sure you want to delete this location?
+    placename: "Place name"
+    type: "Type"
+    parent: "Parent location"
+    admin_level: "Admin Level"
+    messages:
+      cannot_create: "Location could not be created"
+      correct_errors: "Please correct the following errors and resubmit:"
+      updated: "Location successfully added"
+      deleted: "Location successfully deleted"
+    base_types:
+      country: 'Country'
+      region: 'Region'
+      province: 'Province'
+      district: 'District'
+      governorate: 'Governorate'
+      chiefdom: 'Chiefdom'
+      county: 'County'
+      state: 'State'
+      city: 'City'
+      camp: 'Camp'
+      site: 'Site'
+      village: 'Village'
+      zone: 'Zone'
+      other: 'Other'
+      locality: 'Locality'
+      sub-district: 'Sub-district'
+
+  matching_configuration:
+    edit: "Edit Matching Configuration"
+    case_fields: "Matchable Case Fields"
+    tracing_request_fields: "Matchable Tracing Request Fields"
+    updated: "Matching Configuration Updated"
+    update_error: "Error Updating Matching Configuration"
+    label: "Matching Configuration"
+
+  session:
+    about_to_expire: "Your session is about to expire!"
+    has_expired: "Your session has expired. Please re-login."
+    invalid_credentials: "Invalid credentials. Please try again!"
+    login_error: "There was a problem logging in.  Please try again."
+    invalid_token: "invalid session token"
+    no_token_provided: "no session token provided"
+    no_token_in_header: "no session token in headers or cookies"
+
+  reports:
+    register_new_report: "Create Report"
+    label: "Reports"
+    tabs:
+      table: "Table"
+      graph: "Graph"
+    actions:
+      delete: "Delete"
+    limited_pivots: "Select only one date field to pivot on for this report. A date field may only be the first or the second pivot."
+    messages:
+      confirmation: "Are you sure you want to delete this report? Deletion can not be undone. Click OK To Delete Report."
+
+  report:
+    name: "Name"
+    description: "Description"
+    heading: "Primero Reports"
+    type: "Type"
+    as_of_date: "As of Date"
+    download: "Download"
+    all: "Total"
+    total: "Total"
+    modules: "Modules"
+    record_type: "Record type"
+    aggregate_by: "Group by row"
+    disaggregate_by: "Group by column"
+    aggregate_counts_from: "Aggregate counts from"
+    group_ages: "Use age ranges"
+    group_dates_by: "Use date ranges"
+    add_default_filters: "Include default filters"
+    add_default_filters_help: "Open and valid"
+    date_ranges:
+      date: "Day"
+      week: "Week"
+      month: "Month"
+      year: "Year"
+    filters:
+      label: "Report filters"
+      attribute: "Filter"
+      value: "With"
+      not_null: "Form value is not blank"
+    is_graph: "Generate a graph?"
+    no_data: "No data exists for this report"
+    export:
+      graph: "Graph"
+      data: "Data"
+    successfully_updated: "Report configuration is successfully updated."
+    error_in_updating: "Error in updating the Report configuration."
+    messages:
+      delete_success: "Report was successfully deleted."
+    edit: "Edit"
+
+  encrypt:
+    password_title: "Create Password"
+    password_label: "Please enter a password that will encrypt your file."
+    password_mandatory: "Enter a valid password"
+    password_extra_info: "Password must be at least 8 characters. This password will be associated with the exported file and will need to be entered by anyone opening this file in the future."
+    file_name: "Create your own file name (Optional)"
+    export_type: "Type of export"
+
+  administration: "Administration"
+  new: "New"
+  saved: "Saved"
+  account: "Account"
+  moved_from: "%{field_name} moved from %{from_fs} to %{to_fs}"
+
+  # validation error messages
+  couchrest:
+    fields:
+      Name: "Name"
+      Username: "Username"
+      Password: "Password"
+      Description: "Description"
+      "Remote app url": "Remote app url"
+
+    attributes:
+      report:
+        aggregate_by: "Group by row"
+
+    validations:
+      blank: "%s must not be blank"
+
+  gbv_report:
+    18_and_over_age: "Age 18 and over"
+    12_17_age: "12-17"
+    0_11_age: "0-11"
+    unknown: "Unknown"
+    adult: "Adult"
+    child: "Child"
+    "yes": "Yes"
+    "no": "No"
+    none: "None"
+    uam_sc_ovc: "UAM/SC/OVC"
+    unaccompanied_minor: "Unaccompanied Minor"
+    separated_child: "Separated Child"
+    other_vulnerable_child: "Other Vulnerable Child"
+    rape: "Rape"
+    sexual_assault: "Sexual Assault"
+    non_gbv: "Non-GBV"
+    disability: "Disability"
+    sexual_violence: "Sexual Violence"
+    intimate_partner_former_partner: "Intimate Partner/Former Partner"
+    intimate_partner_violence: "Intimate Partner Violence"
+    child_sexual_abuse: "Child Sexual Abuse"
+    forced_marriage: "Forced Marriage"
+    early_marriage: "Early Marriage"
+    harmful_traditional_practice: "Harmful Traditional Practice"
+    possible_sexual_exploitation: "Possible Sexual Exploitation"
+    possible_sexual_slavery: "Possible Sexual Slavery"
+    over_1_month: "Over 1 month"
+    2_weeks_1_month: "2 weeks - 1 month"
+    6_14_days: "6-14 Days"
+    4_5_days: "4-5 Days"
+    0_3_days: "0-3 Days"
+    exclude: "Exclude"
+    include: "Include"
+    quarter_4: "Quarter 4"
+    quarter_3: "Quarter 3"
+    quarter_2: "Quarter 2"
+    quarter_1: "Quarter 1"
+    undecided: "Undecided at time of report"
+
+  followup_reminders:
+    system_generated_followup_flag: "mandatory follow up visit"
+    system_generated_followup_unflag: "expired"
+    system_generated_followup_unflag_cancelled: "cancelled"
+    high_risk_level: "High"
+    medium_risk_level: "Medium"
+    low_risk_level: "Low"
+    child_status_open: "Open"
+    child_status_closed: "Closed"
+    child_status_transferred: "Transferred"
+    child_status_duplicate: "Duplicate"
+    status_open: "Open"
+    status_closed: "Closed"
+    status_transferred: "Transferred"
+    status_duplicate: "Duplicate"
+
+  dashboard:
+    total: 'Total'
+    new: 'New & Updated'
+    outstanding_transfers: 'Outstanding Transfers'
+    pending_transfers: 'Pending Transfers'
+    rejected_transfers: 'Rejected Transfers'
+    transers_awaiting_acceptance: 'Transfers Awaiting Acceptance'
+    total_referred: "Total Referrals"
+    new_referred: "New Referrals"
+    high_risk: 'High Priority'
+    low_risk: 'Low Priority'
+    none_risk: 'No Priority'
+    no_action_risk: 'No Action'
+    medium_risk: 'Medium Priority'
+    pending: 'Pending'
+    rejected: 'Rejected'
+    approvals: 'Approvals'
+    awaiting_acceptance: 'Awaiting acceptance'
+    near_deadline: 'Near Deadline'
+    due: 'Overdue'
+    in_progress: 'In Progress'
+    response: 'Response <span>(In Progress)</span>'
+    immediate_response: 'Immediate Response'
+    cases_to_assign: 'Cases To Assign'
+    overdue_cases_to_assign: 'Overdue Cases To Assign'
+    approved: 'Approved'
+    comprehensive_need_intervention: 'Comprehensive Response'
+    new_incident: 'New Incidents'
+    new_service_provision: 'New Service Provisions'
+    all_services_implemented: 'All Services Implemented'
+    services_implemented: 'Services Implemented'
+    cases_by_workflow: 'Cases By Workflow'
+    cases_by_task_overdue: 'Overdue Tasks'
+    assessment: 'Assessment'
+    case_plan: 'Case Plan'
+    follow_up: 'Follow Up'
+    services: 'Services'
+    admin_only: "Click on %{links} to make changes to the application."
+    forms: "FORMS tab"
+    users: "SETTINGS icon"
+    flagged_by: "Flagged by:"
+    no_recent_activities: "No Recent Activities"
+    no_scheduled_activities: "No Scheduled Activities"
+    no_overdue_activities: "No Overdue Activities"
+    no_caseworker_data: "No Case Worker Data"
+    no_flagged_child: "No Flagged Cases"
+    no_flagged_incident: "No Flagged Incidents"
+    no_open_incidents: "No Open incidents"
+    no_case_stats: "No Case Stats"
+    scheduled_activities: "Scheduled Activities"
+    overdue_activities: "Overdue Activities"
+    recent_activities: "Recent Activities"
+    case_id: "Case #ID"
+    name: "Name"
+    activity: "Activity"
+    date: "Date"
+    incident_id: "Incident #ID"
+    incident_location: "Incident Location"
+    new_child_assigned_to_you: "New Cases Assigned To You"
+    new_incident_assigned_to_you: "New Assigned Incidents"
+    recently_flagged_child: "Recently Flagged Cases"
+    flagged_by_me: "Flagged By Me"
+    flagged_by_other: "Flagged By Someone Else"
+    recently_flagged_incident: "Recently Flagged Incidents"
+    incident_status_open: "Open"
+    number_of_victims: "Number Of Victims"
+    number_of_violations: "Number Of Violations"
+    number_of_violations_verified: "Violations Verified"
+    link_see_all: "See all"
+    open_incidents: "Open Incidents"
+    status_of_cases: "Status of Cases"
+    case_worker: "Case Worker"
+    total_cases: "Total Cases"
+    cases_this_week: "Cases This Week"
+    missed_cases: "Missed Cases"
+    date_of_incident: "Date of Incident"
+    violence_type: "Violence Type"
+    date_of_interview: "Date of Interview"
+    system_user: "System"
+    name_or_survivor_code: "Name or Survivor Code"
+    current_owner: "Current Owner"
+    last_updated: "Lasted Updated"
+    case_stats: "Cases"
+    tr_stats: "Tracing Requests"
+    cases_by_social_worker: "Cases by social worker"
+    referrals_by_social_worker: "Referrals by social worker"
+    transfers_by_social_worker: "Transfers by social worker"
+    case_stat_by_assessment_level: "Cases by Assessment Level"
+    case_stat_by_approval_type: "Approvals"
+    case_stat_referrals: "Referrals"
+    protection_concern: "Protection Concern"
+    protection_concerns: "Protection Concerns"
+    geographic_area: "Geographic Area"
+    all_cases: "All Cases"
+    open: "Open"
+    closed: "Closed"
+    range4: "0-4"
+    range4_8: "4-8"
+    range8_12: "8-12"
+    range12+: "12+"
+    match_result: "Matching Results"
+    score_range: "Score Range"
+    count_risk_level_total:
+      one: "You have %{stat} <span>%{stat_type} risk</span> case "
+      other: "You have %{stat} <span>%{stat_type} risk</span> cases "
+    count_risk_level_new:
+      one: "and %{stat} <span>new</span> <span>%{stat_type} risk</span> case"
+      other: "and %{stat} <span>new</span> <span>%{stat_type} risk</span> cases"
+    count_records_total:
+      one: "You have %{stat} <span>total</span> case "
+      other: "You have %{stat} <span>total</span> cases "
+    count_records_new:
+      one: "and %{stat} <span>new</span> case"
+      other: "and %{stat} <span>new</span> cases"
+    count_referrals_total:
+      one: "You have %{stat} <span>total</span> referral "
+      other: "You have %{stat} <span>total</span> referrals  "
+    worker_count_referrals_total:
+      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> referral "
+      other: "<span>%{case_worker}</span> has %{stat} <span>total</span> referrals  "
+    count_referrals_new:
+      one: "and %{stat} <span>new</span> referrals"
+      other: "and %{stat} <span>new</span> referrals"
+    worker_count_total:
+      one: "<span>%{case_worker}</span> has %{stat} <span>total</span> case "
+      other: "<span>%{case_worker}</span> has %{stat} <span>total</span> cases "
+    manager_count_open_total:
+      one: "You have %{stat} <span>open</span> case "
+      other: "You have %{stat} <span>open</span> cases "
+    manager_count_closed_total:
+      one: "and %{stat} <span>closed</span> case "
+      other: "and %{stat} <span>closed</span> cases "
+    manager_transfers_totals:
+      one: "You have %{stat} <span>%{stat_type}</span> Transfer "
+      other: "You have %{stat} <span>%{stat_type}</span> Transfers "
+    count_pending_approval_total:
+      one: "You have %{stat} <span>pending %{stat_type}</span> Approval "
+      other: "You have %{stat} <span>pending %{stat_type}</span> Approvals "
+    count_rejected_approval_total:
+      one: "and %{stat} <span>rejected %{stat_type}</span> Approval "
+      other: "and %{stat} <span>rejected %{stat_type}</span> Approvals "
+    count_new_bia_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
+      other: "%{stat} <span>new %{stat_type}</span> Approvals"
+    count_new_case_plan_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
+      other: "%{stat} <span>new %{stat_type}</span> Approvals"
+    count_new_closure_approvals:
+      one: "%{stat} <span>new %{stat_type}</span> Approval"
+      other: "%{stat} <span>new %{stat_type}</span> Approvals"
+    count_pending_transfers:
+      one: "You have %{stat} <span>pending</span> Transfer "
+      other: "You have %{stat} <span>pending</span> Transfers "
+    count_rejected_transfers:
+      one: "and %{stat} <span>rejected</span> Transfer "
+      other: "and %{stat} <span>rejected</span> Transfers "
+    count_waiting_for_acceptance_transfers: "You have %{stat} Transfers <span>waiting</span> for your acceptance"
+    open_cases: "Open Cases"
+    new_last_week: "New (last week)"
+    new_this_week: "New (this week)"
+    closed_last_week: "Closed (last week)"
+    closed_this_week: "Closed (this week)"
+    you_have: "You have "
+    and: "and "
+    flagged: "Flagged"
+    registration: "Registration"
+    case_management_service: "Case Management Service"
+    screening_service: "Screening Service"
+    high_level: "High"
+    medium_level: "Medium"
+    low_level: "Low"
+    overview: "Overview"
+    case_risk: "Cases by Assessment Level"
+    workflow: "Workflow - Individual cases"
+    workflow_team: "Workflow - Teams cases"
+    approvals_closure: "Closure"
+    approval_closure_pending: "Pending"
+    approval_closure_rejected: "Rejected"
+    approval_closure_approved: "Approved"
+    approvals_case_plan: "Case Plan"
+    approval_case_plan_pending: "Pending"
+    approval_case_plan_rejected: "Rejected"
+    approval_case_plan_approved: "Approved"
+    approvals_assessment: "Assessment"
+    approval_assessment_pending: "Pending"
+    approval_assessment_rejected: "Rejected"
+    approval_assessment_approved: "Approved"
+    pending_approvals: "Pending Approvals"
+    approval_assessment_pending_group: "Assessment"
+    approval_case_plan_pending_group: "Case Plan"
+    approval_closure_pending_group: "Closure"
+    dash_shared_with_me: "Shared With Me"
+    shared_with_me_total_referrals: "Total Referrals"
+    shared_with_me_new_referrals: "New Referrals"
+    shared_with_me_transfers_awaiting_acceptance: "Transfers Awaiting Acceptance"
+    dash_shared_with_others: "Shared With Others"
+    shared_with_others_referrals: "Referrals"
+    shared_with_others_pending_transfers: "Pending Transfers"
+    shared_with_others_rejected_transfers: "Rejected Transfers"
+    dash_group_overview: "My Group's Cases"
+    group_overview_open: "Open"
+    group_overview_closed: "Closed"
+    case_overview: "My Cases"
+    new_or_updated: "New or Updated"
+    dash_shared_from_my_team: "Shared From My Team"
+    shared_from_my_team_referrals: "Referrals"
+    shared_from_my_team_pending_transfers: "Pending Transfers"
+    shared_from_my_team_rejected_transfers: "Rejected Transfers"
+    dash_shared_with_my_team: "Shared With My Team"
+    shared_with_my_team_referrals: "Referrals"
+    shared_with_my_team_pending_transfers: "Pending Transfers"
+
+  errors:
+    try_again: "Try again"
+    error_loading: "Error Loading Record(s)"
+    not_found: "No Record(s) Found"
+    api:
+      internal_server: "An error occurred, please contact support."
+    template:
+      header:
+        one: "1 error prohibited this %{model} from being saved"
+        other: "%{count} errors prohibited this %{model} from being saved"
+        body: "There were problems with the following fields:"
+        body_js: "In order to save the record, the problems with the following fields need to be addressed:"
+
+    agencies:
+      logo_size: "Please upload a file smaller than 10mb"
+      logo_format: "Please upload a valid logo file (jpg, gif, or png)"
+
+    attachments:
+      maximum: "You have exceeded the maximum number of attachments per record: %{number}"
+
+    models:
+      flags:
+        message: "Flags: message field is invalid"
+        date: "Flags: date field is invalid"
+        index: "Flags: unable to remove the flag at the position %{index}"
+
+      alerts:
+        alert_for: "Alerts: alert_for field is invalid"
+
+      date_range_invalid: "<span>%{field_name}:</span> Please enter a valid date range 'From:' should be earlier than 'To:'"
+
+      photo:
+        primary_photo_id: "Failed trying to set '%{photo_id}' to primary photo: no such photo key"
+        photo_size: "Please upload a file smaller than 10mb"
+        photo_format: "Please upload a valid photo file (jpg or png) for this %{model_name} record"
+        photo_count: "You are only allowed %{photos_count} photos per %{model_name}."
+
+      audio:
+        audio_size: "Please upload a file smaller than 10mb"
+        audio_format: "Please upload a valid audio file (amr or mp3) for this %{model_name} record"
+
+      user:
+        full_name: "Please enter full name of the user"
+        password_confirmation: "Please enter password confirmation"
+        password_mismatch: "The password fields do not have the same password"
+        password_text: "Please create a password that is at least 8 characters in length and contains both letters and numbers"
+        role_ids: "Please select at least one role"
+        module_ids: "Please select at least one module"
+        organization: "Please enter the user's organization name"
+        user_name: "Please enter a valid user name"
+        email: "Please enter a valid email address"
+        user_name_uniqueness: "User name has already been taken! Please select a new User name"
+        authenticate: "Can't authenticate an un-saved user"
+        invalid_locale: "Locale %{user_locale} is not valid"
+        identity_provider: "A valid identity provider must be specified for this user"
+
+      child:
+        at_least_one_field: "Please fill in at least one field or upload a file"
+        age: "Age must be between 0 and 130"
+        validate_duplicate: "A valid duplicate ID must be provided"
+        date_of_birth: "Please enter a valid date of birth for this case record"
+        wishes_preferences_count: "You are only allowed %{preferences_count} child's preferences."
+        value_range: "%{field_name} must be between %{min} and %{max}"
+        document_type: "The type %{type} is invalid."
+        document_size: "Please upload a document smaller than 2MB"
+        documents_count: "You are only allowed %{documents_count} documents per case."
+        document_format: "Executable files are not allowed."
+        date_closure: "The Case Closure Date should be greater or equal than Case Opening Date."
+
+      incident:
+        document_size: "Please upload a document smaller than 10mb"
+        documents_count: "You are only allowed %{documents_count} documents per case."
+        document_format: "Executable files are not allowed."
+
+      field:
+        display_name_presence: "Display name must not be blank"
+        display_name_format: "Display name must contain at least one alphabetic characters"
+        name_format: "Field name must contain only lower case alphabetic characters, numbers, and underscores"
+        name_presence: "Field name must not be blank"
+        name_format_number_first: "Field name cannot start with a number"
+        default_value: "Cannot find default value for type "
+        has_2_options: "Field must have at least 2 options"
+        has_1_option: "Checkbox must have at least 1 option"
+        translated_options_do_not_match: "Field translated options must have same ids"
+        unique_name_other: "Field already exists on form '%{form_name}'"
+        unique_name_this: "Field already exists on this form"
+        change_type_existing_field: "Can't change type of existing field '%{field_name}' on form '%{form_name}'"
+        option_strings_text:
+          not_array: "Option Strings Text is not an array"
+          not_hash: "Option Strings Text option is not a hash"
+          id_blank: "Option Strings Text option id is blank"
+          display_text_blank: "Option Strings Text option display text is blank"
+          id_not_unique: "Option Strings Text option id is not unique"
+
+      form_section:
+        presence_of_name: "Name must not be blank"
+        presence_of_base_language_name: "The name of the base language '%{base_language}' can not be blank"
+        format_of_name: "Name must contain only alphanumeric characters and spaces"
+        visible_method: "visible can't be false if perm_visible is true"
+        fixed_order_method: "fixed_order can't be false if perm_enabled is true"
+        perm_visible_method: "perm_visible can't be false if perm_enabled is true"
+        add_field_to_form_section: "Form section not editable"
+        delete_field: "Uneditable field cannot be deleted"
+        unique_field_names: "Field names must be unique"
+        unique_name: "The name '%{name}' is already taken."
+        unique_id: "The unique id '%{unique_id}' is already taken."
+
+      role:
+        name_present: "Name must not be blank"
+        permission_presence: "Please select at least one permission"
+        unique_name: "A role with that name already exists, please enter a different name"
+
+        permission:
+          resource_presence: "Please select a resource"
+
+      primero_module:
+        name_present: "Name must not be blank"
+        unique_name: "A module with that name already exists, please enter a different name"
+        program: "There must be a program associated with this module"
+        form_section_ids: "At least one form must be associated with this module"
+        associated_record_types: "At least one record type must be associated with this module"
+
+      primero_program:
+        name_present: "Name must not be blank"
+        unique_name: "A program with that name already exists, please enter a different name"
+        unique_unique_id: "A PrimeroProgram with that unique_id already exists, please enter a different unique_id"
+
+      lookup:
+        name_present: "Name must not be blank"
+        value_presence: "Please select at least one lookup value"
+        unique_name: "A lookup with that name already exists, please enter a different name"
+        being_used: "This lookup is being used and cannot be deleted"
+
+      system_users:
+        username_unique: "User name has already been taken! Please select a new User name"
+
+      replication:
+        remote_app_uri: "Please enter a valid Primero URL"
+        remote_unauthorized: "The username or password that you entered is incorrect"
+        remote_error: "Could not connect to the remote server"
+        is_continuous: 'Continuous Replication?'
+
+      password_recovery_request:
+        user_name_mandatory: "Please enter a valid user name"
+
+      ownership:
+        associated_user_names_present: "A user must be associted with this record"
+        module_id_prsesnt: "A module must be associated wit this record"
+
+      agency:
+        unique_name: "An Agency with that name already exists, please enter a different name"
+        name_present: "must not be blank"
+        code_present: "must not be blank"
+        logo_dimension: "dimension must be less than or equal to %{width}x%{height} pixels"
+        unique_id: "The unique id '%{unique_id}' is already taken."
+
+      location:
+        name_present: "must not be blank"
+        code_present: "must not be blank"
+        admin_level_present: "must not be blank"
+        unique_name: "A Location with that name already exists, please enter a different name"
+        unique_location_code: "A Location with that location code already exists, please enter a different location code"
+
+      reporting_location:
+        label_key: "Label Key must be one of Location Base Type values"
+        admin_level: "Admin Level must be one of Location Admin Level values"
+
+      report:
+        name_presence: "Name must not be blank"
+        module_presence: "Module must not be blank"
+        module_syntax: "All report modules must already exist"
+        record_type_presence: "Record type must not be blank"
+        group_by_row_presence: "Group by row must not be blank"
+        use_date_ranges_presence: "Use date ranges must not be blank"
+
+      system_settings:
+        default_locale: "System locale must not be blank"
+        locales: "English must be available as a System Locale"
+
+      export_configuration:
+        record_type: "Invalid record type. Must be Child, TracingRequest, or Incident."
+        opt_out_field_does_not_exist: "Specified opt_out field does not exist on the record."
+
+
+  select_all_results: "Select all results"
+
+  histories:
+    of: "of"
+    to: "to"
+    by: "by"
+    added_by: "added by"
+    belong_to: "belonging to"
+    because: "because:"
+    deleted_by: "deleted by"
+    referral: "Referred to %{to_user} by %{by_user}"
+    transfer: "Transferred to %{to_user} by %{by_user}"
+    record_by: "Record created by"
+    child_status_changed: "Child status changed to reunited by"
+    status_changed: "Child status changed to reunited by"
+
+    system_logs:
+      records_performed_by: "records performed by"
+      performed_by: "performed by"
+      of_child_with_id: "of child with id"
+
+    audio:
+      audio: "Audio"
+      audio_change: "Audio changed from"
+
+    duplicate:
+      mark_as_duplicate: "marked this record as a duplicate of"
+      no_longer_active: "Current record is no longer active or editable"
+
+    flag:
+      record_flagged_by: "Record was flagged by"
+      record_unflagged_by: "Record was unflagged by"
+
+    investigated:
+      mark_as_investigated_by: "Record was marked as Investigated by"
+      mark_as_not_investigated_by: "Record was marked as Not Investigated by"
+
+    reunited:
+      child_status_changed: "Child status changed to active by"
+      status_changed: "Child status changed to active by"
+      with_details: "with these details:"
+
+  actions:
+    button: "Actions"
+    enable: "Enable"
+    disable: "Disable"
+    reopen: "Reopen"
+    close: "Close"
+    notes: "Add Notes"
+    incident_details_from_case: "Add Incident"
+    services_section_from_case: "Add Service Provision"
+    services_from_case_creation_success: "Service Provision record successfully created."
+    next: "Next"
+    previous: "Previous"
+    save: "Save"
+    request_approval: "Request Approval"
+    approvals: "Approvals"
+    revoke: "Revoke"
+    description:
+      valid: "Valid record"
+      invalid: "Invalid record"
+
+  record_panel:
+    valid: "Valid record"
+    invalid: "Invalid record"
+    record_state: "Record State"
+    created_by: "Created By"
+    last_update: "Last Update"
+    current_owner: "Current Owner"
+    change_log: "Change Log"
+    record_information: "Record Information"
+    name_date_seperator: "on"
+
+  bulk_export:
+    file_name: "File"
+    record_type: "Type"
+    started_on: "Started"
+    status: "Status"
+    retry: "This export is invalid. Please try recreating your export."
+
+  exports:
+    no_records: "No Records Available!"
+    queueing: "Generating the export file%{file_name}"
+    go_to_exports: "Go to Exports page to download"
+    pdf:
+      all: PDF
+      one: PDF
+      selected: Selected to PDF
+    photowall:
+      all: Photo Wall
+      one: Photo Wall
+      selected: Selected to Photo Wall
+      success_message: "Creating Photowall%{file_name} Cases without photos will not be included."
+    case_pdf:
+      all: PDF
+      one: PDF
+      selected: Selected to PDF
+    list_view_csv:
+      all: Export List View
+      selected: Selected to CSV
+    csv:
+      all: CSV
+      one: CSV
+      selected: Selected to CSV
+    xls:
+      all: Excel
+      one: Excel
+      selected: Selected to Excel
+    selected_xls:
+      all: Excel
+      one: Excel
+      selected: Selected to Excel
+      selected_fields: 'Selected Fields'
+    json:
+      all: JSON
+      one: JSON
+      selected: Selected to JSON
+    unhcr_csv:
+      all: UNHCR
+      one: UNHCR
+      selected: Selected to UNHCR
+      female_abbreviation: "F"
+      male_abbreviation: "M"
+      unknown_abbreviation: "U"
+      headers:
+        id: "ID"
+        long_id: "Long ID"
+        short_id: "Short ID"
+        individual_progress_id: "Individual Progress ID"
+        progres_id: "Progres ID"
+        cpims_code: "CPIMS Code"
+        date_of_identification: "Date of Identification"
+        primary_protection_concerns: "Primary Protection Concerns"
+        secondary_protection_concerns: "Secondary Protection Concerns"
+        governorate_country: "Governorate - Country"
+        sex: "Sex"
+        sex_mapping_m_f_u: "Sex"
+        date_of_birth: "Date of Birth"
+        age: "Age"
+        causes_of_separation: "Causes of Separation"
+        country_of_origin: "Country of Origin"
+        current_care_arrangement: "Current Care Arrangement"
+        reunification_status: "Reunification Status"
+        case_status: "Case Status"
+        family_count_no: "Family Count Number"
+        moha_id: "MOHA ID"
+        name_of_child_last_first: "Full name of child"
+        name_of_caregiver: "Full name of caregiver"
+        vulnerability_code: "Vulnerability Codes"
+        vulnerability_details_code: "Vulnerability Details Codes"
+        locations_by_level: "Address (Camp, Block, and other applicable address levels, such as shelter GPS coordinates)"
+    duplicate_id_csv:
+      all: Duplicate ID
+      female_abbreviation: "F"
+      male_abbreviation: "M"
+      unknown_abbreviation: "U"
+      headers:
+        moha_id: "MOHA ID DEPRECATED"
+        national_id_no: "National ID No"
+        case_id: "Case ID"
+        progress_id: "Progress ID"
+        child_name_last_first: "Child Name"
+        age: "Age"
+        sex_mapping_m_f_u: "Sex"
+        family_size: "Family Size"
+    mrm_violation_xls:
+      all: MRM Violations
+      one: MRM Violations
+      selected: Selected to MRM Violations
+    custom_exports:
+      label: Custom Exports
+      format_label: Select Format
+      field_label: Field
+      form_label: Form
+      forms: Select Forms to export
+      fields: Select Fields to export
+      submit: OK
+      select_module: Select Module
+      choose_fields: Would you like to choose individual fields for a form?
+      module_placeholder: Please select a module.
+      empty_password: Please enter a password that will encrypt your file.
+      empty_fields_forms: Please select some forms or fields to export.
+      empty_format: Please select a format to export.
+      empty_module: Please select a module to export.
+    pdf_exports:
+      label: PDF
+    forms:
+      label: Export
+      button: Export Forms
+
+  imports:
+    password_label: "Password (if required)"
+    format_label: "Format"
+    successful: "File was imported successfully"
+    error: "Import had the following error: %{error}"
+    file_missing: "You must select a file to import"
+    unknown_type: "Import filetype unknown or invalid"
+    decrypt_error: "Could not decrypt the file with the given password"
+    guess_file_type_option: "Autodetect based on file extension"
+    zip_file:
+      unknown_type: "The archive contains one or more files with unknown type"
+
+  referral:
+    type_label: "Type of Referral"
+    existing_user_label: "Existing User"
+    other_user_label: "Other User"
+    other_user_agency_label: "Other User's Agency"
+    service_label: "Service"
+    consent_label: "records have not provided consent."
+    consent_override_label: "Do you wish to override this setting?"
+    is_remote_label: "Are you referring to a remote system?"
+    type_of_export: "What type of export do you want"
+    notes_label: "Notes"
+    user_mandatory: "User name is required"
+    no_records_selected: "No records selected"
+    failure: "%{record_type} %{id} referral failed (check that consent fields are selected)"
+    success: "%{record_type} %{id} successfully referred"
+    error: "An error occurred referring the case, please contact support."
+    failure_batch: "%{failed_count} Referral(s) failed (check that consent fields are selected)"
+    success_batch: "%{success_count} Referral(s) successfully made"
+    to_user_local_status_label: "Status"
+    user_local_status_pending: "Pending"
+    user_local_status_accepted: "Accepted"
+    user_local_status_rejected: "Rejected"
+    user_local_status_inprogress: "In Progress"
+    user_local_status_done: "Done"
+    complete_referral_label: "Clicking OK signifies that you have completed the referral work associated with this case. Once you click OK you will no longer have access to this record."
+    done_success_message: "Referral Done."
+    agency_label: "Agency"
+    location_label: "Location"
+    refer_anyway_label: "Refer anyway?"
+    provided_consent_label: "Consent is not provided in the Forms."
+    recipient_label: "Recipient"
+    user_mandatory_label: "Recipient is required"
+
+  reassign:
+    reassign_case_title: "Assign case(s) to:"
+    existing_user_label: "Existing user"
+    user_mandatory: "User name is required"
+    no_records_selected: "No records selected"
+    notes_label: "Notes"
+    users_label: "Recipient"
+    user_mandatory_label: "Recipient is required"
+    successfully: "Successfully reassigned"
+
+  transfer:
+    type_label: "Type of Transfer"
+    existing_user_label: "Existing User"
+    other_user_label: "Other User"
+    other_user_agency_label: "Other User's Agency"
+    consent_label: "records have not provided consent."
+    consent_override_label: "Do you wish to override this setting?"
+    is_remote_label: "Are you transferring to a remote system?"
+    consent_individual_transfer: "Do you have consent from the individual to make this transfer?"
+    type_of_export: "What type of export do you want?"
+    notes_label: "Notes"
+    user_mandatory: "Recipient is required"
+    failure: "%{record_type} %{id} transfer failed (check that consent fields are selected)"
+    success: "Successfully transferred"
+    rejected: "%{record_type} %{id} transfer rejected"
+    failure_batch: "%{failed_count} Transfer(s) failed (check that consent fields are selected)"
+    success_batch: "%{success_count} Transfer(s) successfully made"
+    to_user_local_status_label: "Status"
+    user_local_status_pending: "Pending"
+    user_local_status_accepted: "Accepted"
+    user_local_status_rejected: "Rejected"
+    user_local_status_inprogress: "In Progress"
+    reject: "Rejection Reason"
+    accept_label: "By clicking 'Accept' you accept the responsibility for this case; once you click 'OK' you will become the record owner in the system."
+    reject_label: "By clicking 'Reject' you are indicating that you are not ready to accept responsibility for this case at this time. Please enter a reason that you are rejecting this case; once you click 'OK' you will no longer have access to this case record."
+    unknown_status: "Unknown transfer status: %{status}"
+    unknown_transfer: "%{record_type} %{id} invalid transfer"
+    not_valid_transfer: "%{record_type} %{id} invalid transfer, can't update is not in progress or you have not permission on the case"
+    search:
+      rejected: "Rejected"
+      in_progress: "In Progress"
+    agency_label: "Agency"
+    location_label: "Location"
+    select_label: "Select..."
+    transfer_label: "Transfer anyway?"
+    provided_consent_label: "Consent is not provided in the Forms."
+    consent_from_individual_label: "Do you have consent from the individual to make this transfer?"
+    recipient_label: "Recipient"
+    submit_label: "Transfer"
+    type_of_transition: "Type of transition"
+    json_primero: "JSON (Primero)"
+    json_non_primero: "JSON (Non-Primero)"
+
+  request_transfer:
+    success: "Request transfer sent"
+    notes_label: "Notes"
+    submit_label: "Send Request"
+    error:
+      owner_has_no_email: "Record owner has no email address"
+      record_not_found: "Record not found"
+      record_not_saved: "Failure saving Transfer Request record"
+
+  transition:
+    export_type:
+      primero: "Primero"
+      non_primero: "Non-Primero"
+      pdf_export: "PDF export"
+    errors:
+      consent: "Consent not provided"
+      to_user_can_receive: "This user cannot receive this record"
+    type:
+      assign: "Assign"
+      transfer: "Transfer"
+      transferRequest: "Transfer Request"
+      referral: "Referral"
+    notes: "Notes"
+    recipient: "Recipient"
+    assigned_by: "Assigned By"
+    rejected: "Reason Rejected"
+    no_consent_share: "No Consent to Share Setting Overridden"
+    individual_consent: "Did the case worker have the individual's consent to make this transfer?"
+    service_label: "Service"
+    requested_by: "Requested By"
+    consent_overridden_value:
+      true_label: "Yes"
+      false_label: "No"
+    consent_individual_transfer_value:
+      true_label: "Yes"
+      false_label: "No"
+    status:
+      pending: "Pending"
+      accepted: "Accepted"
+      rejected: "Rejected"
+      inprogress: "In progress"
+      in_progress: "In progress"
+      done: "Done"
+
+  transfer_assignment:
+    title: "TRANSFERS AND ASSIGNMENTS"
+
+
+  mark_for_mobile:
+    no_records_selected: "No records selected"
+    failure: "%{record_type} %{id} mark as mobile failed"
+    success: "%{record_type} %{id} successfully marked as mobile"
+    failure_batch: "%{failed_count} Record(s) failed to be marked as mobile"
+    success_batch: "%{success_count} Record(s) successfully marked as mobile"
+
+  unmark_for_mobile:
+    failure: "%{record_type} %{id} unmark as mobile failed"
+    success: "%{record_type} %{id} successfully unmarked as mobile"
+    failure_batch: "%{failed_count} Record(s) failed to be unmarked as mobile"
+    success_batch: "%{success_count} Record(s) successfully unmarked as mobile"
+
+
+  approvals:
+    approve_bia: "Request Approval for the BIA form?"
+    approve_bia_label: "Approve BIA Form"
+    approve_care_plan: "Request Approval for the Case Plan form?"
+    approve_case_plan_label: "Approve Case Plan"
+    approve_case_plan: "Request Approval for the Case Plan form?"
+    approve_case_plan_with_selectable_type: "Request Approval for the Case Plan?"
+    approve_closure: "Request Approval for the Closure form?"
+    approve_closure_label: "Approve Closure Form"
+    bia: "Assessment"
+    case_plan: "Case Plan"
+    closure: "Closure"
+    assessment: "Assessment"
+    comments_label: "Comments"
+    error_select_an_approval_type: "Please select an approval type"
+    case_plan_type_label: "Case plan type"
+    error_request_required: "A request is required to perform this action."
+    error_invalid_id: "Invalid approval ID"
+    error_invalid_status: "Invalid approval status"
+    response_for_title: "Approval"
+    requested_for_title: "Approval Request"
+    response_for_label: "Approval For"
+    requested_for_label: "Approval Requested For"
+    manager_comments_label: "Manager Comments"
+    date: "Date"
+    requested_by: "Requested By"
+    approved_by: "Approved By"
+    rejected_by: "Rejected By"
+
+
+    status:
+      pending: "Pending"
+      requested: "Requested"
+      approved: "Approved"
+      rejected: "Rejected"
+
+  notes:
+    notes_label: "Notes"
+    subject_label: "Subject"
+    no_records_selected: "No records selected"
+    note_success: "Successfully added note"
+    error_adding_note: "Error adding note"
+
+  per_page_translation: "Per page _MENU_"
+  total: Total
+  caregiver: " (Caregiver)"
+
+  disabled:
+    filter_label: "Show"
+    status:
+      enabled: "Enabled"
+      disabled: "Disabled"
+      all: "All"
+      label: "Status"
+
+  sort_by:
+    label: "Sort by"
+
+  logger:
+    to: "to"
+    to_user: "to user"
+    by_user: "by user"
+    login: "Login"
+    logout: "Logout"
+    create: "Creating"
+    copy: "Copying"
+    destroy: "Deleting"
+    show: "Viewing"
+    edit: "Editing"
+    update: "Updating"
+    export: "Exporting data for"
+    referral: "Referring"
+    reassign: "Assigning"
+    transfer: "Transfering"
+    reopen_case: "Reopening"
+    quick_view: "Viewing Quick View"
+    request_transfer_view: "Viewing Request Transfer"
+    request_transfer: "Sending Transfer Request"
+    save_subform: "Saving Subform"
+    create_subform: "Creating Subform"
+    consent_count: "Consent Count"
+    match_record: "Matching Record"
+    index: "Listing Records"
+
+    relinquish_referral: "Relinquish referral Done"
+
+    flag: Flagging
+    unflag: Unflagging
+    flag_records: Flagging
+
+    transfer_status:
+      Accepted: "Accepted Transfer"
+      Rejected: "Rejected Transfer"
+
+    hide_name:
+      protect: "Hide Name"
+      view: "View Name"
+
+    request_approval:
+      bia: "Request Approval for the BIA form"
+      case_plan: "Request Approval for the Case Plan form"
+      closure: "Request Approval for the Closure form"
+
+    approve_form:
+      "false": "Rejecting"
+      "true": "Approving"
+      bia: "BIA form"
+      case_plan: "Case Plan form"
+      closure: "Closure form"
+
+    mark_for_mobile:
+      "false": "Un-Mark for mobile"
+      "true": "Mark for mobile"
+
+    record_state:
+      "false": "Disabling"
+      "true": "Enabling"
+
+    graph_data: "Viewing graph data"
+    permitted_field_list: Permitted field list
+    lookups_for_field: Lookups for field
+  job:
+    status:
+      complete: 'Complete'
+
+  string_sources_failed: "Some fields failed to load, refresh the page to load all fields."
+
+  error_message:
+    notice: 'Errors prohibited this record from being saved'
+    fields_notice: 'There were problems with the following fields:'
+
+  error_page:
+    internal_server_error:
+      code: 500
+      something_went_wrong: Sorry, Something went wrong!
+      contact_admin: Please contact your admin if the problem persists.
+      server_error: Server Error
+    not_found:
+      code: 404
+      something_went_wrong: Sorry, Something went wrong!
+      contact_admin: If you believe you are here by error, please contact your admin.
+      server_error: Page not found
+    not_authorized:
+      code: 403
+      title: Not Authorized
+      server_error: You are not authorized to access this page.
+
+  audio:
+    update_browser:
+      title: 'Update Required'
+      message: "To play the media you will need to either update your browser to a recent version or update your"
+      link_text: "Flash plugin"
+
+  saved_searches:
+    no_save_searches: "You have no saved searches."
+    name: "Name"
+    save_search: "Save Search"
+    delete: "Clicking ok will delete \"%{filter_name}\""
+
+  email_notification:
+    enabled_label: "Send Email Notifications?"
+    approval_request_subject: "Case: %{id} - Approval Request"
+    approval_response_subject: "Case: %{id} - Approval Response"
+    referral_subject: "%{record_type}: %{id} - Referral"
+    transfer_subject: "%{record_type}: %{id} - Transfer"
+    transfer_request_subject: "Transfer request for one of your cases"
+    assign_subject: "%{record_type}: %{id} - Assigned to you"
+    approval_request: "The user %{user} is requesting approval for %{approval_type} on case %{case_id}."
+    approval_response: "%{user} has %{status} the request for approval for %{approval_type} for case %{case_id}."
+    referral: "%{user} from %{agency} has referred the following %{record_type} to you: %{record_id} for %{service_type}."
+    transfer: "%{user} has transferred the following %{record_type} to you: %{record_id}."
+    assign: "%{user} has assigned the following %{record_type} to you: %{record_id}."
+    transfer_request: "Primero user %{user} from %{agency} is requesting that you transfer ownership of this %{record_type} record %{record_id} so that they can provide %{record_type} management services for the individual in their area. If this transfer is acceptable to you, please click on the %{record_type} ID link in this email to open the %{record_type} in Primero and initiate the transfer."
+    approval_request_html: "The user <strong>%{user}</strong> is requesting approval for <strong> %{approval_type}</strong> on case <strong>%{case_id}</strong>."
+    approval_response_html: "<strong>%{user}</strong> has <strong>%{status}</strong> the request for approval for <strong>%{approval_type}</strong> for case <strong>%{case_id}</strong>."
+    referral_html: "<strong>%{user}</strong> from %{agency} has referred the following %{record_type} to you: <strong>%{record_id}</strong> for %{service_type}."
+    transfer_html: "<strong>%{user}</strong> has transferred the following %{record_type} to you: <strong>%{record_id}</strong>."
+    assign_html: "<strong>%{user}</strong> has assigned the following %{record_type} to you: <strong>%{record_id}</strong>."
+    transfer_request_html: "Primero user <strong>%{user}</strong> from %{agency} is requesting that you transfer ownership of this %{record_type} record <strong>%{record_id}</strong> so that they can provide %{record_type} management services for the individual in their area. If this transfer is acceptable to you, please click on the %{record_type} ID link in this email to open the %{record_type} in Primero and initiate the transfer."
+    transfer_request_notes_html: "Notes from the individual making the request: %{request_transfer_notes}"
+  will_paginate:
+    previous_label: "&#8592; Previous"
+    next_label: "Next &#8594;"
+    page_gap: "&hellip;"
+    page_entries_info:
+      single_page_html:
+        zero: "No %{model} found"
+        one: "Displaying <b>1</b> %{model}"
+        other: "Displaying <b>all %{count}</b> %{model}"
+      multi_page_html: "Displaying %{model} <b>%{from} - %{to}</b> of <b>%{count}</b> in total"
+    models:
+      agency:
+        one: "Agency"
+        other: "Agencies"
+      report:
+        one: "Report"
+        other: "Reports"
+      child:
+        one: "Case"
+        other: "Cases"
+      incident:
+        one: "Incident"
+        other: "Incidents"
+      hash:
+        one: "Matching Result"
+        other: "Matching Results"
+      bulk_export:
+        one: "Bulk file export"
+        other: "Bulk file exports"
+      task:
+        one: "Task"
+        other: "Tasks"
+      user_group:
+        one: "User Group"
+        other: "User Groups"
+
+  devise:
+    buttons:
+      change_password: "Change Password"
+      send_password_reset_instructions: "Send Password Reset Instructions"
+    confirmations:
+      confirmed: "Your email address has been successfully confirmed."
+      send_instructions: "You will receive an email with instructions for how to confirm your email address in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
+    failure:
+      already_authenticated: "You are already signed in."
+      inactive: "Your account is not activated yet."
+      invalid: "Invalid %{authentication_keys} or password."
+      locked: "Your account is locked."
+      last_attempt: "You have one more attempt before your account is locked."
+      not_found_in_database: "Invalid %{authentication_keys} or password."
+      timeout: "Your session expired. Please sign in again to continue."
+      unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "You have to confirm your email address before continuing."
+    mailer:
+      greeting: Hello %{email},
+      confirmation_instructions:
+        subject: "Confirmation instructions"
+      reset_password_instructions:
+        subject: "Reset password instructions"
+        body_1: "Someone has requested a link to change your password. You can do this through the link below."
+        body_2: "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        link: "Change Password"
+      unlock_instructions:
+        subject: "Unlock instructions"
+      email_changed:
+        subject: "Email Changed"
+        body: "We're contacting you to notify you that your email has been changed to %{email}."
+      password_change:
+        subject: "Password Changed"
+        body: "We're contacting you to notify you that your password has been changed."
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password has been changed successfully. You are now signed in."
+      updated_not_active: "Your password has been changed successfully."
+    registrations:
+      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
+      signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."
+      updated: "Your account has been updated successfully."
+      updated_but_not_signed_in: "Your account has been updated successfully, but since your password was changed, you need to sign in again"
+    sessions:
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+      already_signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
+      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+    errors:
+      messages:
+        already_confirmed: "was already confirmed, please try signing in"
+        confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+        expired: "has expired, please request a new one"
+        not_found: "not found"
+        not_locked: "was not locked"
+        not_saved:
+          one: "1 error prohibited this %{resource} from being saved:"
+          other: "%{count} errors prohibited this %{resource} from being saved:"
+  filters:
+    approval_status: 'Approvals Status'
+    approval_status_select: 'Approvals Status - Single'
+    approval_status_select_multiple: 'Approvals Status - Multiple'
+    flagged: 'Flagged'
+    flagged_label: 'Flagged?'
+    mobile: 'Mobile'
+    mark_for_mobile: 'Mark for Mobile?'
+    social_worker: "Field/Case/Social Worker"
+    child_status: "Status"
+    status: "Status"
+    age_range: "Age Range"
+    sex: "Sex"
+    risk_level: "Risk Level"
+    by_date: 'By Date'
+    my_cases: "My Cases"
+    referred_cases: "Cases referred to me"
+    bia: "BIA"
+    case_plan: "Case Plan"
+    closure: "Closure"
+    open: "Open"
+    closed: "Closed"
+    transferred: "Transferred"
+    duplicate: "Duplicate"
+    age_0_5: "0 - 5"
+    age_6_11: "6 - 11"
+    age_12_17: "12 - 17"
+    age_18_more: "18+"
+    female: "Female"
+    male: "Male"
+    other: "Other"
+    date_of_birth: "Dates of Birth"
+    created_at: "Creation Date"
+    high: "High"
+    medium: "Medium"
+    low: "Low"
+    no_action: "No Action"
+    record_state: "Record State"
+    valid: "Valid"
+    invalid: "Invalid"
+    apply_filters: "Apply"
+    clear_filters: "Clear"
+    save_filters: "Save"
+    more: "More..."
+    less: "Less..."
+
+  flags:
+    flags_tab: "Flags"
+    add_flag_tab: "Add Flag"
+    flag_reason: "Flag Reason"
+    flag_date: "Flag Date"
+    unflag_reason: "Unflag Reason"
+    unflag: "Unflag"
+    no_flags: "No flags found"
+    flag_added: "Flag added successfully"
+    flag_deleted: "Flag deleted"
+
+  record_information:
+    assigned_user_names: "Other Assigned Users"
+    created_by: "Record created by"
+    created_by_agency: "Created by agency"
+    module_id: "Module"
+    owned_by_text: "Field/Case/Social Worker"
+    owned_by: "Caseworker Code"
+    owned_by_agency_id: "Agency"
+    previously_owned_by: "Previous Owner"
+    previous_agency: "Previous Agency"
+    reassigned_tranferred_on: "Reassigned / Transferred On"
+    current_owner_separator: "Current Owner"
+    record_history_separator: "Record History"

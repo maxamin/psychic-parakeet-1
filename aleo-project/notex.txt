@@ -1,0 +1,17 @@
+Snake Game TODOs
+
+- [ ] Create Board
+    - [ ] Matrix Representation
+- [ ] Create snake
+    - [ ] Singly Linked List representation
+    - [ ] Handle snake growth
+    - [ ] Handle snake directio reversal
+- [ ]  Styles
+    - [ ] Snake celss
+    - [ ] Food cells
+- [ ]  Handle keypress
+- [ ]  Handle movements
+- [ ]  Handle food consumptions
+- [ ]  Handle death
+- [ ]  Handle score
+- [ ]  Handle game start and game reset

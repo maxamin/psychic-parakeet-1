@@ -1,0 +1,39 @@
+<div align="center">
+<h1> Edit User </h1>
+
+<div >
+  <% if @user %>
+  <%=form_for(@user) do |f|%>
+    <p>
+      <%= f.label :email %>
+      <br>
+      <%= f.text_field :email, {:class => "textbox"} %>
+      </br>
+    </p>
+    <p>
+      <%= f.label :password %>
+      <br>
+      <%= f.password_field :password, {:class => "textbox"} %>
+      </br>
+    </p>
+    <p>
+      <%= f.label :password_confirmation %>
+      <br>
+      <%= f.password_field :password_confirmation %>
+      </br>
+      <br>
+        <p>
+           <%= f.label :admin %>
+           <br>
+          <%= select("user", "admin", UsersController.role_bool, { :include_blank => false }) %>
+           </br>
+        </p>
+      </br>
+    </p>
+      <%= button_to "Update", update_path, {:class => "btn btn-success"}%>
+    <% end %>
+    <% else %>
+      <script> alert('CAN\'T FAULT YOU FOR TRYING!')</script>
+  <% end %>
+</div>
+<div align="center">

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ApkInfo.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="APKInfoExtractor.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TaintAnalyser.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParser.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="IntentCrashesDetector.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentTimeString.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSimulator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellExecutionProcess.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequestsDetector.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Emulator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RIFLConverter.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApkInfo.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="APKInfoExtractor.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TaintAnalyser.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulnerability.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IntentCrashesDetector.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentTimeString.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSimulator.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellExecutionProcess.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestsDetector.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Emulator.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RIFLConverter.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{f0525d15-3e07-4518-ae49-67ee1ac5e0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{be47946e-0a4d-4779-943f-ffa1dfb8e32d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

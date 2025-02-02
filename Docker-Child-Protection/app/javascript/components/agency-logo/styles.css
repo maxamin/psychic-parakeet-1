@@ -1,0 +1,59 @@
+:root {
+  --line: linear-gradient(to left, rgba(238, 238, 238, 0), rgba(232, 232, 232, 0.26) 18%, #d8d8d8);
+}
+
+.agencyLogo {
+  justify-content: center;
+  background-size: contain;
+  flex: 1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.agencyLogoContainer {
+  display: flex;
+  min-height: 140px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 11%;
+  
+  & div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.line {
+  height: 1px;
+  background: var(--line);
+  width: 12.5em;
+}
+
+.hideLogo {
+  display: none !important;
+  background-color: blue;
+}
+
+@media $(theme.breakpoints.down('xs')) {
+  .agencyLogo, .line {
+    display: none;
+  }
+}
+
+@media $(theme.breakpoints.down('md')) {
+ .line {
+    width: 100%;
+  }
+
+  .agencyLogoContainer {
+    margin-bottom: 0;
+  }
+
+  .agencyLogo {
+    width: 100%;
+    padding: 0.813em 0;
+  }
+}

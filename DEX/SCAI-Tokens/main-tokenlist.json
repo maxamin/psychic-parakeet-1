@@ -1,0 +1,62 @@
+{
+  "name": "SCAI LIST",
+  "timestamp": "2023-01-21T23:57:10.982Z",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+  "keywords": [
+    "uniswap",
+    "default"
+  ],
+  "tokens": [
+
+
+
+
+    {
+      "chainId": 34,
+      "address": "0x84734364e77b1EfEbE507a76645888CB2CE69B81",
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0x84734364e77b1EfEbE507a76645888CB2CE69B81.png"
+    },
+
+    {
+      "chainId": 34,
+      "address": "0x52c7142203CD1BDB2Fd344D18f167be4Ccd680a5",
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0x52c7142203CD1BDB2Fd344D18f167be4Ccd680a5.png"
+    },
+
+    {
+      "chainId": 34,
+      "address": "0xb0723Eaf7fa3d83cBB9fEdf9c3DC253089156505",
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0xb0723Eaf7fa3d83cBB9fEdf9c3DC253089156505.png"
+    },
+
+
+    {
+      "chainId": 34,
+      "address": "0x3A15028e6b1d1040f64BC19f0D89A336eA45D8a5",
+      "name": "USDS",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SecureChainAI/DEX/main/SCAI-Tokens/assets/0x3A15028e6b1d1040f64BC19f0D89A336eA45D8a5.png"
+    }
+
+
+
+    
+
+  ]
+}

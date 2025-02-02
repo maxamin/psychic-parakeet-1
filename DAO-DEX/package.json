@@ -1,0 +1,50 @@
+{
+  "name": "smarthive",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "mocha",
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroACSReis/smartHive.git"
+  },
+  "author": "MauroACSReis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauroACSReis/smartHive/issues"
+  },
+  "homepage": "https://github.com/MauroACSReis/smartHive#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "fs-extra": "^10.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.2.2",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solc": "^0.4.17",
+    "web3": "^1.7.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9",
+    "moralis": "^2.0.1",
+    "next-auth": "^4.10.3",
+    "next-router": "^1.3.6",
+    "wagmi": "^0.6.3"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.7",
+    "y18n": "5.0.8"
+  },
+  "devDependencies": {
+    "node-fetch": "2.6.7",
+    "y18n": "5.0.8"
+  }
+}

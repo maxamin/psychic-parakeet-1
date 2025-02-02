@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attacker admin</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/theme-charcoal.css">
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $('#form').submit(function(e){
+                  e.preventDefault();
+                  $.ajax({
+                    url: '{{ admin_path }}/update',
+                    data: $(this).serialize(),
+                    method: 'POST',
+                    success: function(data) {
+                      console.log('ok')
+                      $("#successModal").modal();
+                      },
+                    error: function(data) {
+                      console.log('error !')
+                      $("#errorModal").modal();
+                      },
+                  });
+                });
+        })
+
+</script>
+<div id="root">
+        <div class="main-container">
+            <div class="container text-center"><h2>Design your attacker</h2></div>
+
+            <section class="space--xxs bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-center no-gutters">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active boxed boxed--border" role="tabpanel" id="response">
+                                    <form action="#" id="form" method="POST" class="text-left mx-0">
+                                        <div class="row">
+                                        </div>
+                                            <div class="col-md-14"><span class="color--dark">Path</span>
+                                                <input placeholder="[default]" name="path" id="path" value="{{ attacker.path }}" readonly=true type="text" class="form-control">
+                                                <small class="form-text color--primary">Path to configure.</small>
+                                            </div>
+                                        <div class="row">
+                                            <div class="col-md-6"><span class="color--dark">Code</span>
+                                                <input placeholder="200" name="code" id="code" value="{{ attacker.code }}" type="text" class="form-control">
+                                                <small class="form-text color--primary">The HTTP Code of the HTTP response you'll receive.</small>
+                                            </div>
+                                            <div class="col-md-6"><span class="color--dark">Message</span>
+                                                <input placeholder="OK" name="msg" type="string" class="form-control" value="{{ attacker.message }}">
+                                                <small class="form-text color--primary">The HTTP Message of the HTTP response you'll receive.<br>&nbsp;</small>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12"><span class="color--dark">HTTP Headers</span>
+                                                <textarea placeholder="Server: Custom Server v1.0
+X-Foo-Bar: Hello World" name="header" id="header" type="text" style="height: 201.6px;">{{ attacker.header }}</textarea>
+                                                <small class="form-text color--primary">Customize the HTTP headers sent in the
+                                                    response. </small>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-md-12">
+                                                <span class="color--dark">HTTP Response Body
+                                                </span><textarea
+                                                    class="textarea--code" name="body" id="body" type="text"
+                                                    style="height: 201.6px;">{{ attacker.body }}</textarea>
+                                            </div>
+                                        </div>
+                                        <hr class="mt-4">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button type="submit" id="submit" class="btn btn--primary type--uppercase">Generate my HTTP
+                                                    Response
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- <input type="hidden" name="path" value="{{ attacker.path }}"> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+ <!-- Modals -->
+  <div class="modal fade" id="successModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Success</h4>
+        </div>
+        <div class="modal-body">
+            <p><b>Attacker saved.</b></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal"> Close </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="errorModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Error</h4>
+        </div>
+        <div class="modal-body alert alert-danger">
+            <p><b>An error occured.</b></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

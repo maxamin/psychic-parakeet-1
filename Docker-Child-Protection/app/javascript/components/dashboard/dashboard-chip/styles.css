@@ -1,0 +1,26 @@
+.chip {
+  font-weight: bold;
+  color: $(theme.primero.colors.white);
+  text-transform: uppercase;
+
+  &.high {
+    border: solid 1px $(theme.primero.colors.red);
+    background-color: $(theme.primero.colors.red);
+  }
+
+  &.medium {
+    border: solid 1px #f76900;
+    background-color: #e7712d;
+  }
+
+  &.low {
+    border: solid 1px #F2B417;
+    background-color: #F2B417;
+  }
+
+  &.noaction {
+    border: solid 1px #B4B4B4;
+    background-color: $(theme.primero.colors.white);
+    color: #b4b4b4;
+  }
+}

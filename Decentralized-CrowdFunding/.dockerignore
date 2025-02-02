@@ -1,0 +1,9 @@
+.git
+.vscode
+CrowdFunding.code-workspace
+node_modules
+blockchain
+coverage
+logs
+logs.log
+frontend/dist

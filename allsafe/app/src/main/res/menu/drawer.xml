@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Challenges">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insecure_logging"
+                    android:icon="@drawable/ic_logging"
+                    android:title="Insecure Logging" />
+                <item
+                    android:id="@+id/nav_hardcoded_credentials"
+                    android:icon="@drawable/ic_creds"
+                    android:title="Hardcoded Credentials" />
+                <item
+                    android:id="@+id/nav_firebase_database"
+                    android:icon="@drawable/ic_firebase"
+                    android:title="Firebase Database" />
+                <item
+                    android:id="@+id/nav_insecure_shared_preferences"
+                    android:icon="@drawable/ic_shared_preferences"
+                    android:title="Insecure Shared Preferences" />
+                <item
+                    android:id="@+id/nav_sql_injection"
+                    android:icon="@drawable/ic_injection"
+                    android:title="SQL Injection" />
+                <item
+                    android:id="@+id/nav_pin_bypass"
+                    android:icon="@drawable/ic_pin_bypass"
+                    android:title="PIN Bypass" />
+                <item
+                    android:id="@+id/nav_root_detection"
+                    android:icon="@drawable/ic_root_detection"
+                    android:title="Root Detection" />
+                <item
+                    android:id="@+id/nav_secure_flag_bypass"
+                    android:icon="@drawable/ic_flag"
+                    android:title="Secure Flag Bypass" />
+                <item
+                    android:id="@+id/nav_deep_link_exploitation"
+                    android:icon="@drawable/ic_deep_link"
+                    android:title="Deep Link Exploitation" />
+
+                <item
+                    android:id="@+id/nav_insecure_broadcast_receiver"
+                    android:icon="@drawable/ic_broadcast"
+                    android:title="Insecure Broadcast Receiver" />
+
+                <item
+                    android:id="@+id/nav_vulnerable_web_view"
+                    android:icon="@drawable/ic_webview"
+                    android:title="Vulnerable WebView" />
+                <item
+                    android:id="@+id/nav_certificate_pinning"
+                    android:icon="@drawable/ic_cert"
+                    android:title="Certificate Pinning" />
+                <item
+                    android:id="@+id/nav_weak_cryptography"
+                    android:icon="@drawable/ic_encryption_key"
+                    android:title="Weak Cryptography" />
+                <item
+                    android:id="@+id/nav_insecure_service"
+                    android:icon="@drawable/ic_mic"
+                    android:title="Insecure Service" />
+                <item
+                    android:id="@+id/nav_object_serialization"
+                    android:icon="@drawable/ic_serialization"
+                    android:title="Object Serialization" />
+                <item
+                    android:id="@+id/nav_insecure_providers"
+                    android:icon="@drawable/ic_provider"
+                    android:title="Insecure Providers" />
+                <item
+                    android:id="@+id/nav_arbitrary_code_execution"
+                    android:icon="@drawable/ic_extension"
+                    android:title="Arbitrary Code Execution" />
+                <item
+                    android:id="@+id/nav_native_library"
+                    android:icon="@drawable/ic_native_library"
+                    android:title="Native Library" />
+                <item
+                    android:id="@+id/nav_smali_patch"
+                    android:icon="@drawable/ic_smali"
+                    android:title="Smali Patch" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About" />
+            </group>
+        </menu>
+    </item>
+</menu>

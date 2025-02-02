@@ -1,0 +1,40 @@
+version: "2.1"
+services:
+  app:
+    build: ./
+    ports:
+      - 8080:9090
+    #volumes:
+    # - .:/app
+    depends_on:
+      - mysql-db
+    #env_file:
+    #  - ./vars.env
+    environment:
+      - MYSQL_USER=thinkdifferent
+      - MYSQL_DATABASE=thinkdifferent
+      - MYSQL_PASSWORD=artificialpreval3nce!
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - CTF_DNS_FULL
+        #entrypoint: bash wait-for-it.sh mysql-db:3306 -t 300 -- bash startup.sh
+    restart: on-failure
+    command: ["./wait-for-it.sh", "mysql-db:3306", "-t", "300", "--", "./startup.sh"]
+  mysql-db:
+    image: mysql:5.7
+    expose:
+      - "3306"
+    #env_file:
+    #  - ./vars.env
+    environment:
+      - MYSQL_USER=thinkdifferent
+      - MYSQL_DATABASE=thinkdifferent
+      - MYSQL_PASSWORD=artificialpreval3nce!
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    restart: on-failure
+  #nginx:
+  #  build:
+  #    context: ./nginx
+  #  depends_on:
+  #    - "app"
+  #  ports:
+  #    - "80:80"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user id="0">
+        <username>admin</username>
+        <firstname>Adminiistrator</firstname>
+        <lastname>Administrator</lastname>
+        <password>Y3RFgwZP$v6v#D</password>
+        <email>admin@localhost</email>
+    </user>
+    <user id="2">
+        <username>guest</username>
+        <firstname>Guest</firstname>
+        <lastname>Guest</lastname>
+        <password>guest</password>
+        <email>guest@localhost</email>
+    </user>
+    <user id="3">
+        <username>loella</username>
+        <firstname>Ella</firstname>
+        <lastname>Lo</lastname>
+        <password>babygirl</password>
+        <email>loella@localhost</email>
+    </user>
+    <user id="4">
+        <username>weitzel</username>
+        <firstname>Timothy</firstname>
+        <lastname>Weitzel</lastname>
+        <password>123456</password>
+        <email>weitzel@localhost</email>
+    </user>
+</users>

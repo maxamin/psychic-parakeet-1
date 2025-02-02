@@ -1,0 +1,29 @@
+/* Add Animation and Logo to landing Page */
+
+body{
+background-color: black
+}
+
+
+.app {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #404354;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 1rem;
+    width: 40rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container img {
+    margin-top: 1rem;
+    max-width: 100%;
+  }

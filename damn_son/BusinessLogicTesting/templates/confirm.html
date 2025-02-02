@@ -1,0 +1,93 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-4">
+    <div class="feature-icon bg-secondary bg-gradient">
+      {{ crypto.icon | safe }}
+    </div>
+    <h2>{{ crypto.name }}</h2>
+  </div>
+  <div class="col-8">
+      {% if user.discount > 0 or user.reg_bonus %}
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Normal Price
+        </div>
+        <div class="col-sm-8">
+          {{ crypto.price }}
+        </div>
+      </div>
+      {% endif %}
+      {% if user.discount > 0 %}
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Discount 
+          <small>({{ user.voucher_code }})</small>
+        </div>
+        <div class="col-sm-8">
+          {{ user.discount }} %
+        </div>
+      </div>
+      {% endif %}
+      {% if user.reg_bonus %}
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Registration bonus
+        </div>
+        <div class="col-sm-8">
+          10 %
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Price
+        </div>
+        <div class="col-sm-8">
+          {{ (user.price*0.9)|int }}
+        </div>
+      </div>
+      {% else %}
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Price
+        </div>
+        <div class="col-sm-8">
+          {{ user.price }}
+        </div>
+      </div>
+      {% endif %}
+
+      
+
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          Quantity
+        </div>
+        <div class="col-sm-8">
+          {{ user.quantity }}
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="mb-3 row">
+        <div class="col-sm-4 text-muted">
+          <strong>Total</strong>
+        </div>
+        <div class="col-sm-8">
+          <strong>{{ t }}</strong>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row">
+        <div class="d-grid">
+          <a role="button" href="{{ url_for('checkout') }}" class="btn btn-outline-success btn-lg">Checkout!</a>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div>
+{% endblock %}

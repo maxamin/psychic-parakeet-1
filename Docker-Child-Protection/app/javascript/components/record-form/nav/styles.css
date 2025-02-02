@@ -1,0 +1,25 @@
+.navSelected {
+  border-radius: 4px;
+  background: $(theme.primero.colors.lightGrey) !important;
+}
+
+.item {
+  font-size: $(theme.typography.pxToRem(16));
+
+  & span {
+    font-weight: 500;
+  }
+}
+
+.nestedItem {
+  padding: 0 1em;
+  font-size: $(theme.typography.pxToRem(14))
+}
+
+.root {
+  transition: none;
+
+  &:hover {
+    border-radius: 4px;
+  }
+}

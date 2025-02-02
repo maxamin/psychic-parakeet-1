@@ -1,0 +1,10 @@
+---
+
+- name: Update everything
+  apt:
+    name: '*'
+    state: latest
+
+- name: Upgrade OS
+  apt:
+    upgrade: dist

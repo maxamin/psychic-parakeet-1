@@ -1,0 +1,37 @@
+{% extends "base_template.html" %}
+
+
+{% block nav %}
+{% endblock %}
+
+{% block content %}
+<div class="row align-items-center">
+  <div class="col-xl-7 text-lg-start">
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto text-center mb-3">
+        <img src="{{ url_for('static', filename='cyberstorelogo_small.png')}}" class="image-fluid">
+      </div>
+      <div class="col-md">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Welcome to the Crypto Store</h1>
+    <p class="col-lg-10 fs-4">A vulnerable Flask application that enables security professionals to experiment with and assess business logic vulnerabilities.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="mx-auto col-xl-5">
+    <form class="p-3 p-md-4 border rounded-3 bg-light" action="{{ url_for('login_post') }}" method="POST">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Username"
+          autocomplete="off" name="username">
+        <label for="floatingInput">Username</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+          autocomplete="off" name="password">
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

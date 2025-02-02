@@ -1,0 +1,8 @@
+export const RegisterCreated = 'event RegisterCreated(address _addr, string _name, string _addressName, string _siret, string _siteName, string _siteAddressName)'
+export const CompanyAccountUpdated = 'event CompanyAccountUpdated(address _company, address _account, string _name, string _firstName, string _action)'
+export const VerifierCreated = 'event VerifierCreated(address _verifier, string _name, string _addressName, string _siret, string _approvalNumber)'
+export const VerifierAccountUpdated = 'event VerifierAccountUpdated(address _verifier, address _account, string _name, string _firstName, string _action)'
+export const VerifierAddedToCompany = 'event VerifierAddedToCompany(address _company, address _verifier)'
+export const VerificationTaskCreated = 'event VerificationTaskCreated(address _company, address _verifier, uint256 _registerId, string _securityType, uint256 _taskId, uint8 _taskStatus, string _siteName, uint256 _timestamp)'
+export const VerificationTaskValidated = 'event VerificationTaskValidated(address _verifier, uint256 _taskId, uint8 _taskStatus)'
+export const VerificationTaskUpdated = 'event VerificationTaskUpdated(address _company, uint256 _taskId, uint8 _taskStatus)'

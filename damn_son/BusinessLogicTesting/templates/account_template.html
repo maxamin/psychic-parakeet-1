@@ -1,0 +1,21 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+ 
+  <ul class="nav nav-tabs mb-3">
+    <li class="nav-item">
+      <a class="nav-link {% if opt==1 %} active {% endif %}" href="{{ url_for('account') }}">Account</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if opt==2 %} active {% endif %}" href="{{ url_for('order_history') }}">Order history</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if opt==3 %} active {% endif %}" href="{{ url_for('transfer_credit') }}">Transfer credit</a>
+    </li>
+  </ul>
+
+  {% block account %}
+
+  {% endblock %}
+      
+{% endblock %}

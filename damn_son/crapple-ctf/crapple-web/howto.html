@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://crapple-solutions.s3-website-us-west-2.amazonaws.com/howto.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>crapple-ctf solutions </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./crapple-ctf solutions-howto_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./crapple-ctf solutions-howto_files/album.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Crapple CTF</h4>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="http://crapple-solutions.s3-website-us-west-2.amazonaws.com/howto.html#" class="navbar-brand d-flex align-items-center">
+            
+            <strong>Crapple CTF</strong>
+          </a>
+          
+        </div>
+      </div>
+    </header>
+
+
+   <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">How to:</h1>
+          <ul class="list-group">
+	          <li class="list-group-item">This challenge utilizes a bot that poses as a human monitoring an email inbox. This bot utilizes a headless Chromium browser controlled by Puppeteer javascript. This bot will click the first valid URL it sees in the email message (http, https, www) while having his account logged in with a different tab.</li>
+	          <li class="list-group-item">To solve, first create an account and log into the /login page. You can use my premade credentials if you want to skip registration (skirby, iamsam123)</li>
+	          <li class="list-group-item">Check out the source code of the Account Settings page. You can see that on submission, it will POST a request to change the password with the username, email, and passwords provided. This is what we'll use to construct our payload.
+	          </li><li class="list-group-item">Click the 'Contact us' link on the upper right. This will bring up the email form which you will use to submit your payload</li>
+	          <li class="list-group-item">In that email form, paste your CSRF payload in the form of a URL. You can host it yourself or use a pastebin site. Just make sure you're pasting in the live output version of the URL . I've made one you can use here: <br>
+	          <a href="http://jsbin.com/buminecive/1"> http://jsbin.com/buminecive/1</a> <br>
+            If you want to check out the source/play with the html, here is the editable version: <br>
+            <a href="http://jsbin.com/buminecive/edit?html,output"> hhttp://jsbin.com/buminecive/edit?html,output</a>
+
+            
+	          </li>
+              <li class="list-group-item">Once you've pasted the link in the email, click submit. The robot will tell you whether or not it clicked the link</li>
+              <li class="list-group-item">If the CSRF payload was written correctly, the robot will have inadvertently submitted a POST request to reset his password using his own cookies. This will bypass the same origin policy that chrome has in place because the POST request will have the same URL as the host website. Since I have not implemented a CSRF token, the server will not know the difference between a valid or malicious request.</li>
+              <li class="list-group-item"> You can now logout, and then log back in as user 'bossman' with password 'lolugothacked'. The admin panel with the flag will now be visible! </li>
+              <li class="list-group-item"> That's it! If something's not working, or somebody else has already changed the password, hit the back button and click 'Reset' or let Sam know! </li>
+          </ul>
+    <footer class="text-muted">
+      <div class="container">
+        
+  
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./crapple-ctf solutions-howto_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./crapple-ctf solutions-howto_files/popper.min.js"></script>
+    <script src="./crapple-ctf solutions-howto_files/bootstrap.min.js"></script>
+    <script src="./crapple-ctf solutions-howto_files/holder.min.js"></script>
+  
+
+</main></body></html>

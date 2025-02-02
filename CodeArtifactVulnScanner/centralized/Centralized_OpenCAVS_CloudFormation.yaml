@@ -1,0 +1,277 @@
+# This file is part of OpenCAVS.
+
+# OpenCAVS is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# OpenCAVS is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License along with OpenCAVS.  
+# If not, see https://github.com/jonrau1/CodeArtifactVulnScanner/blob/main/LICENSE.
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creates the baseline resources needed for OpenCAVS such as WAF, Kinesis, ES and MISP assets. Deploy this first.
+Parameters:
+  LambdaCodeBucket:
+    Type: String
+    Description: >-
+      The name of the S3 Bucket that contains the ZIP Archives of the Lambda functions. This would have been uploaded by the
+      setup Script (and thus the parameter injected here) - if you're doing a manual setup you need to manually upload them, obviously.
+  NVDDynamoDBTableName:
+    Type: String
+    Description: >-
+      The name of the DyanmoDB Table that contains all of the software package vulnerability information. PLEASE ENSURE
+      that it is located in the same Region, Account and Partition you are deploying this solution to!
+  Cvss2BaseScoreThreshold:
+    Type: Number
+    MinValue: 0
+    MaxValue: 10.0
+    Default: 10.0
+    ConstraintDescription: >-
+      The value must be an Integer or Float between 0 and 10.0!
+    Description: >-
+      This value represents the threshold at which the function will remove vulnerable software packages. 
+      E.g., if you set this value to 6.9 then any vulnerability with a CVSSv2.0 Base Score of 6.9 or Above 
+      (Greater Than Equal To) will cause the associated software package to be removed from CodeArtifact
+  Cvss3BaseScoreThreshold:
+    Type: Number
+    MinValue: 0
+    MaxValue: 10.0
+    Default: 10.0
+    ConstraintDescription: >-
+      The value must be an Integer or Float between 0 and 10.0!
+    Description: >-
+      This value represents the threshold at which the function will remove vulnerable software packages. 
+      E.g., if you set this value to 6.9 then any vulnerability with a CVSSv3.0 Base Score of 6.9 or Above 
+      (Greater Than Equal To) will cause the associated software package to be removed from CodeArtifact
+  SolutionVariable:
+    Type: String
+    Default: OpenCAVSCentralized
+    Description: >-
+      This value will be interpolated into all associated resources created by the solution for easy identification.
+      If you change this value please ensure you do not use Numbers or Special Characters as the downstream service
+      may not support that as a valid naming convention value.
+  NistModifedJsonFeedUrl:
+    Type: String
+    Default: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
+    Description: >-
+      The URL for the the location of the Modified NIST JSON Feed
+Resources:
+  OpenCAVSAnalysisLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${SolutionVariable}VulnAnalyzer'
+      Description: >-
+        Receives software package information from EventBridge and checks if it is vulnerable. Vulnerable software will
+        have a finding created for them in Security Hub - Managed by CloudFormation
+      Handler: analyzer_lambda_function.lambda_handler
+      MemorySize: 256
+      Role: !GetAtt OpenCAVSLambdaExecRole.Arn
+      Runtime: python3.8
+      Timeout: 121
+      Environment:
+        Variables:
+          NVD_DDB_TABLE: !Ref NVDDynamoDBTableName
+      Code:
+        S3Bucket: !Ref LambdaCodeBucket
+        S3Key: AnalysisLambdaPackage.zip
+  OpenCAVSPurgingLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${SolutionVariable}PurgingEngine'
+      Description: >-
+        Receives vulnerable software findings from Security Hub and will remove the affect package based on a set
+        threshold and update Security Hub findings - Managed by CloudFormation
+      Handler: purging_lambda_function.lambda_handler
+      MemorySize: 256
+      Role: !GetAtt OpenCAVSLambdaExecRole.Arn
+      Runtime: python3.8
+      Timeout: 60
+      Environment:
+        Variables:
+          CVSS2_BASE_SCORE_THRESHOLD: !Ref Cvss2BaseScoreThreshold
+          CVSS3_BASE_SCORE_THRESHOLD: !Ref Cvss3BaseScoreThreshold
+      Code:
+        S3Bucket: !Ref LambdaCodeBucket
+        S3Key: PurgeLambdaPackage.zip
+  OpenCAVSVulnUpdaterLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${SolutionVariable}NvdModifiedUpdater'
+      Description: >-
+        Every 24 hours this function will parse the Modified NVD JSON Feed and write the 
+        contents into a DyanmoDB Table of your choosing - Managed by CloudFormation
+      Handler: updater_lambda_function.lambda_handler
+      MemorySize: 256
+      Role: !GetAtt OpenCAVSLambdaExecRole.Arn
+      Runtime: python3.8
+      Timeout: 900
+      Environment:
+        Variables:
+          NVD_DDB_TABLE: !Ref NVDDynamoDBTableName
+          NVD_MODIFIED_URL: !Ref NistModifedJsonFeedUrl
+      Code:
+        S3Bucket: !Ref LambdaCodeBucket
+        S3Key: UpdaterLambdaPackage.zip
+  OpenCAVSDepAnalysisLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${SolutionVariable}DependencyVulnAnalyzer'
+      Description: >-
+        Upon being triggered will attempt to parse and analyze vulnerabilities in the dependencies of a software package
+        within CodeArtifact - Managed by CloudFormation
+      Handler: dep_analyzer_lambda_function.lambda_handler
+      MemorySize: 256
+      Role: !GetAtt OpenCAVSLambdaExecRole.Arn
+      Runtime: python3.8
+      Timeout: 61
+      Environment:
+        Variables:
+          NVD_DDB_TABLE: !Ref NVDDynamoDBTableName
+      Code:
+        S3Bucket: !Ref LambdaCodeBucket
+        S3Key: DepAnalysisLambdaPackage.zip
+  OpenCAVSMalwareAnalyzerLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${SolutionVariable}MalwareAnalyzer'
+      Description: >-
+        Upon being triggered will attempt to parse and analyze viruses/malware in the assets of a software package
+        within CodeArtifact by comparing SHA1/MD5 hashes against MHR - Managed by CloudFormation
+      Handler: malware_analyzer_lambda_function.lambda_handler
+      MemorySize: 256
+      Role: !GetAtt OpenCAVSLambdaExecRole.Arn
+      Runtime: python3.8
+      Timeout: 30
+      Code:
+        S3Bucket: !Ref LambdaCodeBucket
+        S3Key: MalwareDetectionLambdaPackage.zip
+  OpenCAVSLambdaExecRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${SolutionVariable}AllLambdaRole'
+      Description: !Sub 'This role is for all Lambda functions within ${SolutionVariable}. Provides permissions to DynamoDB, SecHub, and CodeArtifact - Managed by CloudFormation'
+      ManagedPolicyArns: 
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+      - PolicyName: !Sub '${SolutionVariable}AllLambdaRolePolicy'
+        PolicyDocument:
+          Version: 2012-10-17
+          Statement:
+          - Effect: Allow
+            Action:
+              - dynamodb:Scan
+              - dynamodb:PutItem
+            Resource: !Sub 'arn:${AWS::Partition}:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${NVDDynamoDBTableName}'
+          - Effect: Allow
+            Action:
+              - securityhub:BatchImportFindings
+              - securityhub:BatchUpdateFindings
+              - codeartifact:DisposePackageVersions
+              - codeartifact:ListPackageVersionDependencies
+              - codeartifact:ListPackages
+              - codeartifact:ListPackageVersionAssets
+              - codeartifact:ListPackageVersions
+            Resource: '*'
+          #- Effect: Allow
+          #  Action:
+          #    - sts:AssumeRole
+          #  Resource: '*'
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+        - Effect: Allow
+          Principal: { Service: lambda.amazonaws.com }
+          Action:
+          - sts:AssumeRole
+  OpenCAVSAnalysisEventRule: 
+    Type: AWS::Events::Rule
+    Properties: 
+      Name: !Sub '${SolutionVariable}CodeArtifactAnalysisEvent'
+      Description: >-
+        Triggers multiple Lambda Functions upon any new software packages being added, or existing packages updated, 
+        within AWS CodeArtifact - Managed by CloudFormation
+      EventPattern: 
+        source:
+          - aws.codeartifact
+        detail-type:
+          - CodeArtifact Package Version State Change
+      State: ENABLED
+      Targets:
+        - 
+          Arn: !GetAtt OpenCAVSAnalysisLambdaFunction.Arn
+          Id: OpenCAVSDepAnalysisRule
+        - 
+          Arn: !GetAtt OpenCAVSDepAnalysisLambdaFunction.Arn
+          Id: OpenCAVSAnalysisRule
+        - 
+          Arn: !GetAtt OpenCAVSMalwareAnalyzerLambdaFunction.Arn
+          Id: OpenCAVSMalwareAnalysisRule
+  OpenCAVSAnalyzerCWEPermissions: 
+    Type: AWS::Lambda::Permission
+    Properties: 
+      FunctionName: !Ref OpenCAVSAnalysisLambdaFunction
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt OpenCAVSAnalysisEventRule.Arn
+  OpenCAVSVulnUpdaterScheduledRule: 
+    Type: AWS::Events::Rule
+    Properties: 
+      Name: !Sub '${SolutionVariable}VulnUpdaterEvent'
+      Description: >-
+        Triggers a Lambda Function that will parse the Modified NVD JSON Feed and write the 
+        contents into a DyanmoDB Table of your choosing - Managed by CloudFormation
+      ScheduleExpression: rate(1 hour)
+      State: ENABLED
+      Targets: 
+        - 
+          Arn: !GetAtt OpenCAVSVulnUpdaterLambdaFunction.Arn
+          Id: OpenCAVSUpdaterRule
+  OpenCAVSVulnUpdaterCWEPermissions: 
+    Type: AWS::Lambda::Permission
+    Properties: 
+      FunctionName: !Ref OpenCAVSVulnUpdaterLambdaFunction
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt OpenCAVSVulnUpdaterScheduledRule.Arn
+  OpenCAVSPurgingEventRule: 
+    Type: AWS::Events::Rule
+    Properties: 
+      Name: !Sub '${SolutionVariable}CodeArtifactPurgingEvent'
+      Description: >-
+        Triggers a Lambda Function based on vulnerable software packages in Security Hub for the
+        purpose of configurable downstream purging - Managed by CloudFormation
+      EventPattern: 
+        source:
+          - aws.securityhub
+        detail-type:
+          - Security Hub Findings - Imported
+        detail:
+          findings:
+            ProductFields:
+              ProductName:
+                - OpenCAVS
+            Title:
+              - '[OpenCAVS] A software package with a known vulnerability was found in AWS CodeArtifact'
+      State: ENABLED
+      Targets: 
+        - 
+          Arn: !GetAtt OpenCAVSPurgingLambdaFunction.Arn
+          Id: OpenCAVSPurgingRule
+  OpenCAVSDepAnalyzerCWEPermissions: 
+    Type: AWS::Lambda::Permission
+    Properties: 
+      FunctionName: !Ref OpenCAVSDepAnalysisLambdaFunction
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt OpenCAVSAnalysisEventRule.Arn
+  OpenCAVSMalwareAnalyzerCWEPermissions: 
+    Type: AWS::Lambda::Permission
+    Properties: 
+      FunctionName: !Ref OpenCAVSMalwareAnalyzerLambdaFunction
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt OpenCAVSAnalysisEventRule.Arn

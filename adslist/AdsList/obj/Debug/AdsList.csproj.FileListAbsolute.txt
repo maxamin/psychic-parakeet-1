@@ -1,0 +1,9 @@
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\WebApplication2.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\WebApplication2.pdb
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\EntityFramework.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\EntityFramework.SqlServer.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\EntityFramework.xml
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\bin\EntityFramework.SqlServer.xml
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\obj\Debug\AdsList.csprojResolveAssemblyReference.cache
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\obj\Debug\WebApplication2.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\AdsList\obj\Debug\WebApplication2.pdb

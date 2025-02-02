@@ -1,0 +1,13 @@
+# .graphclientrc.yml
+sources:
+  - name: SecurityRegister
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/51390/securityregister/0.0.2
+    transforms:
+      - autoPagination:
+          validateSchema: true # Validates that the schema source actually contains the required input filters.
+          limitOfRecords: 5 # Default is 1000, you can change if you indexer has different configuration in GRAPH_GRAPHQL_MAX_FIRST var.
+
+documents:
+  - ./registerCreateds.graphql

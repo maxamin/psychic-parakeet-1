@@ -1,0 +1,270 @@
+{
+    "Index": {
+        "title": "Registre de sécurité"
+    },
+    "General": {
+        "previous": "Précédent",
+        "next": "Suivant",
+        "profile": "Profile",
+        "inProgress": "En cours",
+        "company": "Compagnie",
+        "verifier": "Verificateur",
+        "guest": "Invité",
+        "selectAction": "Sélectionner une action"
+    },
+    "HomePager": {
+        "homePagerTitle": "Application décentralisée - (DAPPS)",
+        "homePagerSubtitle1": "Gérez votre registre de sécurité en exploitation toute la puissance de la blockchain.",
+        "homePagerSubtitle2" : "Via un ",
+        "homePagerSubtitle3": ", digitalisez et sécurisez vos documents en toute simplicité.",
+        "subscribe": "Souscrire",
+        "descTitle": "Concrètement comment ça marche?",
+        "descSubTitle": "Un NFT pour les sceller tous!",
+        "descText1": "Lors d'une vérification de sécurité par un expert et après validation de votre part, un document digital est généré.",
+        "descText2": "Ce document contenant des métadonnées va être sauvegardé sur un espace de stockage décentsalisé aussi appelé ",
+        "descText3": "Un autre document va quand à lui certifier la vérification et l'inscrire de façon définitive dans la blockchain. Ce document se nomme un ",
+        "descText4": "Le NFT inscrit dans la blockchain contient les informations suivantes",
+        "descText5": "Votre adresse ou clé publique",
+        "descText6": "L'adresse ou clé publique du vérificateur",
+        "descText7": "L'url vers les metadonnées",
+        "moreInfo": "En savoir plus?",
+        "cpyTitle": "Vous êtes une compagnie",
+        "cpyEnum1": "Enregistrez votre compagnie",
+        "cpyEnum2": "Registres de sécurités par site",
+        "cpyEnum3": "Registres digitalisés, fini le registre papier",
+        "cpyEnum4": "Registres décentralisés grâce à la blockchain",
+        "cpyEnum5": "Registres sécurisés et infalsifiables",
+        "cpyVGPTitle": "Vous êtes une compagnie VGP agrée",
+        "cpyVGPEnum1": "Enregistrez votre compagnie",
+        "cpyVGPEnum2": "Valider des contrôles de vérification prériodiques pour vos clients!",
+        "consultRegisterTitle": "Vous souhaitez consulter les registres",
+        "consultRegisterEnum1": "Consultation libre",
+        "consultRegisterEnum2": "Accès aux registres de sécurités des compagnies",
+        "consultRegisterButton": "Consultez les registres"
+    },
+    "HeaderFooter": {
+        "title": "Registre de sécurité",
+        "register": "Registres de sécurité",
+        "showRegister": "Consultation de registres",
+        "member": "Espace membre",
+        "companySubscription": "Souscription d'un compte compagnie",
+        "verifierSubscription": "Souscription d'un compte compagnie VGP",
+        "company": "Espace compagnie",
+        "verifier": "Espace compagnie VGP",
+        "support": "Support",
+        "faq": "FAQ",
+        "documentation": "Documentation",
+        "products": "Produits",
+        "contact": "Contact",
+        "developer": "Développeur",
+        "helper": "Helper",
+        "rights": "Tous droits réservés",
+        "home": "Accueil"
+    },
+    "ToasterMessages": {
+        "notConnected": {
+            "title": "Permission restreinte",
+            "description": "Vous n'êtes pas connecté!"
+        },
+        "unauthorized": {
+            "title": "Accès restreint",
+            "description": "Vous n'avez pas accès à cette espace!"
+        },
+        "addSiteToCompany": {
+            "ok": {
+                "title": "Succès",
+                "description": "Le site a été ajouté avec succès!"
+            },
+            "error": {
+                "title": "Erreur",
+                "description": "Impossible d'ajouter le site!"
+            }
+        },
+        "subscribeCompany": {
+            "ok": {
+                "title": "Succès",
+                "description": "Compagnie créée avec succès!"
+            },
+            "error": {
+                "title": "Erreur",
+                "description": "Impossible de créer la compagnie!"
+            }
+        },
+        "subscribeVerifier": {
+            "ok": {
+                "title": "Succès",
+                "description": "Compagnie créée avec succès!"
+            },
+            "error": {
+                "title": "Erreur",
+                "description": "Impossible de créer la compagnie!"
+            }
+        },
+        "createVerificationTask": {
+            "ok": {
+                "title": "Succès",
+                "description": "Vérification créée avec succès!"
+            },
+            "error": {
+                "title": "Erreur",
+                "description": "Impossible de créer la Vérification!"
+            }
+        },
+        "updateVerificationTaskStatus": {
+            "ok": {
+                "title": "Succès",
+                "description": "Statut modifié avec succès!"
+            },
+            "error": {
+                "title": "Erreur",
+                "description": "Impossible de modifier le statut!"
+            }
+        }
+    },
+    "layout": {
+        "button": {
+            "validate": "Valider",
+            "subscribe": "Souscrire",
+            "save": "Sauvegarder",
+            "cancel": "Annuler"
+        },
+        "form": {
+            "addSiteToCompany": {
+                "title": "Ajouter un nouveau site à votre compagnie",
+                "titleForButton": "Ajouter site",
+                "siteName": "Nom du site",
+                "siteAddressName": "Address du site"
+            },
+            "subscriptionCompany": {
+                "title": "Création d'un compte compagnie",
+                "description": "En créant votre compte de compagnie vous pouvez ajouter des sites supplémentaires, gérer vos comptes et registres de sécurité.",
+                "name": "Nom de compagnie",
+                "address": "Adresse de la compagnie",
+                "siret": "Siret",
+                "siteName": "Nom du site/bâtiment",
+                "siteAddress": "Adresse du site/bâtiment"
+            },
+            "subscriptionVerifier": {
+                "title": "Création d'un compte de compagnie VGP",
+                "description": "En créant votre compagnie vous pouvez gérer vos comptes et les registres de sécurité de vos clients.",
+                "name": "Nom de compagnie",
+                "address": "Adresse de la compagnie",
+                "siret": "Siret",
+                "approval": "Numéro d'aggrément"
+            },
+            "createVerificationTask": {
+                "title": "Nouvelle tâche de vérification",
+                "description": "Créer une nouvelle vérification va l'enregistrer dans la blockchain et permettre au vérificateur de mettre à jour le statut une fois la vérification effectuée.",
+                "selectSite": "Sélectionner un site",
+                "selectSector": "Sélectionner un scteur",
+                "selectVerificationType": "Indiquer un type de vérification"
+            }
+        },
+        "eventLog": {
+            "linkTitle": "Logs",
+            "blockTitle": "Log de transaction",
+            "smartContractAddress": "Adresse du Smart contract",
+            "blockHash": "Hash du block",
+            "transactionHash": "Hash de transaction",
+            "blockNumber": "Numéro du block",
+            "publicKeyAddress": "Adresse de clé publique",
+            "title": "Données enregistrées"
+        },
+        "grid": {
+            "verificationTasks" : {
+                "grid": {
+                    "pageTitle": "Tâches de vérification",
+                    "searchBar": "Recherche",
+                    "createVerificationButton" : "Créer une tâche",
+                    "sectors": {
+                        "Ventilation": "Aération - installation de ventilation",
+                        "Pressure": "Équipement sous pression",
+                        "Elevators": "Ascenseurs, monte-charges",
+                        "Noise": "Bruit",
+                        "Light": "Éclairage",
+                        "Electricity": "Électricité",
+                        "Fire": "Incendie",
+                        "Refrigeration": "Installations frigorifiques",
+                        "Thermal": "Installations thermiques",
+                        "Doors": "Portes et portails",
+                        "Ionizing": "Rayonnements ionisants",
+                        "Optical": "Rayonnements optiques",
+                        "Chemical": "Rayonnements chimiques",
+                        "Signaling": "Signalisation",
+                        "Air": "Systèmes de climatisation et pompte à chaleur réversible"
+                    },
+                    "fields": {
+                        "grid": {
+                            "title": "Tâches",
+                            "values": {
+                                "0": "",
+                                "1": "Tâche ID",
+                                "2": "Statut",
+                                "3": "Secteur",
+                                "4": "Type",
+                                "5": "Compagnie",
+                                "6": "Site",
+                                "7": "Adresse du site",
+                                "8": "Vérificateur",
+                                "9": "Date"
+                            }
+                        },
+                        "subGridFirst": {
+                            "title": "Vérificateur",
+                            "values": {
+                                "0": "Compte",
+                                "1": "Adresse",
+                                "2": "Nom de compagnie",
+                                "3": "Prénom",
+                                "4": "Nom",
+                                "5": "Siret",
+                                "6": "Numéro d'approbation"
+                            }
+                        },
+                        "subGridSecond": {
+                            "title": "Compagnie",
+                            "values": {
+                                "0": "Compte",
+                                "1": "Compte de compagnie",
+                                "2": "Prénom",
+                                "3": "Nom",
+                                "4": "Adresse",
+                                "5": "Siret"
+                            }
+                        },
+                        "subGridThird": {
+                            "title": "NFT & Metadata",
+                            "values": {
+                                "0": "Metadata URL",
+                                "1": "NFT Tx Hash"
+                            }
+                        }
+                    }
+                },
+                "filters" : {
+                    "title": "Filtres",
+                    "pendingApproval": "En attente d'approbation",
+                    "validated": "Validée par le vérificateur",
+                    "approved": "Approuvée",
+                    "rejected": "Rejetée",
+                    "conditionallyApproved": "Approuvée sous réserve"
+                },
+                "editStatus" : {
+                    "title": "Sélectionner un statut",
+                    "validate": "Valider",
+                    "approve": "Approuver",
+                    "reject": "Rejeter",
+                    "conditionallyApprove": "Approuver sous réserve"
+                },
+                "finalStatus" : {
+                    "title": "Sélectionner un statut",
+                    "approve": "Approuvé",
+                    "reject": "Rejeté"
+                }
+            }
+        }
+    },
+    "CompanyRootPage": {
+        "title": "Compte compagnie"
+    }
+}

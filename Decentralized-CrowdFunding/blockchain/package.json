@@ -1,0 +1,38 @@
+{
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "clean": "npx hardhat clean",
+    "dev": "npx hardhat node",
+    "compile": "npx hardhat compile --force",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:CI": "npx hardhat run scripts/deploy.js",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network mainnet",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js ",
+    "testScript": "npx hardhat run scripts/testScript.js",
+    "swapTry": "npx hardhat run scripts/swapTry.js --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.1",
+    "glob": "^7.2.0",
+    "solidity-coverage": "^0.7.22",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "dependencies": {
+  }
+}

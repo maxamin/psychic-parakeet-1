@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Theme.Allsafe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/secondaryLightColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryDarkColor</item>
+        <item name="android:windowBackground">@color/primaryColor</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Allsafe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Allsafe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Allsafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

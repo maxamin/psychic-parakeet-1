@@ -1,0 +1,32 @@
+<div class="container" align="center">
+	<h1> KoalaMeat!</h1>
+		<ul class="nav nav-tabs" style="display: inline-block; margin-top: 25px">
+		  <li> <%= link_to "Home", root_path %></li>
+		  <li class="active">
+		    <%= link_to "Catalog", "#{catalog_path}", {:method => "get"}%>
+		  </li>
+		  <li>
+		      <%= link_to "Contact Us", "mailto:help@koala_meat.com"%>
+		  </li>
+		  <li><%= link_to "About Us", about_us_path, {:method => "get"}%></li>
+		</ul>
+		
+		<table class="table" align="center" border="0" cellpadding="5" cellspacing="5" width="75%">
+		  <tr>
+		  <th></th>
+		  <th>Details</th>
+		  </tr>
+		  <tr>
+		  <td><%= image_tag("#{@catalog_item.pic_location}") %></td><td>Koala Meat Item: #000-<%=@catalog_item.item_num%></td>
+		  </tr>
+		  <tr>
+		  <td></td><td><%=@catalog_item.name%></td>
+		  </tr>
+		  <tr>
+		  <td></td><td><%=@catalog_item.price%></td>
+		  </tr>
+		  <tr>
+		  <td></td><td><%=@catalog_item.description%></td>
+		  </tr>
+		</table>
+</div>

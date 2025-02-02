@@ -1,0 +1,326 @@
+https://github.com/PatrickAlphaC/hardhat-security-fcc/#what-is-an-audit
+https://www.youtube.com/watch?v=TmZ8gH-toX0
+https://rekt.news/
+https://secureum.substack.com/ => common pitfalls security 101 and 201
+https://eth-toolbox.com/ => cool website for any eth references like decoding shit 
+https://www.youtube.com/c/Finematics/videos => defi related 
+*** Run tests ***
+*** Read specs/docs (specs = why, docs = how) ***
+*** Run fast tools (like slither, linters, static analysis, etc) ***
+*** Formal Verification (certora's prover, chainsecurity's verx, kevm from runtime verification)***
+*** Manual analysis ***
+*** Run slow tools (like echidna, manticore, symbolic execution, MythX) ***
+*** Discuss (and repeat steps as needed) ***
+*** Write report ***
+
+[Specs]
+	Main goal here is to uncover shortcomings in the creators assumptions.
+	1. What are the assets? Where are they held?
+		(tracking withdraws/deposits)
+		- Is it the right person/contract?
+		- Is it under the right time/conditions?
+		- It it the right asset?
+		- Is it the right reason? 
+		- Is is going to the right place?
+		- Is it the right amount?
+	2. Who are the actors? What privileges do they have?
+	3. Who is allowed to access what and when?
+	4. What are the assumed trust relationships?
+	5. What's the overall threat model? Potential attack vectors?
+	NOTE: Starting projects rarely have specs, so the auditor is forced to infer from docs/implementation, which takes away from the vuln assessment.
+[Docs]
+	The better the documentation = the more effective the audit.
+[Tests]
+	Examining and reviewing the developer's testing. Guideline = lazy in one place, lazy in another. Meaning if there are no written tests, it is likely that there are vulns to be found.
+[Slither]
+	Analyzes at a solidity level
+	solc-select 0.8.7 for example -> might only work on linux :clown:
+	slither ./contracts
+[Mythril]
+	Analyzes at a EVM byte-code level
+[Symbolic execution]
+	do echidna of fuzz testing (test/fuzzing for an example), fuzz testing = testing with random user input
+[Formal Verification]
+	Make sure the math in the docs / specs / whitepapers etc matches what is being used in the smart contracts
+[Manual Analysis]
+	(0) Remember tx.origin == msg.sender can still be exploited by delegatecall (see 4, 16)
+	(1) send ether (unexpected ether fallback call)
+	(2) try to call the constructor (i.e. from console or from another contract)
+	(3) look for predictable user input (i.e. input that can be calculated by copying the logic in contract to another contract)
+	(4) look for tx.origin vulnerabilities i.e. tx.origin != msg.sender, can be exploited by calling from another contract so tx.origin != msg.sender evaluates to true
+	(5) look for underflows / overflows (before 8.0)
+	(6) delegate calls => abuse msg.data fallback functions, see also (16)
+			a) get function signature of function you want to call: const selector = web3.eth.abi.encodeFunctionSignature("pwn()")
+			b) send transaction with msg.data to trigger the fallback function: await web3.eth.sendTransaction({from: player, to: contract.address, data: selector})
+
+			From solidity:
+			a) bytes4 encodedSignature = bytes4(keccak256("pwn()"));
+				Hashing with keccak256 and then casting it to bytes4 is exatcly how Solidity generates function signatures, so this should work.
+
+			Solidity alternative:
+			a) Delegate(0).pwn.selector
+	(7) Force ether send to contract that doesn't have fallback function
+
+		In solidity, for a contract to be able to receive ether, the fallback function must be marked payable.
+		However, there is no way to stop an attacker from sending ether to a contract by self destroying. Hence, it is important not to count on the invariant address(this).balance == 0 for any contract logic. => selfdestruct(0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF)
+
+		Never trust your own accounting: Even as an owner of the contract, you do not control your contract’s balance. Never use contract balance as an accounting or auth check.
+		Even if you didn’t implement a selfdestruct(), it is still possible through any delegatecall() vulnerabilities.
+		If you implement a selfdestruct, i) authenticate that the msg.sender = owner and ii) emit an event for external dependencies on this contract and for future reference.
+	(8) Check for (private) variables that aren't meant to be read
+		a) For variables (constants) whose size is less than 32 bytes, they are stored in the order of their definition as their index values. That is, the index of the first variable is key(0), and the index of the second variable is key(1)…
+		b) 2. For successively small values, they may be optimized and stored in the same location. For example: the first four state variables in the contract are all of type uint64, then the values of the four state variables will be packed into a 32-byte value Stored in position 0.
+		c) get all storage:
+			let storage = [];
+
+			let callbackFNConstructor = (index) => (error, contractData) => {
+				storage[index] = contractData
+			}  
+
+			for(var i = 0; i < 6; i++){
+				web3.eth.getStorageAt(contract.address, i, callbackFNConstructor(i));
+			}
+	(9) Check for faulty logic that assumes correct transfers (malicious fallback / no fallback abuse that will revert and stuck the contract)
+	(10) Check for reentrancy vulnerabilities (contract with fallback that calls withdraw again upon being sent the initial withdraw amount, draining funds)
+	(11) Check for interfaces that are not used by contract (can be exploited by other contracts that manipulate the function mentioned by interface)
+	(12) See 8 
+	(13) 
+		a) If converting bytes64 to bytes32 etc, gas can be saved by bitmasking (see simplecontract.sol)
+		b) Don't assert gas, different compiler versions can yield different results
+		c) save gas by not storing unneccesary values (MSTORE, MLOAD is always less gas intensive than SSTORE, SLOAD)
+		d) save gas by using appropriate modifiers i.e. external pure, external view are always free
+		e) to convert address to uint, use
+			function f(address a) internal pure returns (uint256) {
+        		return uint256(uint160(a));
+    		}
+    (14)
+    	a) https://docs.soliditylang.org/en/v0.8.13/internals/layout_in_memory.html#layout-in-memory
+    	b) ^ means XOR: only return 1 if only 1 is 1 i.e. 1 ^ 0 = 1, 1 ^ 1 = 0, 0 ^ 0 = 0
+    		if a ^ b = c, then a ^ c = b
+    		this has been done a bit more elaborate in the smart contract (applying 0xFFFFFFFFFFFFFFFF) but that is basically uint64(0) - 1
+    	c) to call function of other contract you can do (bool result, bytes memory data) = address(someAddr).call(abi.encodeWithSignature{gas: 123}{value: 123}("enter(bytes8)", key)); where gas and value are optional
+    	d) if you check a smart contracts size when the contract is being constructed, i.e. with assembly{x := extcodesize(caller())} will return 0 because the contract is still being constructed
+    		so if you see this check this makes it vulnerable to code injection via the constructor of another contract (will always be of size 0 during function call in constructor)
+    (15) Check if functions in standards can be abused like transferFrom + allowance instead of transfer for the lockout
+    		await contract.approve(player, "1000000000000000000000000")
+    		await contract.transferFrom(player, "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "1000000000000000000000000")
+    (16) If contract A implements library B, and contract A calls library B.delegateCall(someFunc)...
+    		If somefunc updates state variables, this is how it works...
+    		it takes the variable in library B that it wants to update, and looks at which slot that is in i.e. slot 0
+    		then it updates the variable at slot 0 in contract A, regardless of what it is! 
+
+    	Therefore, should use library keyword instead of contract in the library so it doesn't allow for state update
+    (17) 
+    	a) Lost contract address: address = rightmost_20_bytes(keccak(RLP(sender address, nonce))) where sender address = address of contract /person that created contract/token, and nonce = 0, 1,2,3 etc 
+    		web3.utils.soliditySha3();
+    		=> web3.utils.soliditySha3("0xd6", "0x94", "0x1375a0A37C1F57F0182aa30176d1aB69152Ae432", "0x01")
+    		rightmost 40 chjars this yields = rightmost 20 bytes = contract address
+    		(btw the length of this = 66 which happens to be the diff between 0xd6 and 0x94 but idk what this means)
+    	b) data = web3.eth.abi.encodeFunctionCall(
+				{
+					name: "destroy",
+					type: "function",
+					inputs: [
+						{
+							type: "address",
+							name: "_to"
+						}
+					]
+				}, [player]
+    		);
+    	c) 
+    	await web3.eth.sendTransaction({
+    		to: "<insert the address of the lost contract",
+    		from: player,
+    		data: data
+    	});
+
+    	we learned that addresses of deployed contracts can be predicted in advance
+    	some people apparently hide money by sending ETH to an address that doesn't have a matching private key => https://swende.se/blog/Ethereum_quirks_and_vulns.html
+    (18) how opcodes work https://ethervm.io/, https://github.com/crytic/evm-opcodes, https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c/
+    	USEFUL TOOL: https://solmap.zeppelin.solutions/
+
+    	Runtime code
+
+		00	PUSH1 2a (42 in hex) //602a
+		02 PUSH1 00 //6000
+		04 MSTORE   //52
+		05 PUSH1 20 //6020
+		07 PUSH1 00 //6000
+		09 RETURN     //f3
+
+		=> 602a60005260206000f3
+		------
+
+		Creation code => retrieve constructor params, execute constructor, copy runtime code to memory
+		Position of runtime will be after the creation opcode, but we will have to know how big the creation code will be to figure this out
+
+		00 PUSH1 0a //600a (push size of runtime code which is 10 = 0a to the stack)
+		02 PUSH1 ?? //60?? (push memory location of runtime code to the stack, currently unknown)
+		04 PUSH1 00 //6000 (push runtime code memory destination to the stack)
+		06 CODECOPY //39 (copy(location, destination))
+		07 PUSH1 0a //600a (push size of code to stack)
+		09 PUSH1 00 //6000 (push location of code to stack)
+		11 RETURN //3f (return(size of value, position of value))
+
+		creation code: 600a60??600039600a60003f | runtime code 
+		size of creation code: 24 chars (12 bytes hex)
+		location of runtime code: 12 in hex = 0c
+
+		creation code: 600a600c600039600a60003f
+
+		Creation code + runtime code: 600a600c600039600a60003f602a60005260206000f3
+
+		bytecode = '600a600c600039600a6000f3602a60505260206050f3'
+
+		txn = await web3.eth.sendTransaction({from: player, data: bytecode})
+		solverAddr = txn.contractAddress
+		await contract.setSolver(solverAddr)
+	(19) Dynamic array with underflow + function that allows modifying the array will allow modifying entire storage of contract + ABI not checking length of payload
+		dynamic array:
+		p = keccak256(slot of array length)
+		slot 1 					|| array length
+		slot p (keccak256(1)) 	|| array [0]
+		slot p + 1 				|| array [1]
+		slot 256^2 - 2          || array [256^2 - p - 2]
+		slot 256^2 - 1          || array [256^2 - p - 1]
+		slot 256^2 (== slot 0)	|| array [256^2 - p]
+
+		so to access slot 0 we need to do array[256^2 - keccak256(1)]
+
+		p = web3.utils.keccak256(web3.eth.abi.encodeParameters(["uint256"], [1]))
+		i = BigInt(2**256) - BigInt(p)
+
+		abuse ABI payload check flaw by padding 12 bytes to the left (24 0's) and then the other 18 bytes will be the address minus the 0x (0x is added in front of everything) so total is 2 + 12 + 8 = 32 bytes
+
+		content = "0x" + "0".repeat(24) + player.slice(2)
+
+		contract.revise(i, content) 
+	(20) partner.call{value:amountToSend}("") exploit => if you gas amount specified, it will always use all gas. If you set the call to a contract then it will send all gas to the contract. If that contract has a fallback function with an infinite loop, all the gas will be spent and anything after the send line in the initial contract cannot be executed.
+
+	Also, call is used to call any function. In this case, ("") is used which means we don't know the name of the function we're calling which defaults to the fallback() function or receive().
+	If calling i.e. myFunc(), then we need to abi.encode it first. => _to.call.gas(123456){value: someVal}("abiEncodedMyFunc()") OR _to.call{value: someVal, gas: 123456}("abiEncodedMyFunc()")
+
+	Note: An external CALL can use at most 63/64 of the gas currently available at the time of the CALL. Thus, depending on how much gas is required to complete a transaction, a transaction of sufficiently high gas (i.e. one such that 1/64 of the gas is capable of completing the remaining opcodes in the parent call) can be used to mitigate this particular attack.
+
+	Also using call is preferred over transfer / send (https://www.youtube.com/watch?v=TlNYHPRgLao @ 13:40)
+	transfer / send have 2300 gas hardcoded to prevent anything other than emitting 1 event in the fallback function. However, the opcodes are changing and perhaps in the future 2300 gas will be sufficient to perform a malicious action. Therefore, it is recommended using call instead.
+	Custom errors save gas => wrong: require(something, "Some error message") => right: error MyError(someParams) || if(someCondition){revert MyError(someParams)}
+	
+	(21) Contracts can manipulate data seen by other contracts in any way they want. It's unsafe to change the state based on external and untrusted contracts logic.
+	(22) Exploit division rounding flaws i.e. swapping with a div in formula will round down so you get more tokens than you are supposed to get - if you keep swapping you can drain the entire liquidity pool => https://s3v3ru5.github.io/notes/ethernaut-ctf-writeups-2#dex
+
+		Remix can load existing contracts and interact with them if you "load at address" (all you need is the source code which in this case is just ERC20 import from openzeppelin)
+		https://www.youtube.com/watch?v=5ZLgOUCmgb8
+		https://dev.to/nvn/ethernaut-hacks-level-22-dex-1e18
+	(23) Same but now we can swap our own malicious tokens for the tokens in the contract :)
+	(24) State collisions in proxy contracts - Proxy contracts contain the storage, logic contracts are connected to the proxy contracts and contain the logic and can be swapped in case of a bug or w/e. 		 The logic storage variables have to mimic the proxy else you can overwrite data with data that isn't supposed to go there or interpret wrong data. 
+		 Multicalls that allow only to be called once is a vuln => can put two multicalls inside multicall (inception), executing the multicall twice in a multicall
+
+		 https://www.youtube.com/watch?v=3JcS-04cAj0 (also useful to see how to script stuff without console)
+
+		 a) proposeNewAdmin() is not in the abi but we can still call it by doing: await web3.eth.sendTransaction({from: player, to: instance, data})
+			 	where data is the function signature of proposeNewAdmin:
+
+			 	functionSignature = {
+				    name: 'proposeNewAdmin',
+				    type: 'function',
+				    inputs: [
+				        {
+				            type: 'address',
+				            name: '_newAdmin'
+				        }
+				    ]
+				}
+
+				params = [player]
+
+				data = web3.eth.abi.encodeFunctionCall(functionSignature, params)
+		b)	we are now proposedadmin => due to slot collision, we are actually now the owner of the contract. This means we can whitelist ourselves
+			await contract.owner() === player (true)
+			await contract.addToWhitelist(player)
+		c)	Now we can call onlyWhitelisted methods. Using the inception we can multicall a multicall containing the deposit function. This causes the balance on contract to be updated only once, but our actual balance will be bigger thus satisfying the execute requirements later on which we will use to drain the funds of the contract (requirement to become admin)
+
+			depositData = await contract.methods["deposit()"].request().then(v => v.data)
+
+			multicallData = await contract.methods["multicall(bytes[])"].request([depositData]).then(v => v.data)
+
+			await contract.multicall([multicallData, multicallData], {value: toWei('0.001')})
+
+		d)	Drain contract: await contract.execute(player, toWei('0.002'), 0x0)
+			await getBalance(contract.address)
+		e)	setMaxBalance (equals setting admin due to collision): await contract.setMaxBalance(player)
+	(25) UUPS = Universal Upgradeable Proxy Standard such as EIP1967
+		Suggested by Openzeppelin as it is more gas efficient and resistant to storage collision attacks (storage is always the same for logic contract and proxy contract by saving the contract address in a storage slot that is never going to be allocated by the compiler) => https://eips.ethereum.org/EIPS/eip-1967
+
+		https://dev.to/nvn/ethernaut-hacks-level-25-motorbike-397g
+		https://www.youtube.com/watch?v=WdiCzB3zjy0
+
+		Check for functions that are meant to be ran but actually didn't run! The fix here is to immedeately call the initialize() function after deployment, or call it in the constructor.
+	(26) 
+
+	--- Damn vulnerable defi ---
+
+	(1) assert(poolBalance == balanceBefore); => can be exploited by sending tokens directly to contract without making use of depositTokens function, i.e.
+		await this.token.connect(attacker).transfer(this.pool.address, INITIAL_ATTACKER_TOKEN_BALANCE);
+	(2) anyone can call flashloan for another contract owned by user, forcing them to pay the fee every time effectively draining the contract of funds
+		make sure that the msg.sender is equal to the lending pool, and make sure the one calling the flash loan is an account that you trust - not everyone should be able to call the flashloan contract
+	(3) arbitrary code execution allows for calling approve within own context, approving all tokens to be transferred out. doesn't check the flashloan of 0 tokens as well.	
+	(4) don't allow functions to change balance of lender during a flashloan
+	(5) account for flashloan => reward pattern
+	(6) account for flashloan => voting in gov with x amount of tokens pattern, maybe don't allow custom proposals as well
+	(7) make sure private keys are stored securely => else can use oracle price manipulation if have majority of private keys
+			https://www.youtube.com/watch?v=YGO7nzpXCeA => video on the dangers of price oracles by openzeppelin, also on best security practices when implementing oracles
+	(8) manipulation of uniswap liquidity v1
+	(9) manipulation of uniswap v2 liquidity because they just rely on uniswap v2 instead of using an oracle like chainlink to aggregate prices from different exchanges
+
+		uniswap exchange != lending pool
+
+		balance uniswap exchange: 10 ETH, 100 DVT
+		our balance:  20 ETH, 10000 DVT
+		balance lending pool: 1M DVT
+
+		uniswap fee = 3% (0.03)
+
+		=> deposit our 10000 DVT to manipulate price
+		num = ETH Balance(exch) * (DVT_In * 1000 * (1-0.03)) = 10 * 10000 * 997 = 99700000
+		denom = (DVTBal(exch) * 1000) + (DVT_In * 997) = 100000 + 9970000 = 10070000
+
+		User gets num / denom = 9.900695... ETH to deposit 10000 DVT
+
+		balance exch: (10 - 9.900695...) ETH, 100 + 10000 DVT = 0.0993 ETH, 10100 DVT => 1 DVT = 0.0000098.. ETH
+		our balance: (20 + 9....) ETH, 0 DVT = 29.90... ETH, 0 DVT
+
+		lending pool borrowing collateral = 3x amount
+
+		if we want to borrow 1M DVT (deposit) from lending pool, we have to pay: 
+		1,000,000 DVT = 9.98.. ETH * 3 (fee) = 29.46... ETH required which we happen to have
+
+		Now to interact with the contract, we need to convert our ETH to WETH
+
+		Then after that we will have ~ 0 ETH, 0 WETH and 1M DVT	
+	(10) Always read full lines of code, even params => code might not do as comments say for example here:
+		- transfer from seller to buyer (token.safeTransferFrom(token.ownerOf(tokenId), msg.sender, tokenId)) works fine
+		- pay seller (payable(token.ownerOf(tokenId)).sendValue(priceToPay)) => this does not pay the seller since the NFT was transferred to the buyer first, now owner is not the seller anymore but the buyer! This means that the buyer will get his money back!
+
+		Faulty loop logic
+			The for loop buyMany executes buyOne multiple times. BuyOne checks if the msg.value >= priceToPay, which means that if you buy one, you can buy more for free with the same amount. This can be resolved to check that msg.value >= amount to buy * priceToPay in the buyMany function
+
+		So we only need 15 ETH (price of 1 NFT) to buy all the NFT's. We initially only have 0.1 ETH though, so we need to get 15 ETH somehow.
+
+		Uniswap flash swap => https://www.youtube.com/watch?v=MxTgk-kvtRM
+	(11) backdooring gnosis safe multisig wallets => https://blog.openzeppelin.com/backdooring-gnosis-safe-multisig-wallets/
+	(12) CEI not in order causing us to be able to schedule a schedule, changing roles such as owner and proposer to ourselves and upgrading the contract with one of our own, changing an internal function to public in order to set the new sweeper role, so we can then call sweepfunds and withdraw them to our acc
+	(13) replay attacks on other chains (can even hack wallets by brute forcing and creating the same wallets if they have been created in a deterministic way such as gnosis multisig)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+
+  form#uploadForm(ref='uploadForm' action='upload' method='post' enctype='multipart/form-data')
+      input(type='file' name='file')
+      input(type='text' name='path')
+      input(type='submit' value='Upload!')
+
+  h2 Uploaded Files
+  ul
+  for file in files
+    li
+        a(href="/file/download/#{file}") #{file}

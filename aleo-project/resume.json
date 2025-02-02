@@ -1,0 +1,482 @@
+{
+  "name": "Milad Nekofar",
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2020-08-25T20:45:44.808Z"
+  },
+  "info": {
+    "label": "Software Developer",
+    "class": "Computer Software",
+    "image": "picture.jpg",
+    "brief": "I'm a self-taught Software Developer. I have around two decades of experience in the software industry. At the moment, I work on software development projects as a freelancer.\n\nI enjoy learning and experiment with new things and self-studies, especially if related to new technologies and software development. I have worked with different platforms, mostly in the field of mobile and web development.\n\nSometimes I give consultation to the startups or cooperate with them.",
+    "quote": "I like to work with professionals and learn from them."
+  },
+  "disposition": {
+    "travel": 50,
+    "authorization": "citizen",
+    "commitment": ["freelance", "contract", "part-time", "full-time"],
+    "remote": true,
+    "relocation": {
+      "willing": true,
+      "destinations": ["Tehran", "Istanbul", "Dubai"]
+    }
+  },
+  "contact": {
+    "email": "milad@nekofar.com",
+    "phone": "",
+    "website": "https://milad.nekofar.com",
+    "other": [
+      {
+        "label": "Skype",
+        "category": "social",
+        "value": "nekofar"
+      },
+      {
+        "label": "Telegram",
+        "category": "social",
+        "value": "nekofar"
+      }
+    ]
+  },
+  "location": {
+    "city": "Isfahan",
+    "region": "Isfahan",
+    "country": "IR",
+    "code": "00000",
+    "address": "Jomhouri Square"
+  },
+  "employment": {
+    "summary": "Almost two decades of experience in Software Industry.",
+    "history": [
+      {
+        "position": "Senior Software Developer",
+        "employer": "Freelancer",
+        "summary": "Finally, I decide to switch to fulltime, most of the time as a freelancer and sometimes as a contractor in the field of Web development, mostly backend and PHP. \nIn recent past years, I learned other technologies and started to work on application development for mobile, first Android, and then iOS either.",
+        "current": true,
+        "start": "2007-05-01",
+        "end": null,
+        "url": "https://milad.nekofar.com",
+        "keywords": [
+          "PHP",
+          "Python",
+          "Go",
+          "C",
+          "Ruby",
+          "Node.js",
+          "GraghQL",
+          "REST",
+          "Git",
+          "Subversion",
+          "Android",
+          "iOS"
+        ],
+        "highlights": [
+          "Working as a Freelancer is always gave me new opotionities for learning new technologies",
+          "As a freelancer, I am able to deal with a wide range of tasks in website development, website design, database design, back-end, and front-end development.",
+          "Utilized existing web technologies including WordPress, Laravel and Drupal for small businesses websites."
+        ],
+        "location": "Remote"
+      },
+      {
+        "position": "Senior Software Developer",
+        "employer": "MyFlashLabs",
+        "summary": "Develop and maintain Adobe AIR Native Extensions for use with iOS and Android mobile platforms. Maintain softwares backend based on WordPress REST API.",
+        "current": true,
+        "start": "2019-11-01",
+        "end": null,
+        "url": "https://myflashlabs.com",
+        "keywords": [
+          "Objective-C",
+          "Java",
+          "ActionScript",
+          "WordPress",
+          "Flex",
+          "Gradle"
+        ],
+        "highlights": [
+          "Develop and maintain more than fifty AIR Native Extensions.",
+          "Create, develop and maintain all Objective-C and Java libraries for Extensions",
+          "Create and maintain gradle plugins to maintain release workflow automatically."
+        ],
+        "location": "Remote"
+      },
+      {
+        "position": "Lead Software Developer",
+        "employer": "Abasmanesh Research Group",
+        "summary": "It was a good experience for me to have more communication with the end users in this job. I work mostly from remote on the website and their mobile applications projects as an independent contractor.",
+        "start": "2014-11-01",
+        "end": "2018-11-01",
+        "url": "https://abasmanesh.com:",
+        "keywords": ["WordPress", "Objective-C", "Java", "Woocommerce", "Go"],
+        "highlights": [
+          "Transfer customer history and thousands of users' information from legacy software to WooCommerce.",
+          "Develop and maintain more than fifty WordPress plugins.",
+          "Manage, maintain and secured servers and applications for client various needs."
+        ],
+        "location": "Remote"
+      },
+      {
+        "position": "Senior Softwar Developer",
+        "employer": "Bugloos",
+        "summary": "It was for short period of time, I just worked as a freelancer on couple of their projects. They asked me for a full-time position, but at the time, I was reluctant to do so.",
+        "start": "2014-10-01",
+        "end": "2014-11-01",
+        "url": "http://www.bugloos.nl",
+        "keywords": ["PHP", "Zend", "jQuery"],
+        "highlights": [
+          "Collaborate on develop and maintain the front-end and back-end of a custom built web app by PHP frameworks."
+        ],
+        "location": "Remote"
+      },
+      {
+        "position": "Senior Software Developer",
+        "employer": "Papata Game Studio",
+        "summary": "It was a good experience. I did work with some of young and motivated peoples who had a dream to create their own game development studio. I mostly cooperate in development of apps and games and also their online backends.",
+        "start": "2013-12-01",
+        "end": "2014-06-01",
+        "url": "http://papatalab.ir",
+        "keywords": ["Java", "Android", "Phalcon", "Unity", "GitLab"],
+        "highlights": [
+          "Collaborate on the development of two high-quality mobile games, alongside a team of motivated youth developers."
+        ],
+        "location": "Isfahan"
+      },
+      {
+        "position": "Senior Software Developer",
+        "employer": "Farayaz",
+        "summary": "It was my first experience to work directly for a company. I was working as a contractor. \nIt took years, but finally, I realize I'm not that kind of person who can work in fixed work schedules. \nMy job was analysis projects, programming on web development projects, maintaining servers and training of new recruits in the last years.",
+        "start": "2010-05-01",
+        "end": "2014-03-01",
+        "url": "https://farayaz.com",
+        "keywords": ["PHP", "Farasaz"],
+        "highlights": [
+          "Develop and maintain hundreds of websites based on custom cms."
+        ],
+        "location": "Isfahan"
+      },
+      {
+        "position": "Owner / Managing Director",
+        "employer": "Movable Host",
+        "summary": "Provide and manage dedicated servers, virtual servers and hosted services. Setup and secure dedicated and virtual servers.",
+        "start": "2005-12-01",
+        "end": "2013-10-01",
+        "url": "https://movablehost.net",
+        "keywords": ["Linux", "Aapche", "CPanel", "DirectAdmin", "WHMCS"],
+        "highlights": [],
+        "location": "Isfahan"
+      },
+      {
+        "position": "Medior Software Developer",
+        "employer": "Freelancer",
+        "summary": "It's been years past since I started coding. I've started with web development when I was younger as a hobby and then as a part-time freelance job.",
+        "start": "2004-01-01",
+        "end": "2007-05-01",
+        "url": "https://milad.nekofar.com",
+        "keywords": ["PHP", "CakePHP", "Zend", "Yii"],
+        "highlights": [
+          "Develop tons of web sites using PHP frameworks, mustly CakePHP.",
+          "This experience has not only helped me to understand the whole process of development but also taught me how to achieve great productivity."
+        ],
+        "location": "Remote"
+      },
+      {
+        "position": "Junior Software Developer",
+        "employer": "Freelancer",
+        "summary": "I started programming with Perl and PHP. Those years were the weblogs hype, and must of the time I was working on the design and develop wide types of blog templates. Persianblog, Blogger, Blogspot, Movable Type, WordPress.",
+        "start": "2002-01-01",
+        "end": "2004-01-01",
+        "url": "https://milad.nekofar.com",
+        "keywords": ["Perl", "PHP", "HTML", "CSS", "JavaScript"],
+        "highlights": [],
+        "location": "Remote"
+      }
+    ]
+  },
+  "projects": [],
+  "skills": {
+    "sets": [
+      {
+        "name": "Backend",
+        "level": "advanced",
+        "skills": [
+          "Slim",
+          "Express.js",
+          "Sinatra",
+          "REST",
+          "GraghQL",
+          "SOAP",
+          "RPC"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "level": "advanced",
+        "skills": [
+          "JavaScript",
+          "CSS",
+          "HTML5",
+          "Sass",
+          "Less",
+          "Bootstrap",
+          "jQuery",
+          "Vue.js",
+          "React"
+        ]
+      },
+      {
+        "name": "Mobile",
+        "level": "advanced",
+        "skills": [
+          "Java",
+          "Objective-C",
+          "Swift",
+          "Kotlin",
+          "Android",
+          "iOS",
+          "Flutter"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "intermediate",
+        "skills": [
+          "Linux",
+          "Apache",
+          "Nginx",
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "Vagrant",
+          "Selenium"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "advanced",
+        "skills": [
+          "MySQL",
+          "MariaDB",
+          "MongoDB",
+          "Redis",
+          "SQLite",
+          "MSSQL",
+          "Realm"
+        ]
+      },
+      {
+        "name": "Games",
+        "level": "beginner",
+        "skills": ["Unity", "Godot"]
+      },
+      {
+        "name": "Projects",
+        "level": "advanced",
+        "skills": ["Agile", "Scrum", "Kanban"]
+      },
+      {
+        "name": "Programming",
+        "level": "advanced",
+        "skills": [
+          "PHP",
+          "Python",
+          "Java",
+          "Objective-C",
+          "C",
+          "Shell",
+          "Perl",
+          "Go",
+          "Ruby",
+          "Node",
+          "TypeScript"
+        ]
+      }
+    ],
+    "list": [
+      {
+        "name": "PHP",
+        "level": "master",
+        "summary": "Develop backend and APIs",
+        "years": 18
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "summary": "Develop mobile and libraries for Android",
+        "years": 5
+      }
+    ]
+  },
+  "service": {
+    "summary": "In recent past years, I dedicated part of my life to help the growth of entrepreneurship and startups ecosystem in my city.",
+    "history": [
+      {
+        "category": "volunteer",
+        "position": "Community Organizer",
+        "organization": "Hamfekr",
+        "start": "2014-12-01",
+        "end": "2018-01-01",
+        "url": "https://hamfekr.net/",
+        "summary": "It is a weekly event and an opportunity for entrepreneurs, entrepreneurs, designers and investors who were networking, exchanging opinions and learning.",
+        "highlights": [
+          "Organize and formation of Hamfekr meetings in Esfahan for years.",
+          "Organize hundreds of weekly meetings with thousands of participants from across the province and the country."
+        ],
+        "keywords": ["Startup", "Education", "Entrepreneurship", "Networking"],
+        "location": "Isfahan"
+      },
+      {
+        "category": "volunteer",
+        "position": "Workshop Facilitator",
+        "organization": "Hamnet",
+        "start": "2015-09-01",
+        "end": "2015-09-01",
+        "url": "http://hamnetevent.ir",
+        "summary": "Hemnet is a three-stage entrepreneurship event, based on the local economic and entrepreneurial conditions in each region.",
+        "highlights": [
+          "Help teams for work on their Business Model Canvas and Technical issues."
+        ],
+        "keywords": ["Workshop", "Facilitator", "Mentor"],
+        "location": "Isfahan"
+      },
+      {
+        "category": "volunteer",
+        "position": "Event Organizer",
+        "organization": "Startup Spark",
+        "start": "2015-07-01",
+        "end": "2015-08-01",
+        "url": "http://startupspark.ir",
+        "summary": "Startup Spark is a startup gathering. Includes seminar on startups issues, tips on new ways of entrepreneurship. Face-to-face interview with one of the leading entrepreneurs and networkers.",
+        "highlights": [
+          "Organize and formation of Startup Spark meetings in Esfahan."
+        ],
+        "keywords": ["Startup", "Education", "Networking"],
+        "location": "Isfahan"
+      },
+      {
+        "category": "volunteer",
+        "position": "Event Organizer",
+        "organization": "Startup Weekend Isfahan",
+        "start": "2013-11-01",
+        "end": "2013-11-01",
+        "url": "",
+        "summary": "Startup Weekend is a 54-hour weekend event, during which groups of developers, business managers, startup enthusiasts, marketing experts, graphic artists and more pitch ideas for new startup companies, form teams around those ideas, and work to develop a working prototype, demo, or presentation by Sunday evening.",
+        "highlights": [
+          "Participation in holding and coordinating the first startup weekend in Isfahan."
+        ],
+        "keywords": ["Startup", "Entrepreneurship", "Networking", "Education"],
+        "location": "Isfahan"
+      }
+    ]
+  },
+  "education": {
+    "summary": "I didn't had any believe in level of academyc education in my country, so I quit after high school and start to study what I wanted by my own.",
+    "level": "Diploma",
+    "history": [
+      {
+        "title": "Diploma",
+        "institution": "Harati High School",
+        "start": "2000",
+        "end": "2004",
+        "grade": "",
+        "curriculum": [],
+        "summary": "I have started learning to work with computers before high school through workshops which I always was the youngest participants.\n My connections with university students and observing the low level of my country's higher education in the field of IT at that time made me decide to leave the academic education system and continue my path through self-studying.",
+        "area": "Mathematics and Physics",
+        "studyType": "Diploma",
+        "url": "https://en.wikipedia.org/wiki/Harati_High_School",
+        "keywords": [
+          "High School"
+        ],
+        "highlights": [],
+        "location": "Isfahan"
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/nekofar",
+      "user": "nekofar"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://linkedin.com/in/nekofar",
+      "user": "nekofar"
+    }
+  ],
+  "recognition": [],
+  "writing": [
+    {
+      "title": "A series of articles in the field of software development",
+      "category": "article",
+      "publisher": {
+        "name": "Hive Web Magazine",
+        "url": "http://hive.ir"
+      },
+      "date": "2015",
+      "url": "",
+      "summary": "Writing weekly about technologies and software development especially mobile development in Persian"
+    },
+    {
+      "title": "Translation of articles related to the field of free software",
+      "category": "article",
+      "publisher": {
+        "name": "Salam Dnya Magazine",
+        "url": "https://www.salam-donya.ir"
+      },
+      "date": "2016",
+      "url": "",
+      "summary": "Participate in the translation of a series of articles related to the field of free and open source software from English to Persian language."
+    }
+  ],
+  "reading": [],
+  "speaking": [
+    {
+      "title": "Freelance work, requirements, goal setting, planning",
+      "event": "Autocom",
+      "location": "Isfahan",
+      "date": "2018",
+      "highlights": [
+        "Investigate the advantages of freelancing compared to long-term employment."
+      ],
+      "keywords": ["Freelancing"],
+      "summary": "In a workshop on the sidelines of the Isfahan International Computer and Office Automation Exhibition, organized by Ponisha, I spoke about freelance and starting to work as a freelancer."
+    }
+  ],
+  "governance": [],
+  "languages": [
+    {
+      "language": "Persian",
+      "fluency": "Native speaker",
+      "years": 34
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working",
+      "years": 10
+    }
+  ],
+  "samples": [],
+  "references": [],
+  "testimonials": [],
+  "interests": [
+    {
+      "name": "Electronics",
+      "summary": "I have been interested in electronics since I was a teenager, but I was not very active in this field. Recently, despite microcontroller boards accessibility like Arduino and Raspberry Pi, and discussions like the Internet of Things, I became very interested in this area.",
+      "keywords": ["Arduino", "Raspberry Pi", "Cubieboard", "IoT", "Drone"]
+    },
+    {
+      "name": "3D printing",
+      "summary": "Unfortunately, I do not have a 3D printer yet, but it is one of the hobbies I am researching these days, and maybe even if I have the opportunity to make a DIY printer.",
+      "keywords": ["Prusa i3", "Tinkercad"]
+    },
+    {
+      "name": "Cryptocurrency",
+      "summary": "I have been interested in cryptocurrencies for several years, I was mostly a Hodler, but recently I did some work in the field of payment and I became more serious. Recently I worked with Solidity but not serious activity.",
+      "keywords": ["Bitcoin", "Ethereum", "Ripple", "Tron", "Solidity"]
+    }
+  ],
+  "extracurricular": [],
+  "affiliation": {}
+}

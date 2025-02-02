@@ -1,0 +1,7 @@
+# OSINT and Blockchain Forensics
+
+OSINT (Open Source Intelligence) is a process of gathering and analyzing information from publicly available sources to gain insights and intelligence about individuals, organizations, or events. It involves collecting data from a variety of sources, such as social media, websites, news articles, and government records, without the need for special access or permissions. OSINT is often used by law enforcement, intelligence agencies, cybersecurity professionals, and researchers to gather valuable information for various purposes, including threat assessment, due diligence, and investigative work.
+
+Blockchain forensics, on the other hand, is a specialized field within digital forensics that focuses on analyzing blockchain transactions and data to trace and uncover illicit activities related to cryptocurrencies like Bitcoin and Ethereum. Blockchain technology's decentralized and immutable nature makes it challenging to investigate illicit activities, such as money laundering, fraud, and illegal transactions. Blockchain forensics experts use a combination of tools and techniques to track the flow of funds, identify suspicious transactions, and link them to individuals or entities. This field plays a crucial role in ensuring compliance with regulatory requirements and maintaining the integrity of blockchain networks, especially as cryptocurrencies continue to gain prominence in financial systems worldwide.
+
+In this section, you will find attack vectors that cater to OSINT and Blockchain Forensics. Happy Learning!

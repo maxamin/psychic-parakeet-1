@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/button_simple_no_ssl_http_url_connection_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HttpURLConnection GET (PLAINTEXT)"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_http_url_connection_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HttpURLConnection GET"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_ok_http_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OkHttpClient GET"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/button_pinned_ok_http_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PinnedOkHttpClient GET"
+        android:layout_gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textview_logs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:height="40dp"
+        android:textSize="20dp"
+        android:inputType="textMultiLine"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:enabled="false"
+        android:scrollbars="vertical"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

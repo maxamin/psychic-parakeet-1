@@ -1,0 +1,37 @@
+{
+  "name": "@openzeppelin/defender-sdk-action-client",
+  "version": "1.11.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "bin": {
+    "defender-action": "./lib/bin.js"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc && chmod a+x ./lib/bin.js",
+    "test": "npm run test:unit",
+    "test:unit": "jest --verbose --passWithNoTests --forceExit",
+    "watch": "tsc -w",
+    "lint:ts": "tsc --noEmit --project tsconfig.json"
+  },
+  "files": [
+    "lib",
+    "!*.test.js",
+    "!*.test.js.map",
+    "!*.test.d.ts",
+    "!*__mocks__"
+  ],
+  "author": "OpenZeppelin Defender <defender@openzeppelin.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "@openzeppelin/defender-sdk-base-client": "^1.11.0",
+    "axios": "^1.6.7",
+    "lodash": "^4.17.21",
+    "glob": "^7.1.6",
+    "dotenv": "^16.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "global" : {
+        "basic" : "user:pass"
+    },
+    "vulnerabilities" : {
+        "sqli" : ["auth", "search", "blind"],
+        "xss" : ["reflect", "stored", "dom" ],
+        "session" : [ "no-refresh", "no-httponly", "serial" ],
+        "xxe" : true,
+        "csrf" : true,
+        "expose" : ["dirindex", "admin", "contact"]
+    }
+}
+

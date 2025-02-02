@@ -1,0 +1,36 @@
+# An "origin commit" is a commit that is the beginning of the project
+
+- commit: ce079538c66d826be5f0c4260ab4405b7abcbed7
+  note:  |
+    **Note from VHP curators**: this commit is not fully imported into VHP.
+    It is the original import of the Django source tree in, and involves
+    copying over thousands of files. To see more about it, head over to:
+    https://github.com/systemd/systemd/commit/ce079538c66d826be5f0c4260ab4405b7abcbed7
+- commit: 1cb1d9cd078adea3060742a768ef71f5bafb7f07
+  note:  |
+    **Note from VHP curators**: this commit is not fully imported into VHP.
+    It is the original import of the Django source tree in, and involves
+    copying over thousands of files. To see more about it, head over to:
+    https://github.com/systemd/systemd/commit/1cb1d9cd078adea3060742a768ef71f5bafb7f07
+- commit:
+  note:  |
+    **Note from VHP curators**: this commit is not fully imported into VHP.
+    It is the original import of the Django source tree in, and involves
+    copying over thousands of files. To see more about it, head over to:
+    https://github.com/systemd/systemd/commit/ed114e15106192b22ebb78ef5bf5bce72b419d13
+- commit:
+  note:  |
+    **Note from VHP curators**: this commit is not fully imported into VHP.
+    It is the original import of the Django source tree in, and involves
+    copying over thousands of files. To see more about it, head over to:
+    https://github.com/systemd/systemd/commit/07ffc7d605cc96557db28a9e35da69bc0719611b
+- commit:
+  note:  |
+    **Note from VHP curators**: this commit is not fully imported into VHP.
+    It is the original import of the Django source tree in, and involves
+    copying over thousands of files. To see more about it, head over to:
+    https://github.com/systemd/systemd/commit/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359
+
+
+
+

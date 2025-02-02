@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md6">
+			<ul>
+				<li *ngFor="#ad of ads | async" ><span [innerHTML]="ad.text"></span>
+          <a *ngIf="ad.status=='waitingforreview' && user.hasRole('ADMIN')" [routerLink]="['/Admin/Review', {id: ad.id}]">review</a>
+          <a *ngIf="user.hasRole('ADMIN') || ad.creator == user.current.username" [routerLink]="['/Edit', {id: ad.id}]">edit</a>
+          <a *ngIf="ad.status=='reviewed' && ad.approved == true" (click)="publish(ad.id)">publish</a>
+          <a *ngIf="ad.status=='published'" [routerLink]="['/Public', {id: ad.id, token: ad.token}]">published, available under /public/{{ad.id}}/{{ad.token}}</a>
+        </li>
+			</ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../common/head %>
+</head>
+<body>
+<% include ../common/navigation %>
+<div class='container' style='min-height: 450px'><div class='row'><div class='col-md-12'>
+
+    <div class='row'>
+        <div class='col-md-6 col-md-offset-3'>
+            <h2> Contact us! </h2>
+
+            <% if (messages.success) { %>
+                <div class="alert alert-success"><%=messages.success%></div>
+            <% } else if (messages.danger) { %>
+                <div class="alert alert-danger"><%= messages.danger %></div>
+            <% } else if (messages.warning) {%>
+                <div class="alert alert-warning"><%= messages.warning %></div>
+            <% } else if (messages.info) {%>
+                <div class="alert alert-info"><%= messages.info %></div>
+            <% } %>
+
+            <form id="sendMail" name="sendMail" action="/app/contactus" method="post">
+                <fieldset>
+                    <h3> Send an email to our CEO, Bossman! This goes straight to his inbox at bossman@crapple.com. </h3><br>
+
+                    <!--Hint: This email is sent in plaintext -->
+                    <div class="form-group ">
+                        <label for="body">Email Body:</label>
+                         <textarea class="form-control" rows="5" id="body"name="text"placeholder="Bossman loooves clicking links!"></textarea>             
+                    </div>
+
+
+                    <input type="submit" value="Submit" id="sendMail" class="btn btn-primary" />
+
+                </fieldset>
+            </form>
+
+            <script type="text/javascript">
+                if (typeof jQuery != 'undefined') {
+                    if (typeof jQuery.fn.tooltip == 'function') {
+                        jQuery('i.s2b_tooltip').tooltip();
+                    }
+                }
+            </script>
+        </div>
+    </div>
+
+</div></div></div>
+<% include ../common/footer %>
+</body>
+</html>

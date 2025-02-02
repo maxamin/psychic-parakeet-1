@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>CryptoAidNetwork - Dashboard</title>
+    <link rel = "stylesheet" href = "dashboard-styles.css">
+    <link rel = "icon" href = "icon.png" type = "image/x-icon">
+    <script src = "https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src = "dashboard-script.js"></script>
+</head>
+<body>
+
+<div class = "background"></div>
+
+<div class = "container">
+    <h1>Welcome to Your Dashboard</h1>
+
+    <div id = "userDetails">
+        <p>Wallet Address: <span id="walletAddress"></span></p>
+        <p>Wallet Balance: <span id="walletBalance"></span> ETH</p>
+    </div>
+
+    <div id = "canTokenDetails">
+        <p>CAN Token Balance: <span id = "canAmount"></span> CAN</p>
+    </div>
+
+    <div id = "logoutButton" class="logout-button">
+            <button>Sign Out</button>
+    </div>
+</div>
+
+</body>
+</html>

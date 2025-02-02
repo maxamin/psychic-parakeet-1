@@ -1,0 +1,51 @@
+[
+    {
+      "name": "dex",
+      "image": "${ACCURICS_ECR_REPO}/dev/sso:${SIAC_DOCKER_TAG}",
+      "cpu": 64,
+      "memory": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 5556,
+          "hostPort": 5556
+        },
+        {
+          "containerPort": 5557,
+          "hostPort": 5557
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "${LOG_GROUP}",
+          "awslogs-region": "${REGION}",
+          "awslogs-stream-prefix": "sso"
+        }
+      },
+      "secrets": [
+        {
+          "name": "POSTGRES_DB",
+          "valueFrom": "${POSTGRES_DB}"
+        },
+        {
+          "name": "POSTGRES_HOST",
+          "valueFrom": "${POSTGRES_HOST}"
+        },
+        {
+          "name": "POSTGRES_PASSWORD",
+          "valueFrom": "${POSTGRES_PASSWORD}"
+        },
+        {
+          "name": "POSTGRES_USER",
+          "valueFrom": "${POSTGRES_USER}"
+        }
+      ],
+      "environment": [
+        { "name": "APP_DOMAIN", "value": "http://127.0.0.1:5556"},
+        { "name": "ENV_TYPE", "value": "${ENV_TYPE}"},
+        { "name": "POSTGRES_SSL_MODE", "value": "disable"}
+      ]
+    }
+  ]
+  

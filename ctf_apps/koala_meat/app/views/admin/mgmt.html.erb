@@ -1,0 +1,47 @@
+<div align="center">
+
+<h1> User Management </h1>
+
+<% flash.each do |name, msg| %>
+		<% if name == :error %> 
+			<div class="alert alert-error" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :success %>
+			<div class="alert alert-success" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+	  				<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% elsif name == :info %>
+			<div class="alert alert-info" style="width: 20%; margin-top: 50px">
+				<a class="close" data-dismiss="alert" href="#">×</a>
+					<%= content_tag :div, msg, :id => "flash_notice" %>
+			</div>
+		<% end %>
+
+
+	<% end %>
+
+
+<ul style="display: inline-block; margin-top: 25px" class="nav nav-tabs">
+	<li><%= link_to "Administration", admin_path %></li>
+	<li><%= link_to "DB Maint.", maint_path %></li>
+	<li class="active"><%= link_to  "User Mgmt.", mgmt_path %></li>
+</ul>
+
+
+<div class="container">
+<table class="table table-bordered" align="center" style="margin-top: 25px">
+  <tr>
+  <th>Username</th>
+  <th>Role: Admin</th>
+  </tr>
+  <% users.each do |email, role| %>   
+  <tr>  
+    <td width="20%"><%=link_to email, edit_user_path(:user_id => email)%></td><td><%=role%></td>
+  </tr>
+  <% end %>
+  </table>
+</div>
+</div>

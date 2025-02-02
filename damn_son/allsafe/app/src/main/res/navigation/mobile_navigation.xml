@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="infosecadventures.allsafe.MainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/nav_insecure_logging"
+        android:name="infosecadventures.allsafe.challenges.InsecureLogging"
+        android:label="Insecure Logging"
+        tools:layout="@layout/fragment_insecure_logging" />
+
+    <fragment
+        android:id="@+id/nav_hardcoded_credentials"
+        android:name="infosecadventures.allsafe.challenges.HardcodedCredentials"
+        android:label="Hardcoded Credentials"
+        tools:layout="@layout/fragment_hardcoded_credentials" />
+
+    <fragment
+        android:id="@+id/nav_firebase_database"
+        android:name="infosecadventures.allsafe.challenges.FirebaseDatabase"
+        android:label="Firebase Database"
+        tools:layout="@layout/fragment_firebase_database" />
+
+    <fragment
+        android:id="@+id/nav_insecure_shared_preferences"
+        android:name="infosecadventures.allsafe.challenges.InsecureSharedPreferences"
+        android:label="Insecure Shared Preferences"
+        tools:layout="@layout/fragment_insecure_shared_preferences" />
+
+    <fragment
+        android:id="@+id/nav_sql_injection"
+        android:name="infosecadventures.allsafe.challenges.SQLInjection"
+        android:label="SQL Injection"
+        tools:layout="@layout/fragment_sql_injection" />
+
+    <fragment
+        android:id="@+id/nav_vulnerable_web_view"
+        android:name="infosecadventures.allsafe.challenges.VulnerableWebView"
+        android:label="Vulnerable WebView"
+        tools:layout="@layout/fragment_vulnerable_web_view" />
+
+    <fragment
+        android:id="@+id/nav_certificate_pinning"
+        android:name="infosecadventures.allsafe.challenges.CertificatePinning"
+        android:label="Certificate Pinning"
+        tools:layout="@layout/fragment_certificate_pinning" />
+
+    <fragment
+        android:id="@+id/nav_pin_bypass"
+        android:name="infosecadventures.allsafe.challenges.PinBypass"
+        android:label="PIN Bypass"
+        tools:layout="@layout/fragment_pin_bypass" />
+
+    <fragment
+        android:id="@+id/nav_deep_link_exploitation"
+        android:name="infosecadventures.allsafe.challenges.DeepLink"
+        android:label="Deep Link Exploitation"
+        tools:layout="@layout/fragment_deep_link" />
+
+    <fragment
+        android:id="@+id/nav_insecure_broadcast_receiver"
+        android:name="infosecadventures.allsafe.challenges.InsecureBroadcastReceiver"
+        android:label="Insecure Broadcast Receiver"
+        tools:layout="@layout/fragment_insecure_broadcast_receiver" />
+
+    <fragment
+        android:id="@+id/nav_root_detection"
+        android:name="infosecadventures.allsafe.challenges.RootDetection"
+        android:label="Root Detection"
+        tools:layout="@layout/fragment_root_detection" />
+
+    <fragment
+        android:id="@+id/nav_secure_flag_bypass"
+        android:name="infosecadventures.allsafe.challenges.SecureFlagBypass"
+        android:label="Secure Flag Bypass"
+        tools:layout="@layout/fragment_secure_flag_bypass" />
+
+    <fragment
+        android:id="@+id/nav_weak_cryptography"
+        android:name="infosecadventures.allsafe.challenges.WeakCryptography"
+        android:label="Weak Cryptography"
+        tools:layout="@layout/fragment_weak_cryptography" />
+
+    <fragment
+        android:id="@+id/nav_insecure_service"
+        android:name="infosecadventures.allsafe.challenges.InsecureService"
+        android:label="Insecure Service"
+        tools:layout="@layout/fragment_insecure_service" />
+
+    <fragment
+        android:id="@+id/nav_object_serialization"
+        android:name="infosecadventures.allsafe.challenges.ObjectSerialization"
+        android:label="Object Serialization"
+        tools:layout="@layout/fragment_object_serialization" />
+
+    <fragment
+        android:id="@+id/nav_insecure_providers"
+        android:name="infosecadventures.allsafe.challenges.InsecureProviders"
+        android:label="Insecure Providers"
+        tools:layout="@layout/fragment_insecure_providers" />
+
+    <fragment
+        android:id="@+id/nav_arbitrary_code_execution"
+        android:name="infosecadventures.allsafe.challenges.ArbitraryCodeExecution"
+        android:label="Arbitrary Code Execution"
+        tools:layout="@layout/fragment_arbitrary_code_execution" />
+
+    <fragment
+        android:id="@+id/nav_smali_patch"
+        android:name="infosecadventures.allsafe.challenges.SmaliPatch"
+        android:label="Smali Patch"
+        tools:layout="@layout/fragment_smali_patch" />
+
+    <fragment
+        android:id="@+id/nav_native_library"
+        android:name="infosecadventures.allsafe.challenges.NativeLibrary"
+        android:label="Native Library"
+        tools:layout="@layout/fragment_native_library" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="infosecadventures.allsafe.about.About"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>

@@ -1,0 +1,116 @@
+1 - Download IPFS client ( Command Prompt )  (Note the new name of GO-IPFS Client is KUBO)
+
+ > Click: https://dist.ipfs.tech/#kubo or https://dist.ipfs.io/#go-ipfs  (old link)
+ > Download the OS version binary e.g. Kubo for windows  Windows
+ > extract the ipfs folder in an approperiate directory for instance like e.g C:\ipfs\kubo_v0.21.0_windows-amd64
+ > You will find following inside the directory e.g. 
+    a- install.sh
+    b- ipfs.exe
+    c- License and Readme files
+
+2 - Place IPFS folder and add its environmental variable
+
+3 - Make sure IPFS can be called from anywhere using command Prompt
+
+4 - create repository 
+ > ipfs init
+
+Now we have the entire node configuration under our system. Close all command lines consoles and open a new command line window.
+
+5 - Using command line windows go to the IPFS directory and use the below command to publish any file e.g. Readme.md
+> C:\ipfs\kubo_v0.21.0_windows-amd64\kubo>ipfs add "Readme.md"
+
+This will return a unique CID hash 
+> added QmakTN4o7NW5nJTqbMzAu9KhTQsN7Cn3tXpfeRTEaTPABY Readme.md
+
+6 - Create a new folder myFiles , and then go to the commandline in the same folder. Use the below command to retrieved the published file
+> ipfs get QmakTN4o7NW5nJTqbMzAu9KhTQsN7Cn3tXpfeRTEaTPABY
+It will return you the same file you have publised 
+
+7- Get the out of the file on the screen 
+> ipfs cat QmakTN4o7NW5nJTqbMzAu9KhTQsN7Cn3tXpfeRTEaTPABY
+
+Command	Description
+ipfs cat	Outputs the contents of a file to the console.
+ipfs get	Downloads a file to your computer.
+
+7 - Experiments with other files
+
+
+8 - Publish new file
+ > ipfs add "anyfile.ext"
+
+9 - Download same file 
+ > ipfs get "hash_CID"
+
+10 - Download same file with proper extension
+ > ipfs get "QmRHFV12qcftPzYT3LetKxQtW49GiMM6FPbBorABRC9eXf" > "FILENAME.EXT""
+
+11 - Publish directory on the ipfs
+ > ipfs add -r "directory name"
+
+12 -  download directory
+ > ipfs get "hash_CID"
+
+13 - get JSON format of the directory and files
+ > ipfs object get QmWsLj5xgDCz91XxzHb8AyK6uFhmfdsR6Qb3KCofjdRNid
+
+ Now connect your self with a network
+14 - Run ipfs daemon service
+ > ipfs daemon
+
+15 - Check how many peers are you connected with
+ > ipfs swarm peers
+
+16 - Now upload an html sample file using add command
+
+17 - Take its cid and go to the Brave browser.
+
+18 - On the brave browser write (In case it would show you that you have to install localnode then click install)
+  ipfs://CID_HASH
+
+19 - to open this on any other browser use
+  
+  https://ipfs.io/ipfs/CID_HASH
+
+
+PFS gateways are free to use. However, there are some gateways that charge for their services. For example, Filebase offers a paid plan that includes dedicated gateways with no request limits.
+
+Here is a table that summarizes the free IPFS gateways:
+
+Gateway	Provider	Free?
+ipfs.io	Protocol Labs	Yes
+gateway.pinata.cloud	Pinata	Yes
+cloudflare-ipfs.com	Cloudflare	Yes
+infura.io/ipfs	Infura	Yes
+ens.domains/ipfs	ENS	Yes
+
+How to access your content from multiple gateways 
+
+To view content stored in IPFS using a specific CID (QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP in your example) through different IPFS gateways, you simply need to append the CID to the URL of the respective IPFS gateway. Here's how you can do it:
+
+Using ipfs.io:
+
+URL: https://ipfs.io/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Using cloudflare-ipfs.com:
+
+URL: https://cloudflare-ipfs.com/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Using dweb.link:
+
+URL: https://dweb.link/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Using infura.io:
+
+URL: https://ipfs.infura.io/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Using pinata.cloud:
+
+URL: https://gateway.pinata.cloud/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Using gateway.ipfs.macholibre.org:
+
+URL: https://gateway.ipfs.macholibre.org/ipfs/QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP
+Replace QmXVt4zMaTuWEmWbf88KfVvN4Q2TQRk9bQvYLjVBrY8voP with your actual CID to access your content through any of the above IPFS gateways. Each URL will display the content associated with that CID, such as a web page, image, or other files, depending on what you've stored in IPFS.
+
+Using different gateways can provide redundancy and help ensure that your content is accessible even if one gateway experiences downtime.
+
+Using kubo, determine if any peers are advertising the <CID> you are requesting:
+
+ipfs routing findprovs <CID>

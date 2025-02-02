@@ -1,0 +1,68 @@
+.actionButton, .actionButtonCancel {
+  box-shadow: none;
+  color: $(theme.primero.colors.white);
+  background: $(theme.primero.colors.blue);
+  width: 8em;
+  height: 32px;
+
+  &:hover {
+    color: $(theme.primero.colors.black);
+  }
+
+  & svg {
+    position: absolute;
+    left: 0.3em;
+  }
+}
+
+.actionButtonCancel {
+  background: $(theme.primero.colors.grey);
+  margin: 0 .5em;
+}
+
+.loadingMargin {
+  position: absolute;
+}
+
+.row {
+  display: flex;
+
+  & > div {
+    flex: 1;
+    padding: 0 1em;
+  }
+
+  & > div:last-of-type {
+    padding: 0 0 0 1em;
+  }
+
+  & > div:first-of-type {
+    padding: 0 1em 0 0;
+  }
+}
+
+.row {
+  &.notEqual {
+    & > div {
+      flex: none;
+    }
+  }
+}
+
+.actionButtonText {
+  position: absolute;
+  margin: 0 0.5em;
+}
+
+.heading {
+  font-size: $(theme.typography.pxToRem(15));
+  font-weight: $(theme.typography.fontWeightBold);
+
+  &.error {
+    color: red;
+  }
+}
+
+.panelContent {
+  display: block;
+}

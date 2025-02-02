@@ -1,0 +1,32 @@
+{
+  "taskId": "47",
+  "sector": "Aération - installation de ventilation",
+  "type": "test",
+  "date": "23/11/2023, 11:21:12",
+  "timestamp": "1700756472",
+  "company": {
+    "account": "0xe4192bf486aea10422ee097bc2cf8c28597b9f11",
+    "name": "Compagnie 1",
+    "address": "800 Ohio Rd.Woodhaven, NY 11421",
+    "siret": "123456",
+    "site": "Ohio 1",
+    "siteAddress": "800 Ohio Rd.Woodhaven, NY 11421",
+    "companyAccount": {
+      "account": "0xE4192BF486AeA10422eE097BC2Cf8c28597B9F11",
+      "firstName": "Hagen",
+      "name": "De Hades"
+    }
+  },
+  "verifier": {
+    "account": "0x5a1c4fb0ae5470b0a502b9395ff30e7292947c11",
+    "name": "Verificateur 1",
+    "address": "737 Redwood St.Branford, CT 06405",
+    "siret": "789456",
+    "approvalNumber": "987654",
+    "verifierAccount": {
+      "account": "0x5a1c4fb0ae5470b0a502b9395ff30e7292947c11",
+      "firstName": "John",
+      "name": "Smith"
+    }
+  }
+}

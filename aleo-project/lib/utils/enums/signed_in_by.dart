@@ -1,0 +1,5 @@
+
+enum SignedInBy{
+  email,
+  google
+}

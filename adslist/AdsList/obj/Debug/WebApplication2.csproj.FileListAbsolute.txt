@@ -1,0 +1,8 @@
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Krisztián\Documents\Visual Studio 2010\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
